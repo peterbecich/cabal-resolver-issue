@@ -43,3 +43,8 @@ To generate new packages:
 - inspect `generate.sh`
 - `rm -rf package*`
 - `./generate.sh`
+
+I'm using:
+- Debian 10.10
+- Cabal 3.4.0.0 (via ghcup)
+- GHC 8.10.4 (via ghcup)
