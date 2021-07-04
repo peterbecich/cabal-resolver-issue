@@ -1,0 +1,34 @@
+cabal-version:      2.4
+name:               package382
+version:            0.1.0.0
+
+-- A short (one-line) description of the package.
+-- synopsis:
+
+-- A longer description of the package.
+-- description:
+
+-- A URL where users can report bugs.
+-- bug-reports:
+
+-- The license under which the package is released.
+-- license:
+author:             Peter Becich
+maintainer:         peterbecich@gmail.com
+
+-- A copyright notice.
+-- copyright:
+-- category:
+extra-source-files: CHANGELOG.md
+
+executable package382
+    main-is:          Main.hs
+
+    -- Modules included in this executable, other than Main.
+    -- other-modules:
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:    comonad,time,mmorph,streaming-commons,scientific,servant-server,esqueleto,megaparsec,wai-extra,http-conduit,containers,text,blaze-builder,hspec-core,formatting,QuickCheck,microlens-th,process,haskoin-store,primitive,clock,time-compat,semigroups,base16-bytestring,colour,hashable,lens,tidal,dlist,unordered-containers,random,uuid-types,vulkan,bifunctors,pandoc,unliftio,data-fix,recursion-schemes,servant-docs,vector, base
+    hs-source-dirs:   app
+    default-language: Haskell2010

@@ -1,0 +1,34 @@
+cabal-version:      2.4
+name:               package371
+version:            0.1.0.0
+
+-- A short (one-line) description of the package.
+-- synopsis:
+
+-- A longer description of the package.
+-- description:
+
+-- A URL where users can report bugs.
+-- bug-reports:
+
+-- The license under which the package is released.
+-- license:
+author:             Peter Becich
+maintainer:         peterbecich@gmail.com
+
+-- A copyright notice.
+-- copyright:
+-- category:
+extra-source-files: CHANGELOG.md
+
+executable package371
+    main-is:          Main.hs
+
+    -- Modules included in this executable, other than Main.
+    -- other-modules:
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:    http-conduit,servant-server,http2,async,free,http-client,clock,containers,conduit,StateVar,process,profunctors,time-compat,mmorph,servant-docs,semigroups,dlist,random,scientific,primitive,uuid-types,hlint,distributive,persistent-postgresql,data-fix,servant,tls,persistent,QuickCheck,aeson,lifted-async,yesod,yesod-core,time,hspec-core,unordered-containers,basement,bifunctors,tidal,haskoin-store, base
+    hs-source-dirs:   app
+    default-language: Haskell2010

@@ -1,0 +1,34 @@
+cabal-version:      2.4
+name:               package315
+version:            0.1.0.0
+
+-- A short (one-line) description of the package.
+-- synopsis:
+
+-- A longer description of the package.
+-- description:
+
+-- A URL where users can report bugs.
+-- bug-reports:
+
+-- The license under which the package is released.
+-- license:
+author:             Peter Becich
+maintainer:         peterbecich@gmail.com
+
+-- A copyright notice.
+-- copyright:
+-- category:
+extra-source-files: CHANGELOG.md
+
+executable package315
+    main-is:          Main.hs
+
+    -- Modules included in this executable, other than Main.
+    -- other-modules:
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:    primitive,hspec,esqueleto,pandoc,unordered-containers,containers,recursion-schemes,megaparsec,aeson,microlens-th,http-client,hlint,basement,bifunctors,clock,lifted-async,servant-docs,tls,text,http-conduit,HUnit,scientific,profunctors,dhall,http2,uuid-types,process,semigroups,time,formatting,hashable,mmorph,tasty,persistent-postgresql,tidal,network,lens,warp,free,conduit, base
+    hs-source-dirs:   app
+    default-language: Haskell2010

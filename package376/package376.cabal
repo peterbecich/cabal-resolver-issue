@@ -1,0 +1,34 @@
+cabal-version:      2.4
+name:               package376
+version:            0.1.0.0
+
+-- A short (one-line) description of the package.
+-- synopsis:
+
+-- A longer description of the package.
+-- description:
+
+-- A URL where users can report bugs.
+-- bug-reports:
+
+-- The license under which the package is released.
+-- license:
+author:             Peter Becich
+maintainer:         peterbecich@gmail.com
+
+-- A copyright notice.
+-- copyright:
+-- category:
+extra-source-files: CHANGELOG.md
+
+executable package376
+    main-is:          Main.hs
+
+    -- Modules included in this executable, other than Main.
+    -- other-modules:
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:    iproute,network,aeson,yesod-core,primitive,dhall,dlist,pandoc,http-client,tls,text,hlint,hspec,unliftio,time,comonad,yesod,bifunctors,cryptonite,megaparsec,clock,async,vulkan,conduit,http2,random,base16-bytestring,http-conduit,tidal,hashable,distributive,servant-docs,StateVar,recursion-schemes,formatting,hspec-core,profunctors,data-fix,process,wai-extra, base
+    hs-source-dirs:   app
+    default-language: Haskell2010

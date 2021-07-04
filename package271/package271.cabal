@@ -1,0 +1,34 @@
+cabal-version:      2.4
+name:               package271
+version:            0.1.0.0
+
+-- A short (one-line) description of the package.
+-- synopsis:
+
+-- A longer description of the package.
+-- description:
+
+-- A URL where users can report bugs.
+-- bug-reports:
+
+-- The license under which the package is released.
+-- license:
+author:             Peter Becich
+maintainer:         peterbecich@gmail.com
+
+-- A copyright notice.
+-- copyright:
+-- category:
+extra-source-files: CHANGELOG.md
+
+executable package271
+    main-is:          Main.hs
+
+    -- Modules included in this executable, other than Main.
+    -- other-modules:
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:    comonad,time,async,time-compat,attoparsec,text,warp,syb,distributive,esqueleto,QuickCheck,lens,cryptonite,StateVar,streaming-commons,http-api-data,http2,iproute,base16-bytestring,scientific,clock,primitive,vector,tidal,mmorph,conduit,dlist,aeson,servant-docs,hspec,containers,unordered-containers,persistent-postgresql,semigroups,blaze-builder,tls,lifted-async,network,colour,vulkan, base
+    hs-source-dirs:   app
+    default-language: Haskell2010

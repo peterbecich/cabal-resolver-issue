@@ -1,0 +1,34 @@
+cabal-version:      2.4
+name:               package105
+version:            0.1.0.0
+
+-- A short (one-line) description of the package.
+-- synopsis:
+
+-- A longer description of the package.
+-- description:
+
+-- A URL where users can report bugs.
+-- bug-reports:
+
+-- The license under which the package is released.
+-- license:
+author:             Peter Becich
+maintainer:         peterbecich@gmail.com
+
+-- A copyright notice.
+-- copyright:
+-- category:
+extra-source-files: CHANGELOG.md
+
+executable package105
+    main-is:          Main.hs
+
+    -- Modules included in this executable, other than Main.
+    -- other-modules:
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:    yesod-core,persistent-postgresql,data-fix,syb,megaparsec,yesod,semigroups,http2,HUnit,esqueleto,servant-server,uuid-types,persistent,network,formatting,unordered-containers,hashable,lifted-async,basement,comonad,time-compat,dhall,profunctors,http-conduit,blaze-builder,time,lens,microlens-th,containers,colour,dlist,http-client,vulkan,base16-bytestring,tls,cryptonite,iproute,th-compat,primitive,async, base
+    hs-source-dirs:   app
+    default-language: Haskell2010

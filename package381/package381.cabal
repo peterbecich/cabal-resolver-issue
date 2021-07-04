@@ -1,0 +1,34 @@
+cabal-version:      2.4
+name:               package381
+version:            0.1.0.0
+
+-- A short (one-line) description of the package.
+-- synopsis:
+
+-- A longer description of the package.
+-- description:
+
+-- A URL where users can report bugs.
+-- bug-reports:
+
+-- The license under which the package is released.
+-- license:
+author:             Peter Becich
+maintainer:         peterbecich@gmail.com
+
+-- A copyright notice.
+-- copyright:
+-- category:
+extra-source-files: CHANGELOG.md
+
+executable package381
+    main-is:          Main.hs
+
+    -- Modules included in this executable, other than Main.
+    -- other-modules:
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:    yesod,persistent-postgresql,hspec-core,process,clock,lifted-async,haskoin-store,basement,semigroups,data-fix,syb,hlint,colour,aeson,tidal,free,async,QuickCheck,conduit,primitive,microlens-th,wai-extra,vulkan,servant-docs,lens,profunctors,servant-server,formatting,attoparsec,uuid-types,iproute,hspec,StateVar,dhall,random,distributive,servant,scientific,recursion-schemes,bifunctors, base
+    hs-source-dirs:   app
+    default-language: Haskell2010

@@ -1,0 +1,34 @@
+cabal-version:      2.4
+name:               package330
+version:            0.1.0.0
+
+-- A short (one-line) description of the package.
+-- synopsis:
+
+-- A longer description of the package.
+-- description:
+
+-- A URL where users can report bugs.
+-- bug-reports:
+
+-- The license under which the package is released.
+-- license:
+author:             Peter Becich
+maintainer:         peterbecich@gmail.com
+
+-- A copyright notice.
+-- copyright:
+-- category:
+extra-source-files: CHANGELOG.md
+
+executable package330
+    main-is:          Main.hs
+
+    -- Modules included in this executable, other than Main.
+    -- other-modules:
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:    uuid-types,QuickCheck,time-compat,yesod-core,iproute,cryptonite,servant-docs,hlint,data-fix,th-compat,conduit,megaparsec,primitive,vulkan,distributive,vector,mmorph,wai-extra,persistent,comonad,scientific,async,microlens-th,streaming-commons,http-client,base16-bytestring,hspec,dlist,tasty,persistent-postgresql,aeson,http2,servant-server,semigroups,haskoin-store,bifunctors,clock,free,attoparsec,containers, base
+    hs-source-dirs:   app
+    default-language: Haskell2010

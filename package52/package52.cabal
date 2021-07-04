@@ -1,0 +1,34 @@
+cabal-version:      2.4
+name:               package52
+version:            0.1.0.0
+
+-- A short (one-line) description of the package.
+-- synopsis:
+
+-- A longer description of the package.
+-- description:
+
+-- A URL where users can report bugs.
+-- bug-reports:
+
+-- The license under which the package is released.
+-- license:
+author:             Peter Becich
+maintainer:         peterbecich@gmail.com
+
+-- A copyright notice.
+-- copyright:
+-- category:
+extra-source-files: CHANGELOG.md
+
+executable package52
+    main-is:          Main.hs
+
+    -- Modules included in this executable, other than Main.
+    -- other-modules:
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:    servant,streaming-commons,vector,megaparsec,process,http2,pandoc,bifunctors,tls,http-conduit,scientific,random,lifted-async,servant-server,conduit,profunctors,comonad,iproute,unordered-containers,blaze-builder,time-compat,http-client,microlens-th,time,wai-extra,dhall,syb,yesod,base16-bytestring,dlist,yesod-core,persistent,data-fix,uuid-types,cryptonite,lens,persistent-postgresql,QuickCheck,async,StateVar, base
+    hs-source-dirs:   app
+    default-language: Haskell2010

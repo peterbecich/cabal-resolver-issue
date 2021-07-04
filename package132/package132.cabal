@@ -1,0 +1,34 @@
+cabal-version:      2.4
+name:               package132
+version:            0.1.0.0
+
+-- A short (one-line) description of the package.
+-- synopsis:
+
+-- A longer description of the package.
+-- description:
+
+-- A URL where users can report bugs.
+-- bug-reports:
+
+-- The license under which the package is released.
+-- license:
+author:             Peter Becich
+maintainer:         peterbecich@gmail.com
+
+-- A copyright notice.
+-- copyright:
+-- category:
+extra-source-files: CHANGELOG.md
+
+executable package132
+    main-is:          Main.hs
+
+    -- Modules included in this executable, other than Main.
+    -- other-modules:
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:    blaze-builder,yesod,http-conduit,text,uuid-types,free,hspec,bifunctors,async,microlens-th,network,distributive,warp,mmorph,wai-extra,formatting,streaming-commons,scientific,dhall,vulkan,comonad,attoparsec,http-api-data,primitive,servant,tls,pandoc,aeson,base16-bytestring,tidal,time-compat,HUnit,lens,syb,clock,http-client,process,unliftio,http2,semigroups, base
+    hs-source-dirs:   app
+    default-language: Haskell2010
