@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package63
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    network,StateVar,colour,text,servant-server,yesod,primitive,semigroups,megaparsec,basement,time-compat,hspec,tls,yesod-core,distributive,http-client,dhall,warp,hspec-core,data-fix,microlens-th,wai-extra,comonad,http-conduit,tasty,unordered-containers,recursion-schemes,syb,servant,th-compat,http2,pandoc,attoparsec,bifunctors,lifted-async,lens,profunctors,tidal,async,iproute, base
-    hs-source-dirs:   app
+    build-depends:    hspec-core,package82,package87,lifted-async,package93,package91,basement,mmorph,package46,tasty,package21,package64,colour,package56,tidal,primitive,package41,distributive,package54,package44,package47,package1,package14,package4,package83,package74,iproute,hlint,package97,package23,aeson,package72,package78,package26,package75,package60,package31,servant-server,package7,package63, base
+    hs-source-dirs:   src
     default-language: Haskell2010

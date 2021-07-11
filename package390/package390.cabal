@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package390
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    syb,basement,hspec-core,yesod-core,base16-bytestring,aeson,megaparsec,wai-extra,cryptonite,iproute,lens,async,blaze-builder,bifunctors,vector,tls,dlist,unordered-containers,persistent-postgresql,StateVar,vulkan,lifted-async,mmorph,conduit,servant-docs,pandoc,http-api-data,primitive,tasty,unliftio,th-compat,servant-server,random,recursion-schemes,comonad,data-fix,formatting,attoparsec,HUnit,hashable, base
-    hs-source-dirs:   app
+    build-depends:    HUnit,conduit,package28,tasty,package47,package68,mmorph,package50,warp,colour,containers,package59,package24,package96,package52,package36,primitive,package95,vector,package10,syb,package2,package94,package26,package15,package70,package54,package35,vulkan,formatting,package4,package51,http-api-data,megaparsec,package22,package97,comonad,pandoc,profunctors,tls, base
+    hs-source-dirs:   src
     default-language: Haskell2010

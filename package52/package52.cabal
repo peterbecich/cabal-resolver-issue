@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package52
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    servant,streaming-commons,vector,megaparsec,process,http2,pandoc,bifunctors,tls,http-conduit,scientific,random,lifted-async,servant-server,conduit,profunctors,comonad,iproute,unordered-containers,blaze-builder,time-compat,http-client,microlens-th,time,wai-extra,dhall,syb,yesod,base16-bytestring,dlist,yesod-core,persistent,data-fix,uuid-types,cryptonite,lens,persistent-postgresql,QuickCheck,async,StateVar, base
-    hs-source-dirs:   app
+    build-depends:    text,package79,http2,package75,package82,package51,package17,HUnit,package69,package96,package71,base16-bytestring,mmorph,lens,package38,scientific,colour,dhall,package36,package93,package43,distributive,package37,warp,dlist,package90,package76,package100,package89,megaparsec,package4,package24,package44,containers,package95,process,package50,semigroups,lifted-async,package23, base
+    hs-source-dirs:   src
     default-language: Haskell2010

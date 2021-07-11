@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package115
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    data-fix,tasty,attoparsec,time-compat,async,basement,hspec-core,StateVar,bifunctors,persistent,cryptonite,recursion-schemes,microlens-th,servant-docs,aeson,colour,uuid-types,th-compat,comonad,scientific,vector,unliftio,lens,time,primitive,warp,clock,hlint,lifted-async,profunctors,iproute,hspec,distributive,tidal,blaze-builder,mmorph,tls,semigroups,servant,dhall, base
-    hs-source-dirs:   app
+    build-depends:    HUnit,package4,package13,blaze-builder,free,package11,package81,package15,iproute,primitive,package19,time,package20,streaming-commons,package80,package26,package18,package45,yesod,th-compat,package100,package93,package59,servant-server,package14,package41,package95,hlint,package56,dlist,package77,colour,cryptonite,package31,package74,package69,package83,warp,package63,pandoc, base
+    hs-source-dirs:   src
     default-language: Haskell2010

@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package220
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    HUnit,vulkan,colour,QuickCheck,http-api-data,conduit,wai-extra,microlens-th,esqueleto,haskoin-store,dlist,th-compat,tls,attoparsec,unordered-containers,http-client,http-conduit,dhall,scientific,network,random,vector,StateVar,data-fix,streaming-commons,hashable,basement,profunctors,hlint,containers,async,time,cryptonite,yesod-core,http2,bifunctors,text,primitive,uuid-types,servant-server, base
-    hs-source-dirs:   app
+    build-depends:    lens,package72,servant-server,package21,package27,package79,http2,package66,formatting,package14,package33,package44,profunctors,package73,QuickCheck,package63,package87,package13,th-compat,package18,package7,package70,package78,dhall,text,package61,package83,yesod,blaze-builder,free,package23,package30,package71,streaming-commons,package17,package81,package77,package5,vector,package10, base
+    hs-source-dirs:   src
     default-language: Haskell2010

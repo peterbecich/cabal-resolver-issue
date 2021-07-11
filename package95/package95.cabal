@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package95
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    unordered-containers,aeson,formatting,distributive,streaming-commons,primitive,hashable,colour,http2,megaparsec,network,containers,data-fix,syb,attoparsec,hlint,random,tasty,tidal,http-api-data,persistent,hspec-core,dhall,mmorph,time,wai-extra,profunctors,th-compat,persistent-postgresql,unliftio,warp,async,servant,vulkan,servant-server,bifunctors,recursion-schemes,yesod,uuid-types,hspec, base
-    hs-source-dirs:   app
+    build-depends:    package61,package15,package86,package12,distributive,uuid-types,StateVar,package1,clock,package23,package43,package28,package64,network,package59,process,package19,package13,conduit,package25,package91,time,package66,package95,package30,package16,package72,package94,package58,package57,package75,package34,package35,random,package27,dhall,HUnit,colour,yesod,QuickCheck, base
+    hs-source-dirs:   src
     default-language: Haskell2010

@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package1
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    profunctors,streaming-commons,hashable,lens,esqueleto,tidal,text,warp,pandoc,time,semigroups,lifted-async,http-client,formatting,th-compat,random,http-api-data,tls,conduit,aeson,attoparsec,bifunctors,async,vulkan,basement,servant-docs,QuickCheck,megaparsec,recursion-schemes,base16-bytestring,hspec,dhall,scientific,cryptonite,tasty,time-compat,distributive,servant-server,servant,persistent, base
-    hs-source-dirs:   app
+    build-depends:    data-fix,package54,package35,package90,unliftio,package78,package29,network,package33,package46,persistent,package82,package41,tasty,pandoc,package98,package40,package58,package83,lens,package20,package42,colour,package27,package56,package73,profunctors,package93,attoparsec,cryptonite,package49,lifted-async,package32,package28,semigroups,package60,free,yesod-core,package19,StateVar, base
+    hs-source-dirs:   src
     default-language: Haskell2010

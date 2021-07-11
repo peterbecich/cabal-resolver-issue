@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package157
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    hspec-core,unliftio,yesod-core,conduit,dlist,base16-bytestring,hashable,primitive,hspec,tasty,clock,StateVar,process,uuid-types,semigroups,unordered-containers,data-fix,http-client,lens,tls,free,megaparsec,persistent-postgresql,tidal,time-compat,HUnit,bifunctors,profunctors,time,http-api-data,QuickCheck,attoparsec,servant-server,yesod,haskoin-store,containers,blaze-builder,warp,aeson,iproute, base
-    hs-source-dirs:   app
+    build-depends:    blaze-builder,package76,text,package14,base16-bytestring,package50,package2,package36,tasty,servant-docs,aeson,package12,package70,package55,haskoin-store,unliftio,scientific,package53,warp,package30,package67,package83,package41,conduit,package72,package17,wai-extra,bifunctors,clock,package42,process,package45,http-conduit,microlens-th,tls,http-api-data,package77,package24,lens,package34, base
+    hs-source-dirs:   src
     default-language: Haskell2010

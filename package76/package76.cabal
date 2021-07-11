@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package76
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    tls,servant-docs,data-fix,StateVar,warp,streaming-commons,syb,th-compat,scientific,hashable,distributive,random,unliftio,comonad,vector,megaparsec,formatting,base16-bytestring,dlist,iproute,hspec-core,QuickCheck,tasty,HUnit,process,http-api-data,colour,conduit,primitive,attoparsec,unordered-containers,basement,persistent,recursion-schemes,aeson,hspec,free,yesod-core,tidal,time, base
-    hs-source-dirs:   app
+    build-depends:    lifted-async,package24,package54,package12,tls,package21,tasty,basement,package7,package50,package64,time,warp,vulkan,package28,package84,package71,package36,package25,http2,package15,package90,hashable,package8,package16,conduit,package23,package69,http-conduit,attoparsec,package40,http-api-data,HUnit,package47,servant-docs,package20,time-compat,streaming-commons,package73,package31, base
+    hs-source-dirs:   src
     default-language: Haskell2010

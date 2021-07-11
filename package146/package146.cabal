@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package146
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    profunctors,blaze-builder,async,basement,recursion-schemes,comonad,bifunctors,hspec-core,HUnit,lens,semigroups,hlint,process,syb,servant-server,time-compat,haskoin-store,containers,microlens-th,text,vulkan,QuickCheck,attoparsec,vector,pandoc,servant,yesod,dhall,http2,dlist,persistent-postgresql,scientific,clock,megaparsec,unordered-containers,cryptonite,data-fix,conduit,colour,tls, base
-    hs-source-dirs:   app
+    build-depends:    package94,package27,package53,semigroups,package15,iproute,package98,package10,streaming-commons,package34,package20,package56,package7,attoparsec,time,persistent-postgresql,package71,vector,package11,comonad,package24,package25,package77,scientific,package40,HUnit,cryptonite,package97,servant,lifted-async,data-fix,package72,package69,package62,hspec-core,package96,package22,package83,pandoc,package54, base
+    hs-source-dirs:   src
     default-language: Haskell2010

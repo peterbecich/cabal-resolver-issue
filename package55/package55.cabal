@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package55
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    warp,iproute,hashable,tasty,conduit,tls,data-fix,text,hlint,servant-docs,scientific,servant,yesod,lifted-async,servant-server,QuickCheck,async,containers,streaming-commons,profunctors,time-compat,tidal,formatting,attoparsec,basement,vulkan,primitive,persistent-postgresql,lens,process,hspec-core,pandoc,unliftio,mmorph,unordered-containers,haskoin-store,base16-bytestring,semigroups,cryptonite,network, base
-    hs-source-dirs:   app
+    build-depends:    data-fix,package54,package14,warp,package35,recursion-schemes,package51,package16,package88,package44,package79,package36,containers,package9,package28,distributive,package69,colour,scientific,package8,package42,package85,tidal,package33,iproute,package72,lifted-async,package76,package75,package55,package38,http-api-data,package99,blaze-builder,hashable,async,persistent-postgresql,process,unordered-containers,esqueleto, base
+    hs-source-dirs:   src
     default-language: Haskell2010

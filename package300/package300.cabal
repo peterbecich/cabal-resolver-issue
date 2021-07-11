@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package300
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    megaparsec,blaze-builder,containers,random,hspec-core,semigroups,tls,conduit,scientific,network,http2,uuid-types,bifunctors,persistent-postgresql,iproute,yesod-core,yesod,lens,QuickCheck,process,base16-bytestring,primitive,attoparsec,tasty,servant-docs,tidal,colour,servant,dlist,syb,http-api-data,time,unordered-containers,hashable,http-conduit,warp,comonad,formatting,aeson,dhall, base
-    hs-source-dirs:   app
+    build-depends:    semigroups,basement,dhall,package42,package40,formatting,clock,package32,http-conduit,servant-server,package36,package70,tasty,distributive,package14,haskoin-store,StateVar,package26,package33,package80,package4,package7,bifunctors,time-compat,megaparsec,free,package8,microlens-th,package5,persistent-postgresql,th-compat,package6,package100,package46,hlint,scientific,package99,package82,package92,package72, base
+    hs-source-dirs:   src
     default-language: Haskell2010

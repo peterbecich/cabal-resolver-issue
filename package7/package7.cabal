@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package7
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    blaze-builder,unliftio,persistent,http-client,distributive,async,time,cryptonite,containers,semigroups,QuickCheck,uuid-types,HUnit,lens,conduit,wai-extra,aeson,tasty,network,comonad,hspec-core,colour,clock,dhall,lifted-async,haskoin-store,http2,hspec,http-api-data,mmorph,time-compat,random,servant,text,scientific,base16-bytestring,syb,http-conduit,profunctors,StateVar, base
-    hs-source-dirs:   app
+    build-depends:    tasty,package50,package17,streaming-commons,package57,http-conduit,clock,hspec-core,package92,iproute,package4,tls,package44,pandoc,package38,package40,HUnit,yesod,package61,package74,package76,basement,package94,package35,dhall,process,package55,package84,package9,persistent-postgresql,package69,package36,package41,package82,package13,http-client,package91,hashable,persistent,package59, base
+    hs-source-dirs:   src
     default-language: Haskell2010

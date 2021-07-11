@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package330
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    uuid-types,QuickCheck,time-compat,yesod-core,iproute,cryptonite,servant-docs,hlint,data-fix,th-compat,conduit,megaparsec,primitive,vulkan,distributive,vector,mmorph,wai-extra,persistent,comonad,scientific,async,microlens-th,streaming-commons,http-client,base16-bytestring,hspec,dlist,tasty,persistent-postgresql,aeson,http2,servant-server,semigroups,haskoin-store,bifunctors,clock,free,attoparsec,containers, base
-    hs-source-dirs:   app
+    build-depends:    http-api-data,package26,package14,bifunctors,package35,servant-server,attoparsec,pandoc,yesod-core,package79,package59,free,http2,package6,package55,scientific,package45,package56,package93,tasty,servant,haskoin-store,primitive,mmorph,package73,package42,vector,dhall,package5,process,package84,clock,distributive,vulkan,random,package52,text,basement,th-compat,package94, base
+    hs-source-dirs:   src
     default-language: Haskell2010

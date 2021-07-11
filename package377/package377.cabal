@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package377
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    http-conduit,QuickCheck,blaze-builder,warp,tls,yesod-core,unordered-containers,conduit,persistent,HUnit,aeson,containers,data-fix,hlint,dhall,lifted-async,recursion-schemes,base16-bytestring,yesod,network,wai-extra,vulkan,haskoin-store,profunctors,primitive,random,tasty,http-client,persistent-postgresql,attoparsec,syb,servant-docs,streaming-commons,cryptonite,semigroups,dlist,time-compat,mmorph,free,async, base
-    hs-source-dirs:   app
+    build-depends:    package63,unordered-containers,async,package77,uuid-types,package54,package22,package83,package25,package2,iproute,http2,package76,package41,mmorph,free,package26,base16-bytestring,persistent,package69,package64,conduit,package23,package88,package31,package66,package48,package99,process,package34,package80,vulkan,scientific,package60,formatting,warp,package17,package73,http-conduit,package37, base
+    hs-source-dirs:   src
     default-language: Haskell2010

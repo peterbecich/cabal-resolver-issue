@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package97
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    persistent-postgresql,persistent,th-compat,hspec-core,tls,random,time-compat,hlint,yesod-core,servant-docs,semigroups,dlist,blaze-builder,recursion-schemes,http2,cryptonite,comonad,colour,hspec,servant,distributive,free,clock,pandoc,servant-server,bifunctors,streaming-commons,unordered-containers,text,attoparsec,async,esqueleto,HUnit,profunctors,primitive,warp,QuickCheck,http-api-data,yesod,aeson, base
-    hs-source-dirs:   app
+    build-depends:    mmorph,package92,package29,time-compat,http2,recursion-schemes,package83,package34,package90,package28,streaming-commons,containers,hspec-core,distributive,package22,package62,random,primitive,colour,package41,clock,package56,package26,package40,package74,package57,yesod-core,package20,time,attoparsec,package7,package30,package10,tidal,th-compat,package32,base16-bytestring,package82,package24,package97, base
+    hs-source-dirs:   src
     default-language: Haskell2010

@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package185
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    streaming-commons,StateVar,persistent-postgresql,dlist,dhall,bifunctors,http-api-data,hspec-core,unordered-containers,semigroups,persistent,hspec,lifted-async,megaparsec,data-fix,servant-docs,profunctors,text,uuid-types,pandoc,haskoin-store,http2,base16-bytestring,tls,random,syb,attoparsec,hlint,containers,distributive,mmorph,warp,servant-server,comonad,esqueleto,http-conduit,iproute,vector,QuickCheck,tidal, base
-    hs-source-dirs:   app
+    build-depends:    comonad,package96,vector,package57,package56,package4,package71,package62,package36,time,package87,package79,package69,servant-docs,package89,package94,package77,package78,vulkan,syb,package97,package19,package31,package40,package100,package2,package54,package99,warp,unliftio,mmorph,process,data-fix,formatting,http-client,package84,package17,random,package47,package8, base
+    hs-source-dirs:   src
     default-language: Haskell2010

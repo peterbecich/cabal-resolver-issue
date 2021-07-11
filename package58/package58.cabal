@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package58
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    pandoc,http-api-data,random,clock,blaze-builder,text,streaming-commons,dlist,base16-bytestring,free,http-conduit,QuickCheck,colour,servant,tls,vulkan,formatting,semigroups,http-client,lens,distributive,unordered-containers,hspec-core,profunctors,megaparsec,process,esqueleto,servant-server,lifted-async,StateVar,uuid-types,tidal,conduit,network,time,aeson,time-compat,basement,dhall,recursion-schemes, base
-    hs-source-dirs:   app
+    build-depends:    package49,unliftio,comonad,yesod,package90,persistent-postgresql,containers,cryptonite,package97,package85,package67,package88,package44,package13,unordered-containers,package43,package32,random,lifted-async,iproute,package28,package21,uuid-types,package48,package5,package54,microlens-th,persistent,wai-extra,package1,package17,th-compat,package72,package34,package46,tls,package15,vulkan,package4,QuickCheck, base
+    hs-source-dirs:   src
     default-language: Haskell2010

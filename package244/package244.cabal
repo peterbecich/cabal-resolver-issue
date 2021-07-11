@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package244
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    hspec-core,th-compat,streaming-commons,tasty,containers,persistent-postgresql,unordered-containers,microlens-th,wai-extra,process,lifted-async,dlist,time,QuickCheck,hspec,iproute,basement,dhall,primitive,vector,tidal,clock,recursion-schemes,scientific,data-fix,comonad,pandoc,hashable,servant-docs,http-client,syb,esqueleto,conduit,formatting,tls,yesod,http-conduit,lens,hlint,http2, base
-    hs-source-dirs:   app
+    build-depends:    package75,vector,package93,package39,package94,package52,dlist,package41,package13,package38,package15,primitive,iproute,servant,http-client,hashable,package67,package100,package50,data-fix,package8,package57,time-compat,package99,package82,package14,network,package63,package30,package83,package9,persistent,package3,dhall,package72,package24,package59,package77,package86,package46, base
+    hs-source-dirs:   src
     default-language: Haskell2010

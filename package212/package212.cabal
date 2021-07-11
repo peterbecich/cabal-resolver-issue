@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package212
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    colour,dhall,comonad,hashable,scientific,yesod,profunctors,th-compat,hspec-core,tls,iproute,HUnit,semigroups,unliftio,blaze-builder,QuickCheck,time-compat,primitive,vector,time,random,microlens-th,uuid-types,data-fix,StateVar,async,servant-docs,streaming-commons,persistent,yesod-core,text,lens,unordered-containers,haskoin-store,servant,lifted-async,mmorph,http-client,distributive,megaparsec, base
-    hs-source-dirs:   app
+    build-depends:    package48,package5,package22,pandoc,servant-docs,data-fix,package75,vulkan,package27,package82,aeson,clock,package8,package80,colour,package12,package3,package41,th-compat,package100,package53,package9,process,bifunctors,package90,iproute,package81,esqueleto,hashable,package79,package35,package40,package99,package93,package94,package52,package88,package31,http2,http-client, base
+    hs-source-dirs:   src
     default-language: Haskell2010

@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package34
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    tls,servant,QuickCheck,recursion-schemes,servant-server,comonad,wai-extra,basement,hlint,esqueleto,formatting,persistent-postgresql,free,colour,iproute,unliftio,random,tidal,clock,yesod,StateVar,dhall,hspec-core,conduit,tasty,primitive,vector,http-conduit,unordered-containers,distributive,vulkan,HUnit,syb,aeson,mmorph,bifunctors,hspec,warp,microlens-th,time-compat, base
-    hs-source-dirs:   app
+    build-depends:    hspec,package87,package31,package15,package25,colour,package82,aeson,cryptonite,package26,package23,http-conduit,package69,package50,package70,containers,http-client,package86,package55,package21,distributive,th-compat,package41,package49,package34,servant,StateVar,package78,scientific,package20,hlint,clock,package93,package80,time,servant-server,package42,package38,http2,vulkan, base
+    hs-source-dirs:   src
     default-language: Haskell2010

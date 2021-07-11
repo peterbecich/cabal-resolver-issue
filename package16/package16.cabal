@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package16
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    QuickCheck,mmorph,http-conduit,persistent-postgresql,th-compat,basement,base16-bytestring,clock,unliftio,process,iproute,bifunctors,aeson,esqueleto,yesod-core,text,HUnit,pandoc,colour,syb,hspec-core,tidal,hashable,random,tls,microlens-th,servant,vulkan,http2,dlist,cryptonite,hlint,hspec,blaze-builder,attoparsec,uuid-types,tasty,distributive,containers,megaparsec, base
-    hs-source-dirs:   app
+    build-depends:    dhall,aeson,package3,base16-bytestring,semigroups,package87,package86,package48,package44,package34,package88,package81,package85,package53,package66,containers,package14,mmorph,package67,package18,package63,package56,package94,http2,package23,vector,package49,package76,package22,package60,package37,scientific,microlens-th,comonad,hspec,package21,yesod,package84,QuickCheck,package26, base
+    hs-source-dirs:   src
     default-language: Haskell2010

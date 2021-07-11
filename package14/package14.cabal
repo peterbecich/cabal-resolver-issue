@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package14
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    clock,primitive,wai-extra,aeson,basement,iproute,dhall,scientific,haskoin-store,warp,formatting,hspec-core,data-fix,text,hspec,syb,hlint,mmorph,time-compat,servant,servant-server,containers,vulkan,HUnit,base16-bytestring,cryptonite,free,http-client,unliftio,megaparsec,network,conduit,th-compat,persistent,dlist,async,profunctors,persistent-postgresql,lens,random, base
-    hs-source-dirs:   app
+    build-depends:    time,package28,tasty,dlist,random,vector,package4,profunctors,package95,package89,network,package25,http-api-data,package34,package46,package11,hspec,servant-server,blaze-builder,microlens-th,http-conduit,package83,async,package75,persistent,package9,package26,package78,hlint,warp,package40,package39,package61,package19,package47,package100,package12,package31,package99,attoparsec, base
+    hs-source-dirs:   src
     default-language: Haskell2010

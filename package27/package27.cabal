@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package27
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    conduit,servant,megaparsec,bifunctors,iproute,esqueleto,http-api-data,hspec,HUnit,servant-docs,cryptonite,http-client,hspec-core,data-fix,colour,free,syb,time,time-compat,hashable,th-compat,dlist,haskoin-store,containers,tidal,async,clock,StateVar,random,yesod-core,servant-server,hlint,attoparsec,microlens-th,process,wai-extra,unordered-containers,persistent,warp,basement, base
-    hs-source-dirs:   app
+    build-depends:    QuickCheck,package33,package22,esqueleto,package57,containers,servant-server,package1,clock,package95,package97,th-compat,package79,package23,base16-bytestring,package19,package8,colour,dhall,package81,package60,package54,package68,package35,package27,package4,lens,package70,package55,yesod-core,text,warp,package15,wai-extra,package14,package87,haskoin-store,distributive,package100,pandoc, base
+    hs-source-dirs:   src
     default-language: Haskell2010

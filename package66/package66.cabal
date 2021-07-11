@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package66
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    basement,profunctors,network,tidal,base16-bytestring,primitive,colour,hashable,wai-extra,aeson,scientific,hspec-core,servant-docs,recursion-schemes,http-api-data,free,distributive,vector,warp,persistent-postgresql,tasty,time-compat,syb,vulkan,blaze-builder,yesod-core,esqueleto,clock,megaparsec,http-conduit,conduit,semigroups,StateVar,process,containers,yesod,servant-server,haskoin-store,tls,cryptonite, base
-    hs-source-dirs:   app
+    build-depends:    hspec-core,package70,vector,package55,package98,package33,package28,package14,package15,process,package35,attoparsec,cryptonite,package12,package86,package91,clock,time-compat,package38,http-client,package51,package59,package68,package93,package32,package17,package100,package96,package57,http-api-data,package97,package22,package19,hashable,comonad,package73,unliftio,package34,formatting,package52, base
+    hs-source-dirs:   src
     default-language: Haskell2010

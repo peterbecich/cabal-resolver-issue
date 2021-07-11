@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package141
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    bifunctors,http-conduit,iproute,process,primitive,http-api-data,mmorph,yesod,tls,streaming-commons,warp,QuickCheck,hspec,HUnit,syb,comonad,vector,http-client,formatting,hlint,data-fix,aeson,dhall,haskoin-store,dlist,http2,free,hspec-core,tidal,pandoc,esqueleto,tasty,colour,semigroups,megaparsec,async,time-compat,basement,cryptonite,distributive, base
-    hs-source-dirs:   app
+    build-depends:    tidal,esqueleto,package6,package29,vulkan,package4,package31,package85,blaze-builder,http2,yesod,package19,package92,package5,package90,package61,package77,package69,comonad,lifted-async,distributive,containers,package27,package97,persistent,package37,network,package25,iproute,HUnit,primitive,package66,package64,package55,http-api-data,free,package83,package42,tls,base16-bytestring, base
+    hs-source-dirs:   src
     default-language: Haskell2010

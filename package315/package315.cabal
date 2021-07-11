@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package315
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    primitive,hspec,esqueleto,pandoc,unordered-containers,containers,recursion-schemes,megaparsec,aeson,microlens-th,http-client,hlint,basement,bifunctors,clock,lifted-async,servant-docs,tls,text,http-conduit,HUnit,scientific,profunctors,dhall,http2,uuid-types,process,semigroups,time,formatting,hashable,mmorph,tasty,persistent-postgresql,tidal,network,lens,warp,free,conduit, base
-    hs-source-dirs:   app
+    build-depends:    syb,package70,package36,package90,package63,comonad,package40,package7,vulkan,package6,package30,dlist,microlens-th,unliftio,package93,http-api-data,package8,mmorph,package77,HUnit,colour,package48,network,package96,servant-server,pandoc,package44,package43,package33,package61,lens,tasty,package98,package64,package20,base16-bytestring,recursion-schemes,package100,package94,scientific, base
+    hs-source-dirs:   src
     default-language: Haskell2010

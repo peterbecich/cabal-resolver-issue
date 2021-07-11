@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package131
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    esqueleto,pandoc,QuickCheck,comonad,servant-server,bifunctors,http-api-data,attoparsec,syb,semigroups,mmorph,free,vector,async,dlist,basement,text,formatting,wai-extra,http2,yesod,yesod-core,warp,HUnit,http-conduit,profunctors,data-fix,iproute,servant-docs,megaparsec,unordered-containers,time-compat,tidal,streaming-commons,tasty,time,random,scientific,process,hashable, base
-    hs-source-dirs:   app
+    build-depends:    package78,esqueleto,mmorph,tidal,package62,package3,package96,package40,package33,package68,package49,package20,package30,package7,package19,package5,package99,unordered-containers,package79,scientific,package90,base16-bytestring,colour,semigroups,package97,package76,package55,package69,package9,http-client,network,package13,data-fix,vector,http-conduit,package72,cryptonite,attoparsec,package11,distributive, base
+    hs-source-dirs:   src
     default-language: Haskell2010

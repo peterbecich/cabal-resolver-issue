@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package400
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    lifted-async,base16-bytestring,syb,microlens-th,time,formatting,warp,unordered-containers,http-conduit,clock,time-compat,servant-docs,unliftio,data-fix,network,tasty,servant,QuickCheck,tidal,semigroups,HUnit,recursion-schemes,servant-server,random,haskoin-store,containers,scientific,tls,async,hlint,colour,distributive,process,vector,http2,persistent,yesod,hspec-core,blaze-builder,free, base
-    hs-source-dirs:   app
+    build-depends:    blaze-builder,package4,time,package56,package64,package24,colour,bifunctors,time-compat,package41,http-conduit,package90,basement,network,async,HUnit,package18,package70,package9,cryptonite,package22,package28,streaming-commons,package69,package55,package66,package92,package14,dhall,package51,data-fix,uuid-types,StateVar,distributive,microlens-th,package29,text,package12,package78,package77, base
+    hs-source-dirs:   src
     default-language: Haskell2010

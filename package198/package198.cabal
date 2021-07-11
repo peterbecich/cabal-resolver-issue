@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package198
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    http2,yesod-core,persistent-postgresql,StateVar,time,servant-docs,cryptonite,persistent,data-fix,QuickCheck,microlens-th,clock,streaming-commons,formatting,unliftio,hashable,conduit,text,http-conduit,lens,dhall,warp,time-compat,comonad,hspec-core,hlint,mmorph,network,haskoin-store,syb,random,scientific,tls,http-api-data,servant,http-client,recursion-schemes,basement,profunctors,esqueleto, base
-    hs-source-dirs:   app
+    build-depends:    package22,package8,package93,hspec,clock,package58,hspec-core,package95,package51,package73,haskoin-store,package69,package16,data-fix,hlint,StateVar,package40,package78,package9,package20,yesod,package54,servant,package86,free,package44,package100,scientific,package63,warp,attoparsec,containers,tidal,package31,package37,package1,unliftio,conduit,package85,package41, base
+    hs-source-dirs:   src
     default-language: Haskell2010

@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package263
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    blaze-builder,streaming-commons,lens,hlint,dlist,http-client,base16-bytestring,clock,pandoc,attoparsec,http-conduit,servant-docs,megaparsec,tidal,HUnit,comonad,bifunctors,QuickCheck,persistent,semigroups,aeson,vulkan,unliftio,lifted-async,data-fix,vector,haskoin-store,esqueleto,distributive,free,random,http2,hashable,hspec-core,uuid-types,time,network,StateVar,warp,basement, base
-    hs-source-dirs:   app
+    build-depends:    servant,megaparsec,comonad,package66,http-api-data,dhall,basement,package27,scientific,package61,package29,haskoin-store,package37,package23,mmorph,package94,async,tls,lifted-async,profunctors,package98,package36,package20,package63,package93,colour,tidal,package99,base16-bytestring,package25,package14,package78,package30,package80,package52,package65,package15,package31,vulkan,clock, base
+    hs-source-dirs:   src
     default-language: Haskell2010

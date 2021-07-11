@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package104
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    servant,tidal,hspec,pandoc,haskoin-store,syb,http2,http-api-data,dlist,process,tasty,network,warp,clock,unordered-containers,basement,lifted-async,distributive,iproute,vector,yesod,containers,HUnit,megaparsec,recursion-schemes,base16-bytestring,lens,data-fix,QuickCheck,unliftio,blaze-builder,wai-extra,async,primitive,aeson,time,random,servant-docs,http-conduit,free, base
-    hs-source-dirs:   app
+    build-depends:    package91,iproute,package54,tidal,vector,package90,async,formatting,package85,distributive,package47,package39,package13,package60,package9,yesod-core,package94,HUnit,package14,blaze-builder,dlist,package66,http2,package46,package48,package76,package95,comonad,esqueleto,package99,package18,servant,package31,free,tls,package56,package26,package61,vulkan,package1, base
+    hs-source-dirs:   src
     default-language: Haskell2010

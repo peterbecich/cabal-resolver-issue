@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package144
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    dlist,esqueleto,async,hlint,comonad,free,HUnit,unordered-containers,servant-docs,clock,pandoc,microlens-th,servant-server,hspec,wai-extra,yesod,distributive,random,vector,haskoin-store,QuickCheck,recursion-schemes,iproute,network,warp,persistent-postgresql,base16-bytestring,StateVar,cryptonite,process,aeson,lifted-async,blaze-builder,http-conduit,tls,http-api-data,data-fix,basement,text,vulkan, base
-    hs-source-dirs:   app
+    build-depends:    package36,package8,microlens-th,package12,package19,http-api-data,package97,servant-docs,package14,lifted-async,StateVar,conduit,esqueleto,package24,semigroups,vector,bifunctors,package80,package3,package72,package85,free,package96,attoparsec,distributive,cryptonite,random,package31,package2,package46,package15,package50,hspec-core,data-fix,package39,package88,package54,package4,warp,package44, base
+    hs-source-dirs:   src
     default-language: Haskell2010

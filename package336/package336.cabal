@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package336
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    distributive,http-conduit,semigroups,th-compat,warp,http-api-data,comonad,conduit,text,profunctors,microlens-th,network,servant-server,time,time-compat,bifunctors,clock,hlint,base16-bytestring,servant,aeson,persistent,tasty,vulkan,iproute,unordered-containers,containers,servant-docs,vector,colour,tls,mmorph,primitive,yesod,pandoc,recursion-schemes,StateVar,wai-extra,esqueleto,hspec-core, base
-    hs-source-dirs:   app
+    build-depends:    hspec-core,package23,package56,vector,http-api-data,package78,package63,package81,package6,persistent,time-compat,package70,package72,vulkan,dhall,process,distributive,package15,tls,recursion-schemes,servant,package64,unordered-containers,lens,package93,package35,package49,time,package19,hlint,package66,package52,package37,package96,package26,package4,package60,base16-bytestring,package79,package31, base
+    hs-source-dirs:   src
     default-language: Haskell2010

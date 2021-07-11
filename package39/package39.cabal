@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package39
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    recursion-schemes,cryptonite,tls,vulkan,blaze-builder,megaparsec,base16-bytestring,hlint,tidal,persistent,process,servant-docs,tasty,QuickCheck,data-fix,random,http-conduit,haskoin-store,dhall,http2,warp,http-client,lens,hashable,formatting,scientific,aeson,distributive,attoparsec,esqueleto,profunctors,streaming-commons,pandoc,text,syb,lifted-async,microlens-th,iproute,comonad,dlist, base
-    hs-source-dirs:   app
+    build-depends:    package99,free,package10,haskoin-store,package70,package36,package18,package2,package88,package39,package28,semigroups,wai-extra,attoparsec,text,QuickCheck,http-api-data,package7,hashable,formatting,package27,warp,package51,package89,dlist,package90,package93,package58,microlens-th,package6,package76,unordered-containers,vector,package98,package81,package38,package14,package55,tls,package5, base
+    hs-source-dirs:   src
     default-language: Haskell2010

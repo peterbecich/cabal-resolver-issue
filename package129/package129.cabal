@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package129
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    http-client,lens,cryptonite,vulkan,syb,conduit,QuickCheck,HUnit,yesod-core,servant,uuid-types,StateVar,warp,profunctors,aeson,dlist,unordered-containers,distributive,basement,megaparsec,async,free,attoparsec,semigroups,streaming-commons,scientific,lifted-async,microlens-th,vector,data-fix,haskoin-store,clock,hspec,http2,blaze-builder,iproute,time,colour,mmorph,hashable, base
-    hs-source-dirs:   app
+    build-depends:    hspec,text,package3,async,package40,package51,package93,package12,lifted-async,package43,basement,package30,package56,package85,package18,http-client,package99,vulkan,package84,package90,network,data-fix,package28,package35,persistent-postgresql,http2,package75,package21,package5,package46,yesod,dlist,containers,package14,distributive,servant-docs,package53,package45,comonad,QuickCheck, base
+    hs-source-dirs:   src
     default-language: Haskell2010

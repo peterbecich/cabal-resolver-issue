@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package385
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    http-conduit,bifunctors,esqueleto,clock,dlist,basement,http-api-data,time-compat,free,pandoc,HUnit,hashable,yesod,uuid-types,aeson,comonad,http-client,warp,vulkan,QuickCheck,wai-extra,StateVar,async,tidal,dhall,megaparsec,unordered-containers,lifted-async,hspec,profunctors,conduit,tls,formatting,unliftio,http2,semigroups,colour,process,yesod-core,microlens-th, base
-    hs-source-dirs:   app
+    build-depends:    package67,lens,package88,package33,primitive,package83,package14,persistent-postgresql,package15,package94,package92,package24,package23,containers,vector,dlist,formatting,package52,haskoin-store,package30,package25,yesod-core,package11,time,package39,colour,package97,package86,package64,package89,package77,package93,package71,http-client,package49,hspec-core,package45,esqueleto,package90,package17, base
+    hs-source-dirs:   src
     default-language: Haskell2010

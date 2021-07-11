@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package154
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    bifunctors,persistent-postgresql,dhall,servant,hspec,random,process,tidal,dlist,servant-server,profunctors,semigroups,tasty,microlens-th,basement,vulkan,unliftio,primitive,HUnit,recursion-schemes,streaming-commons,pandoc,http-api-data,vector,clock,free,blaze-builder,hashable,syb,hspec-core,containers,colour,http2,uuid-types,attoparsec,yesod,comonad,network,megaparsec,distributive, base
-    hs-source-dirs:   app
+    build-depends:    recursion-schemes,package45,persistent-postgresql,hlint,package9,free,yesod-core,distributive,package83,package32,package88,package89,http2,tidal,package92,package58,warp,lens,package80,package67,containers,blaze-builder,async,package18,package1,package11,package96,package84,tls,package82,package68,iproute,vulkan,package55,package98,package12,package62,base16-bytestring,dhall,profunctors, base
+    hs-source-dirs:   src
     default-language: Haskell2010

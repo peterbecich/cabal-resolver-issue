@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package166
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    persistent,StateVar,iproute,dlist,th-compat,wai-extra,formatting,yesod,vector,esqueleto,clock,hashable,mmorph,network,time-compat,unliftio,servant-docs,attoparsec,syb,tasty,http-client,blaze-builder,text,containers,QuickCheck,comonad,tls,dhall,base16-bytestring,basement,colour,distributive,scientific,warp,http-api-data,megaparsec,random,vulkan,lens,conduit, base
-    hs-source-dirs:   app
+    build-depends:    formatting,profunctors,package92,scientific,package32,tls,package42,package95,package2,blaze-builder,package9,package98,aeson,tasty,package66,package35,package72,package94,package79,package6,package37,package33,text,haskoin-store,async,th-compat,package57,esqueleto,persistent-postgresql,dhall,package24,package41,time-compat,package16,package91,http-client,package18,package50,package48,package88, base
+    hs-source-dirs:   src
     default-language: Haskell2010

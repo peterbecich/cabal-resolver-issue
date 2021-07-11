@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package366
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    semigroups,containers,clock,attoparsec,syb,megaparsec,formatting,streaming-commons,distributive,text,servant-server,unliftio,base16-bytestring,StateVar,hspec,HUnit,dlist,mmorph,lens,hlint,vector,cryptonite,blaze-builder,colour,unordered-containers,primitive,iproute,http-api-data,recursion-schemes,profunctors,servant,random,servant-docs,time-compat,pandoc,persistent-postgresql,QuickCheck,tls,http-client,hspec-core, base
-    hs-source-dirs:   app
+    build-depends:    package29,iproute,package52,time,yesod,blaze-builder,hlint,package99,package76,package11,profunctors,time-compat,package60,package45,megaparsec,conduit,package2,package62,http-api-data,package70,HUnit,process,hspec-core,package74,servant-docs,attoparsec,package59,unliftio,package40,package44,recursion-schemes,package56,package18,package84,package68,formatting,microlens-th,dhall,package87,package22, base
+    hs-source-dirs:   src
     default-language: Haskell2010

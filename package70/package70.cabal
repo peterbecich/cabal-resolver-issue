@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package70
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    dhall,profunctors,recursion-schemes,servant-server,formatting,containers,colour,haskoin-store,HUnit,tidal,network,hlint,persistent-postgresql,random,data-fix,basement,clock,http-conduit,tls,servant,lens,http2,lifted-async,persistent,semigroups,distributive,bifunctors,unordered-containers,pandoc,time-compat,vector,vulkan,mmorph,primitive,esqueleto,yesod,attoparsec,microlens-th,http-client,hashable, base
-    hs-source-dirs:   app
+    build-depends:    package88,package2,package55,package92,conduit,package75,package50,package13,package21,formatting,free,package15,persistent-postgresql,package64,package47,package77,th-compat,package3,package38,semigroups,package34,mmorph,package7,profunctors,package72,tidal,package96,package70,package9,base16-bytestring,package78,QuickCheck,package65,package8,network,warp,package45,package76,package59,package57, base
+    hs-source-dirs:   src
     default-language: Haskell2010

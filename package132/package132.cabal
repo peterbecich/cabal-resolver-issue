@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package132
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    blaze-builder,yesod,http-conduit,text,uuid-types,free,hspec,bifunctors,async,microlens-th,network,distributive,warp,mmorph,wai-extra,formatting,streaming-commons,scientific,dhall,vulkan,comonad,attoparsec,http-api-data,primitive,servant,tls,pandoc,aeson,base16-bytestring,tidal,time-compat,HUnit,lens,syb,clock,http-client,process,unliftio,http2,semigroups, base
-    hs-source-dirs:   app
+    build-depends:    package57,package15,unordered-containers,package67,package39,package71,hashable,blaze-builder,network,package87,async,package40,tls,text,pandoc,package82,package47,hspec,package63,package3,tidal,package2,package70,package81,package86,dhall,package53,microlens-th,package5,lens,package41,streaming-commons,attoparsec,servant,hlint,bifunctors,package52,package76,package48,package55, base
+    hs-source-dirs:   src
     default-language: Haskell2010

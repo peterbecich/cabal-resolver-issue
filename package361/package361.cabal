@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package361
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    vulkan,tls,blaze-builder,http-api-data,free,conduit,dhall,haskoin-store,megaparsec,uuid-types,warp,http2,dlist,tidal,distributive,hashable,th-compat,servant,lifted-async,iproute,lens,bifunctors,data-fix,streaming-commons,random,QuickCheck,syb,process,comonad,StateVar,text,recursion-schemes,http-conduit,unordered-containers,hspec-core,servant-server,attoparsec,aeson,cryptonite,tasty, base
-    hs-source-dirs:   app
+    build-depends:    package58,text,package13,servant,package74,package43,package96,vector,network,package24,recursion-schemes,package2,package81,package73,package80,pandoc,package76,package56,package35,package26,http2,package5,http-client,package55,package41,package93,package42,dlist,yesod-core,haskoin-store,aeson,formatting,servant-docs,package16,data-fix,hspec,package18,uuid-types,hashable,megaparsec, base
+    hs-source-dirs:   src
     default-language: Haskell2010

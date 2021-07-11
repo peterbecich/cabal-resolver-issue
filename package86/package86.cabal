@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package86
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    containers,vector,wai-extra,free,lens,scientific,syb,time,comonad,network,hashable,esqueleto,semigroups,http2,unordered-containers,StateVar,tls,base16-bytestring,text,servant-docs,uuid-types,hspec,haskoin-store,recursion-schemes,hspec-core,persistent-postgresql,http-client,async,bifunctors,tidal,mmorph,yesod,conduit,http-api-data,formatting,iproute,aeson,persistent,microlens-th,primitive, base
-    hs-source-dirs:   app
+    build-depends:    servant-docs,package5,random,hashable,package54,unordered-containers,package38,package47,package83,package95,package23,package63,clock,time,package80,package77,package73,http2,base16-bytestring,package65,package37,package79,package82,package12,semigroups,lens,package25,yesod-core,http-client,package31,package6,package33,package75,package70,http-conduit,package32,tidal,haskoin-store,data-fix,package14, base
+    hs-source-dirs:   src
     default-language: Haskell2010

@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package355
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    process,uuid-types,dlist,esqueleto,tidal,vector,haskoin-store,QuickCheck,blaze-builder,profunctors,hspec-core,data-fix,servant,lens,comonad,time-compat,primitive,persistent,wai-extra,dhall,formatting,yesod,streaming-commons,megaparsec,text,distributive,servant-server,http-client,unordered-containers,persistent-postgresql,aeson,semigroups,hlint,base16-bytestring,vulkan,hashable,colour,scientific,containers,servant-docs, base
-    hs-source-dirs:   app
+    build-depends:    text,unliftio,comonad,semigroups,package30,package97,base16-bytestring,package76,package95,syb,package42,package79,package51,package60,package72,package81,package25,http-client,package62,package52,package12,package56,package8,package63,package45,package29,package83,servant-server,package77,servant-docs,time-compat,package4,package37,package67,package9,package2,primitive,QuickCheck,package7,persistent, base
+    hs-source-dirs:   src
     default-language: Haskell2010

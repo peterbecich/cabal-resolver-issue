@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package50
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    random,QuickCheck,megaparsec,attoparsec,blaze-builder,semigroups,servant,haskoin-store,comonad,basement,hashable,unordered-containers,process,warp,hspec-core,http-client,async,persistent-postgresql,servant-docs,profunctors,syb,colour,HUnit,th-compat,StateVar,servant-server,vector,hlint,dhall,network,primitive,persistent,http-api-data,conduit,tidal,dlist,yesod-core,lens,vulkan,bifunctors, base
-    hs-source-dirs:   app
+    build-depends:    package82,package47,package71,lens,package64,package90,package81,package92,package53,package2,persistent-postgresql,th-compat,package49,package6,persistent,package77,hlint,package87,package58,servant,package19,free,package100,package79,package66,package94,package72,package75,package9,package11,package8,HUnit,package14,package54,package52,package78,package56,package17,package97,basement, base
+    hs-source-dirs:   src
     default-language: Haskell2010

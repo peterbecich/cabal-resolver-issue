@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package375
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    esqueleto,base16-bytestring,StateVar,hspec,servant-docs,tidal,mmorph,data-fix,servant-server,network,async,hspec-core,vector,text,bifunctors,unordered-containers,lens,time-compat,distributive,aeson,persistent,hlint,syb,haskoin-store,lifted-async,formatting,dhall,colour,cryptonite,persistent-postgresql,free,comonad,yesod-core,blaze-builder,tasty,uuid-types,semigroups,tls,profunctors,http-conduit, base
-    hs-source-dirs:   app
+    build-depends:    http2,package91,random,package74,package22,package96,profunctors,package57,package19,package75,syb,dhall,primitive,StateVar,HUnit,package77,tls,package21,package72,recursion-schemes,package9,package87,package36,aeson,streaming-commons,package15,package29,pandoc,package13,package20,package12,package73,package55,package4,basement,package63,package84,package93,async,package26, base
+    hs-source-dirs:   src
     default-language: Haskell2010

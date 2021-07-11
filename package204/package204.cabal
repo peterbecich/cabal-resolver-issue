@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package204
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    async,hspec,hashable,random,http-conduit,persistent,free,iproute,dlist,http-client,containers,attoparsec,primitive,lens,colour,tidal,tls,uuid-types,servant,hlint,time,StateVar,streaming-commons,servant-server,semigroups,unliftio,cryptonite,tasty,haskoin-store,time-compat,servant-docs,dhall,wai-extra,aeson,microlens-th,base16-bytestring,esqueleto,bifunctors,distributive,http-api-data, base
-    hs-source-dirs:   app
+    build-depends:    scientific,package46,process,lens,package10,package79,aeson,package95,base16-bytestring,package44,package45,package68,package71,package64,package89,package65,streaming-commons,package75,tidal,time-compat,package49,package58,unliftio,package87,semigroups,free,package80,package8,package59,HUnit,package56,package83,package41,package34,package43,package96,random,th-compat,dhall,package57, base
+    hs-source-dirs:   src
     default-language: Haskell2010

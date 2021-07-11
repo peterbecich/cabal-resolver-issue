@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package88
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    vulkan,haskoin-store,attoparsec,hspec,bifunctors,lifted-async,hlint,tasty,uuid-types,tidal,recursion-schemes,syb,distributive,th-compat,time-compat,async,scientific,yesod,time,http2,pandoc,QuickCheck,data-fix,persistent-postgresql,iproute,wai-extra,http-conduit,free,profunctors,microlens-th,cryptonite,http-api-data,hspec-core,primitive,colour,random,dlist,text,mmorph,blaze-builder, base
-    hs-source-dirs:   app
+    build-depends:    package87,package65,package84,package44,package93,package89,package45,distributive,package100,persistent-postgresql,package78,yesod-core,base16-bytestring,package26,package11,http-api-data,primitive,package96,random,package7,http-conduit,free,bifunctors,package58,tasty,package31,package40,warp,package54,http-client,package42,package36,containers,package57,package64,package37,network,package74,package80,package39, base
+    hs-source-dirs:   src
     default-language: Haskell2010

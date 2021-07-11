@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package301
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    streaming-commons,formatting,random,persistent-postgresql,recursion-schemes,microlens-th,esqueleto,http-api-data,vulkan,lifted-async,iproute,syb,data-fix,http2,servant,conduit,vector,process,free,pandoc,lens,hspec,HUnit,QuickCheck,primitive,http-conduit,aeson,dhall,tasty,basement,haskoin-store,tls,mmorph,StateVar,th-compat,profunctors,dlist,yesod-core,hashable,text, base
-    hs-source-dirs:   app
+    build-depends:    package45,QuickCheck,cryptonite,hashable,package54,package62,package79,package42,unliftio,package69,package60,package38,package56,time,semigroups,package32,package3,lifted-async,package6,time-compat,package71,wai-extra,vector,http-client,package75,package20,basement,primitive,package21,package57,syb,package97,dlist,package12,uuid-types,random,hspec,text,formatting,package93, base
+    hs-source-dirs:   src
     default-language: Haskell2010

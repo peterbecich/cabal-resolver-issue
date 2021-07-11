@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package94
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    http2,yesod,blaze-builder,vulkan,primitive,streaming-commons,distributive,haskoin-store,hlint,colour,semigroups,iproute,esqueleto,tasty,pandoc,hspec-core,persistent-postgresql,hashable,profunctors,lens,dlist,persistent,time,servant-server,bifunctors,syb,yesod-core,text,network,unordered-containers,process,servant,servant-docs,data-fix,uuid-types,dhall,wai-extra,comonad,containers,base16-bytestring, base
-    hs-source-dirs:   app
+    build-depends:    package6,conduit,package53,package15,persistent-postgresql,package75,process,StateVar,network,megaparsec,dlist,recursion-schemes,persistent,package29,package42,package14,dhall,profunctors,servant,hspec,comonad,package98,package55,package46,hashable,package73,package39,package36,package5,yesod,package30,package27,package24,esqueleto,package41,bifunctors,package69,mmorph,lens,colour, base
+    hs-source-dirs:   src
     default-language: Haskell2010

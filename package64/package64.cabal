@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package64
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    servant-server,time,http-api-data,iproute,streaming-commons,time-compat,mmorph,vector,pandoc,yesod,HUnit,th-compat,unliftio,http-client,hlint,process,dlist,recursion-schemes,attoparsec,conduit,uuid-types,tasty,yesod-core,bifunctors,random,profunctors,network,semigroups,scientific,warp,async,dhall,microlens-th,lens,hspec-core,base16-bytestring,tls,vulkan,persistent-postgresql,hspec, base
-    hs-source-dirs:   app
+    build-depends:    package38,package10,package2,recursion-schemes,th-compat,package20,package77,dlist,profunctors,attoparsec,persistent-postgresql,package5,package49,package46,package42,tidal,package21,megaparsec,hspec,package45,package41,hlint,package83,yesod-core,package3,package78,package29,package35,package30,streaming-commons,package84,package87,package95,servant-server,package70,cryptonite,package58,iproute,random,mmorph, base
+    hs-source-dirs:   src
     default-language: Haskell2010

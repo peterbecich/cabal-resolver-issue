@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package231
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    async,megaparsec,QuickCheck,time-compat,distributive,network,data-fix,vulkan,attoparsec,bifunctors,unordered-containers,vector,hspec-core,http-conduit,servant-docs,esqueleto,hspec,microlens-th,servant,http-api-data,uuid-types,syb,th-compat,warp,process,time,http-client,random,semigroups,tasty,tidal,dlist,tls,lens,streaming-commons,dhall,hlint,basement,persistent-postgresql,free, base
-    hs-source-dirs:   app
+    build-depends:    hspec-core,package34,package98,package95,package69,vulkan,formatting,pandoc,package66,package50,vector,text,package60,package28,package62,microlens-th,package59,QuickCheck,package21,package54,package49,package32,package97,package78,package86,package65,package53,syb,package52,iproute,package75,async,bifunctors,containers,package6,hashable,time,package1,streaming-commons,package36, base
+    hs-source-dirs:   src
     default-language: Haskell2010

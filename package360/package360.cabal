@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package360
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    http-client,random,persistent-postgresql,lifted-async,bifunctors,persistent,megaparsec,hspec-core,streaming-commons,primitive,formatting,base16-bytestring,time-compat,servant-server,clock,QuickCheck,cryptonite,tls,hashable,http-api-data,unliftio,http-conduit,tasty,conduit,http2,data-fix,unordered-containers,yesod,uuid-types,semigroups,haskoin-store,aeson,HUnit,time,pandoc,esqueleto,profunctors,wai-extra,microlens-th,network, base
-    hs-source-dirs:   app
+    build-depends:    th-compat,package71,package35,package19,package58,package26,package43,package72,StateVar,scientific,package27,package76,package17,package7,random,semigroups,hashable,package29,hspec,package53,async,package70,package92,iproute,package4,hspec-core,package86,package18,package15,streaming-commons,tasty,package30,conduit,package36,dhall,package65,yesod,formatting,vulkan,clock, base
+    hs-source-dirs:   src
     default-language: Haskell2010

@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package384
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    lens,StateVar,basement,async,mmorph,megaparsec,tls,http2,colour,tidal,time,dhall,persistent,QuickCheck,http-client,conduit,th-compat,vulkan,haskoin-store,process,profunctors,tasty,blaze-builder,warp,dlist,iproute,data-fix,servant-docs,network,cryptonite,syb,unordered-containers,attoparsec,yesod,persistent-postgresql,http-api-data,vector,yesod-core,lifted-async,semigroups, base
-    hs-source-dirs:   app
+    build-depends:    package9,package44,package21,package45,package42,package81,cryptonite,lens,package19,http2,package100,hspec-core,hashable,package34,package39,package57,package31,package15,package36,async,package27,package79,package94,containers,package98,warp,package56,base16-bytestring,clock,package92,package37,data-fix,tidal,package14,persistent-postgresql,package89,package11,package86,package77,distributive, base
+    hs-source-dirs:   src
     default-language: Haskell2010

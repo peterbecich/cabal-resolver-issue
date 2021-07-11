@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package281
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    recursion-schemes,streaming-commons,esqueleto,clock,bifunctors,lifted-async,wai-extra,tasty,yesod,th-compat,process,time,distributive,primitive,persistent-postgresql,hlint,http2,formatting,free,pandoc,comonad,profunctors,mmorph,dlist,colour,yesod-core,hashable,cryptonite,HUnit,lens,StateVar,tidal,semigroups,async,microlens-th,servant-server,conduit,containers,time-compat,http-client, base
-    hs-source-dirs:   app
+    build-depends:    package32,comonad,package2,package20,package87,package64,package47,yesod,package55,servant-docs,package100,package48,package53,lifted-async,package90,free,clock,lens,package75,package51,package26,distributive,persistent-postgresql,vector,package13,package14,package60,base16-bytestring,package35,package65,process,dhall,package9,package3,QuickCheck,tasty,streaming-commons,package4,package5,package78, base
+    hs-source-dirs:   src
     default-language: Haskell2010

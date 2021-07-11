@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package242
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    formatting,servant-docs,mmorph,syb,base16-bytestring,aeson,lens,containers,yesod-core,pandoc,warp,unliftio,random,network,tasty,data-fix,http-conduit,scientific,th-compat,dhall,megaparsec,microlens-th,conduit,recursion-schemes,servant,basement,blaze-builder,haskoin-store,unordered-containers,uuid-types,hspec,attoparsec,vector,hlint,http2,free,lifted-async,HUnit,clock,comonad, base
-    hs-source-dirs:   app
+    build-depends:    QuickCheck,package99,package3,microlens-th,package14,package11,distributive,package65,haskoin-store,dhall,async,hashable,package41,package39,package45,package21,http2,time,pandoc,package20,package67,iproute,free,package15,cryptonite,persistent-postgresql,recursion-schemes,package66,unordered-containers,package72,package30,package68,package58,package25,yesod,package38,package44,package46,package26,package54, base
+    hs-source-dirs:   src
     default-language: Haskell2010

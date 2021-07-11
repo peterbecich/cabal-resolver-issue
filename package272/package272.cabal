@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package272
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    data-fix,network,StateVar,time,random,persistent,time-compat,lens,servant-server,lifted-async,formatting,profunctors,blaze-builder,aeson,process,hashable,hspec-core,microlens-th,distributive,text,unordered-containers,bifunctors,tasty,pandoc,http-client,colour,async,conduit,free,hlint,vulkan,haskoin-store,http-conduit,uuid-types,warp,dlist,http2,semigroups,wai-extra,primitive, base
-    hs-source-dirs:   app
+    build-depends:    http2,package13,QuickCheck,package19,comonad,package5,package79,package11,package96,time-compat,package23,package28,package17,distributive,package88,scientific,package42,package41,package59,package4,package93,containers,package10,package32,package76,microlens-th,package74,package15,data-fix,package54,package20,package24,package3,async,package60,bifunctors,wai-extra,primitive,package34,package43, base
+    hs-source-dirs:   src
     default-language: Haskell2010

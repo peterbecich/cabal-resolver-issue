@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package271
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    comonad,time,async,time-compat,attoparsec,text,warp,syb,distributive,esqueleto,QuickCheck,lens,cryptonite,StateVar,streaming-commons,http-api-data,http2,iproute,base16-bytestring,scientific,clock,primitive,vector,tidal,mmorph,conduit,dlist,aeson,servant-docs,hspec,containers,unordered-containers,persistent-postgresql,semigroups,blaze-builder,tls,lifted-async,network,colour,vulkan, base
-    hs-source-dirs:   app
+    build-depends:    package65,servant-server,package94,QuickCheck,dhall,package4,persistent-postgresql,data-fix,package81,hashable,package63,package100,http-client,lifted-async,package75,package69,package47,tls,package61,mmorph,package1,package89,package79,network,package98,package83,package73,package19,package28,package88,package58,aeson,clock,random,package49,package74,package16,profunctors,package78,conduit, base
+    hs-source-dirs:   src
     default-language: Haskell2010

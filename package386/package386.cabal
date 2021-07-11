@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package386
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    warp,lifted-async,hlint,formatting,StateVar,scientific,unordered-containers,time,hashable,streaming-commons,uuid-types,semigroups,time-compat,iproute,comonad,servant-docs,colour,recursion-schemes,conduit,vulkan,tidal,distributive,megaparsec,HUnit,http-client,hspec,th-compat,servant-server,data-fix,clock,async,persistent-postgresql,hspec-core,mmorph,microlens-th,random,servant,attoparsec,vector,QuickCheck, base
-    hs-source-dirs:   app
+    build-depends:    streaming-commons,package57,package45,tidal,text,package74,package61,package83,vulkan,package9,package48,http-api-data,package56,package14,package52,pandoc,servant-server,package40,package86,package84,yesod,package82,package10,base16-bytestring,time,package21,package99,yesod-core,package39,microlens-th,package49,warp,package41,package75,QuickCheck,package96,package4,package28,http2,hspec-core, base
+    hs-source-dirs:   src
     default-language: Haskell2010

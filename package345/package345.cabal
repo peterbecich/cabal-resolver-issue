@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package345
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    random,persistent-postgresql,http-client,servant-server,network,http2,th-compat,wai-extra,cryptonite,pandoc,clock,distributive,mmorph,unordered-containers,hspec,servant,time-compat,uuid-types,streaming-commons,lifted-async,colour,text,dlist,async,bifunctors,lens,servant-docs,primitive,tasty,recursion-schemes,conduit,syb,StateVar,basement,hlint,yesod,unliftio,esqueleto,dhall,containers, base
-    hs-source-dirs:   app
+    build-depends:    package83,hlint,package50,package46,clock,scientific,servant-docs,package56,package22,vector,package3,http-client,package7,package100,package62,package24,syb,primitive,package12,free,http-api-data,package95,package72,package31,package9,distributive,tasty,package58,package53,mmorph,package73,hashable,package66,http2,package82,unliftio,tidal,package85,package43,package51, base
+    hs-source-dirs:   src
     default-language: Haskell2010

@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package376
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    iproute,network,aeson,yesod-core,primitive,dhall,dlist,pandoc,http-client,tls,text,hlint,hspec,unliftio,time,comonad,yesod,bifunctors,cryptonite,megaparsec,clock,async,vulkan,conduit,http2,random,base16-bytestring,http-conduit,tidal,hashable,distributive,servant-docs,StateVar,recursion-schemes,formatting,hspec-core,profunctors,data-fix,process,wai-extra, base
-    hs-source-dirs:   app
+    build-depends:    conduit,package79,package39,package12,package46,uuid-types,package84,package73,tasty,package11,package37,package13,blaze-builder,http-client,dlist,yesod-core,tls,HUnit,package2,package64,package61,package25,package1,package60,basement,package85,scientific,microlens-th,package23,package100,package16,package55,dhall,package4,package98,aeson,package69,persistent,package43,pandoc, base
+    hs-source-dirs:   src
     default-language: Haskell2010

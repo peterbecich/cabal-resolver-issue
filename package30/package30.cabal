@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package30
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    wai-extra,tidal,hspec,bifunctors,blaze-builder,basement,mmorph,http-client,persistent,hlint,servant,data-fix,network,syb,http2,conduit,vulkan,servant-docs,tls,yesod,time-compat,profunctors,colour,dhall,persistent-postgresql,comonad,aeson,time,free,dlist,recursion-schemes,text,random,iproute,uuid-types,haskoin-store,pandoc,base16-bytestring,tasty,hspec-core, base
-    hs-source-dirs:   app
+    build-depends:    megaparsec,package45,package1,tidal,package58,package14,package41,distributive,yesod-core,package32,async,package86,package83,basement,package85,package79,QuickCheck,package93,network,package74,uuid-types,package67,package53,package64,package62,th-compat,bifunctors,package72,package30,package23,package26,package94,data-fix,vulkan,semigroups,package50,package10,package28,iproute,blaze-builder, base
+    hs-source-dirs:   src
     default-language: Haskell2010

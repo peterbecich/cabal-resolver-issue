@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package167
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    unliftio,servant,containers,time,distributive,hlint,warp,hashable,primitive,scientific,uuid-types,process,comonad,attoparsec,profunctors,unordered-containers,blaze-builder,text,conduit,lens,tls,data-fix,dhall,http-conduit,bifunctors,cryptonite,dlist,lifted-async,persistent,mmorph,iproute,random,HUnit,free,hspec,yesod-core,yesod,colour,StateVar,vector, base
-    hs-source-dirs:   app
+    build-depends:    StateVar,package76,package5,package92,esqueleto,package8,package1,time-compat,package6,package82,package22,http-conduit,vulkan,warp,text,yesod-core,package81,package11,hspec-core,package29,persistent,package64,time,haskoin-store,package27,package61,package63,package91,package44,package24,package25,package10,package31,uuid-types,package21,persistent-postgresql,package65,package94,http2,clock, base
+    hs-source-dirs:   src
     default-language: Haskell2010

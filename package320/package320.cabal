@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package320
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    hspec-core,dlist,cryptonite,servant-server,primitive,process,scientific,QuickCheck,tidal,HUnit,containers,esqueleto,unliftio,text,syb,hashable,tasty,pandoc,data-fix,colour,network,hlint,profunctors,recursion-schemes,http-conduit,time-compat,StateVar,th-compat,uuid-types,tls,random,aeson,clock,formatting,warp,semigroups,servant,lens,conduit,hspec, base
-    hs-source-dirs:   app
+    build-depends:    hspec,package49,package22,aeson,formatting,vulkan,package19,cryptonite,microlens-th,comonad,package2,package65,package31,package54,package79,package68,servant,process,package14,warp,package94,package43,package9,uuid-types,package95,primitive,semigroups,package28,package24,th-compat,hspec-core,wai-extra,package40,package62,package71,package84,unordered-containers,package75,hlint,package12, base
+    hs-source-dirs:   src
     default-language: Haskell2010

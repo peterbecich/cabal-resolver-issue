@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package346
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    profunctors,iproute,persistent-postgresql,containers,vector,hlint,conduit,semigroups,persistent,StateVar,yesod-core,aeson,HUnit,dlist,warp,tidal,servant-docs,text,megaparsec,primitive,random,comonad,dhall,unordered-containers,hspec,uuid-types,network,haskoin-store,recursion-schemes,http-client,streaming-commons,http2,async,formatting,http-api-data,microlens-th,pandoc,th-compat,vulkan,bifunctors, base
-    hs-source-dirs:   app
+    build-depends:    hspec-core,servant-docs,scientific,wai-extra,containers,package29,unliftio,package79,package91,package54,package92,yesod-core,package74,conduit,package46,iproute,package62,package27,recursion-schemes,warp,package78,package68,package2,package31,formatting,package30,semigroups,package24,package94,http-client,package64,package90,package63,servant,tls,package12,package19,package53,package9,syb, base
+    hs-source-dirs:   src
     default-language: Haskell2010

@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package140
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    containers,clock,data-fix,tasty,streaming-commons,yesod,aeson,cryptonite,vector,semigroups,hspec,servant,megaparsec,pandoc,bifunctors,http-client,conduit,iproute,distributive,comonad,hspec-core,free,vulkan,lens,QuickCheck,yesod-core,http-api-data,th-compat,haskoin-store,uuid-types,network,hlint,recursion-schemes,process,servant-server,lifted-async,base16-bytestring,dlist,persistent,tidal, base
-    hs-source-dirs:   app
+    build-depends:    package4,package84,package47,package99,package70,esqueleto,package62,lens,package96,package52,package74,conduit,package81,HUnit,basement,package85,StateVar,package46,vector,hlint,package18,package56,megaparsec,package54,package20,unliftio,package12,tls,lifted-async,servant-docs,package53,clock,distributive,package48,package7,package65,haskoin-store,package5,package21,microlens-th, base
+    hs-source-dirs:   src
     default-language: Haskell2010

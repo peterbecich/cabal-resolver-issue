@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package219
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    uuid-types,vector,colour,recursion-schemes,containers,aeson,unordered-containers,free,warp,yesod,hspec-core,hspec,microlens-th,th-compat,distributive,megaparsec,base16-bytestring,streaming-commons,http-client,persistent,http-api-data,comonad,conduit,HUnit,tls,dhall,data-fix,network,http-conduit,attoparsec,time-compat,random,scientific,servant-docs,StateVar,cryptonite,unliftio,formatting,QuickCheck,profunctors, base
-    hs-source-dirs:   app
+    build-depends:    package74,esqueleto,hspec,package10,package25,dlist,package2,package4,package83,package79,package93,package11,package64,dhall,package98,package51,servant-docs,package72,formatting,vulkan,tidal,package26,package63,package65,blaze-builder,hlint,package1,random,vector,package75,package94,warp,package7,package60,clock,package99,package36,package38,package23,package76, base
+    hs-source-dirs:   src
     default-language: Haskell2010

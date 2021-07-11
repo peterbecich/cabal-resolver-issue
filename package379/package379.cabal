@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package379
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    microlens-th,recursion-schemes,clock,attoparsec,persistent-postgresql,hspec-core,yesod,scientific,primitive,time,base16-bytestring,hashable,async,tls,network,formatting,servant-server,basement,blaze-builder,wai-extra,unordered-containers,free,time-compat,hspec,http-client,vector,warp,distributive,containers,lifted-async,persistent,vulkan,streaming-commons,unliftio,colour,process,servant,haskoin-store,comonad,aeson, base
-    hs-source-dirs:   app
+    build-depends:    package82,tls,package37,persistent-postgresql,package98,package11,package69,package77,package55,package49,package99,async,profunctors,package91,unliftio,random,package74,vector,package52,StateVar,package18,package27,time,package75,megaparsec,package64,package16,package79,package53,package78,http2,clock,package34,wai-extra,recursion-schemes,package28,package80,package81,data-fix,package23, base
+    hs-source-dirs:   src
     default-language: Haskell2010

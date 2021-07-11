@@ -21,14 +21,14 @@ maintainer:         peterbecich@gmail.com
 -- category:
 extra-source-files: CHANGELOG.md
 
-executable package388
-    main-is:          Main.hs
+library
+    exposed-modules:  MyLib
 
-    -- Modules included in this executable, other than Main.
+    -- Modules included in this library but not exported.
     -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    tidal,esqueleto,QuickCheck,containers,unordered-containers,syb,cryptonite,uuid-types,http2,conduit,semigroups,persistent,http-conduit,colour,hspec,basement,process,unliftio,tls,mmorph,yesod-core,distributive,attoparsec,data-fix,network,hashable,vulkan,time-compat,iproute,text,clock,recursion-schemes,bifunctors,lifted-async,blaze-builder,formatting,microlens-th,async,dlist,yesod, base
-    hs-source-dirs:   app
+    build-depends:    scientific,th-compat,cryptonite,package5,package73,package58,package33,package63,package94,package77,package69,package61,package31,yesod-core,package59,package87,package29,hspec-core,StateVar,package52,package19,package72,package54,basement,http-conduit,package32,yesod,random,package27,package36,package68,dlist,package92,package96,package12,syb,package25,package44,clock,package10, base
+    hs-source-dirs:   src
     default-language: Haskell2010
