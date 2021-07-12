@@ -1,0 +1,33 @@
+cabal-version: 1.12
+name:          yeqzgwjcrl-ubgaozonrs-aabtyfwlqo
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        DataKinds DeriveGeneric DerivingStrategies DerivingVia
+        FlexibleInstances GeneralizedNewtypeDeriving OverloadedStrings
+        TypeApplications
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        aeson-better-errors -any,
+        base -any,
+        bytestring -any,
+        cassava -any,
+        deepseq -any,
+        generics-sop -any,
+        http-api-data -any,
+        postgresql-simple -any,
+        servant -any,
+        servant-docs -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        squeal-postgresql -any,
+        text -any,
+        time -any

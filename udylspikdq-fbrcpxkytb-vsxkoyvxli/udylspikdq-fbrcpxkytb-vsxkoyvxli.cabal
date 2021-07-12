@@ -1,0 +1,85 @@
+cabal-version: 1.12
+name:          udylspikdq-fbrcpxkytb-vsxkoyvxli
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions: NoImplicitPrelude
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -fwarn-redundant-constraints
+
+    build-depends:
+        aeson -any,
+        base -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        ekg -any,
+        extra -any,
+        fast-logger -any,
+        file-embed -any,
+        file-path-th -any,
+        generic-lens -any,
+        http-client -any,
+        zrowwqecdq-lueaquxzxq-nokjybdgyp -any,
+        jose-jwt -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        lens -any,
+        monad-logger -any,
+        odd-jobs -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        postgresql-simple -any,
+        safe-exceptions -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        text -any,
+        unordered-containers -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        warp -any,
+        yaml -any
+
+executable ytbspcqttk-cxooxzwnjb-lsbypxmyty
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions: NoImplicitPrelude
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        base -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        ekg -any,
+        extra -any,
+        fast-logger -any,
+        file-embed -any,
+        file-path-th -any,
+        generic-lens -any,
+        http-client -any,
+        udylspikdq-fbrcpxkytb-vsxkoyvxli -any,
+        zrowwqecdq-lueaquxzxq-nokjybdgyp -any,
+        jose-jwt -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        lens -any,
+        monad-logger -any,
+        odd-jobs -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        postgresql-simple -any,
+        safe-exceptions -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        text -any,
+        unordered-containers -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        warp -any,
+        yaml -any

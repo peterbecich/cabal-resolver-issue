@@ -1,0 +1,74 @@
+cabal-version: 1.12
+name:          gsddpmgnqm-lrasmiwcib-akeauejxgu
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DeriveGeneric DerivingStrategies
+        EmptyDataDecls FlexibleContexts FlexibleInstances GADTs
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        NamedFieldPuns NoMonomorphismRestriction OverloadedStrings
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        base -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        jyikfaivsc-mhchvgdmxv-qdqsrsnxmt -any,
+        file-path-th -any,
+        mtl -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        boardlbhyl-fwkrjpkdjj-uanqxbjouz -any,
+        nonempty-containers -any,
+        servant -any,
+        servant-docs -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        text -any,
+        uuid -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any
+
+test-suite aiaebatyot-gdjwimvszn-laqgbbicnl
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DeriveGeneric DerivingStrategies
+        EmptyDataDecls FlexibleContexts FlexibleInstances GADTs
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        NamedFieldPuns NoMonomorphismRestriction OverloadedStrings
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        base -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        jyikfaivsc-mhchvgdmxv-qdqsrsnxmt -any,
+        file-path-th -any,
+        mtl -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        gsddpmgnqm-lrasmiwcib-akeauejxgu -any,
+        boardlbhyl-fwkrjpkdjj-uanqxbjouz -any,
+        nonempty-containers -any,
+        servant -any,
+        servant-docs -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        text -any,
+        uuid -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any

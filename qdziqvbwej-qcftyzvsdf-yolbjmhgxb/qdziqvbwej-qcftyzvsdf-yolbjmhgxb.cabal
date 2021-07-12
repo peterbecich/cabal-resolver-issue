@@ -1,0 +1,35 @@
+cabal-version: 1.12
+name:          qdziqvbwej-qcftyzvsdf-yolbjmhgxb
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        base -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        xsbdpdzvqi-tpyglsxlmh-awbcffuslv -any,
+        zpphqaohhd-blpklbpmiq-pgdhgxbdlu -any,
+        rqfouaqhgm-nxvkrcadip-armiklgokp -any
+
+executable xdkgjznjwt-xqjbubemhx-ndpsvdmesh
+    main-is:          main.hs
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        base -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        xsbdpdzvqi-tpyglsxlmh-awbcffuslv -any,
+        zpphqaohhd-blpklbpmiq-pgdhgxbdlu -any,
+        qdziqvbwej-qcftyzvsdf-yolbjmhgxb -any,
+        rqfouaqhgm-nxvkrcadip-armiklgokp -any

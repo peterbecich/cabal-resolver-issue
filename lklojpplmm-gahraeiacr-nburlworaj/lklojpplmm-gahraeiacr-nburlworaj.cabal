@@ -1,0 +1,30 @@
+cabal-version: 1.12
+name:          lklojpplmm-gahraeiacr-nburlworaj
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        AllowAmbiguousTypes ConstraintKinds DefaultSignatures
+        DeriveAnyClass DeriveFunctor DeriveGeneric DerivingStrategies
+        DerivingVia DataKinds EmptyDataDecls FlexibleContexts
+        FlexibleInstances GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications
+        TypeFamilyDependencies TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -fwarn-redundant-constraints
+
+    build-depends:
+        base -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        safe-exceptions -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        text -any,
+        unliftio -any

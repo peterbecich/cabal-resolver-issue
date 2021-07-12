@@ -1,0 +1,32 @@
+cabal-version: 1.12
+name:          mxeaouxbfs-bsrlnhcxwc-lvdqaxcqtu
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+executable uvkeyksmhz-xzvtllhcga-fcvcusbebd
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        NoImplicitPrelude NoMonomorphismRestriction CPP ConstraintKinds
+        DataKinds DeriveAnyClass DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns OverloadedStrings
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        base -any,
+        deepseq -any,
+        interpolate -any,
+        postgres-options -any,
+        process -any,
+        time -any,
+        tmp-postgres -any,
+        utf8-string -any

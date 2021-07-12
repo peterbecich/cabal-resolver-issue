@@ -1,0 +1,49 @@
+cabal-version: 1.12
+name:          gwfrzlktem-ugascxpvck-kuyeafauno
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+executable ojibusyqum-kiryklyzol-xfrqsxqsgs
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        AllowAmbiguousTypes BlockArguments ConstraintKinds DeriveAnyClass
+        DeriveDataTypeable DeriveFunctor DeriveGeneric DerivingStrategies
+        DerivingVia DataKinds DefaultSignatures DuplicateRecordFields
+        EmptyDataDecls FlexibleContexts FlexibleInstances
+        FunctionalDependencies GADTs GeneralizedNewtypeDeriving
+        InstanceSigs LambdaCase MultiParamTypeClasses NamedFieldPuns
+        NoImplicitPrelude NoMonomorphismRestriction NumericUnderscores
+        OverloadedLabels OverloadedStrings QuantifiedConstraints
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TupleSections TypeApplications TypeFamilies
+        TypeFamilyDependencies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -rtsopts -threaded "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        base -any,
+        case-insensitive -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        esqueleto -any,
+        file-embed -any,
+        file-path-th -any,
+        ayqaodtiqr-lyoodcipiw-hvmfzfurzz -any,
+        lens -any,
+        lens-aeson -any,
+        optparse-applicative -any,
+        persistent-qq -any,
+        postgresql-simple -any,
+        etnxirubqy-dvsnrbmtbe-wwlkbvjnsk -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        uuid -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        vbltcnoepb-bhzritxypd-erpaaootbj -any,
+        yaml -any,
+        yesod -any

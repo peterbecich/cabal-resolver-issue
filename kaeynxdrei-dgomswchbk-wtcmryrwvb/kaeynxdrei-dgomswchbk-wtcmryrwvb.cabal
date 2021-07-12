@@ -1,0 +1,45 @@
+cabal-version: 1.12
+name:          kaeynxdrei-dgomswchbk-wtcmryrwvb
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DeriveGeneric DerivingStrategies
+        DerivingVia EmptyDataDecls FlexibleContexts FlexibleInstances
+        FunctionalDependencies GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedLabels OverloadedStrings
+        PartialTypeSignatures QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeFamilyDependencies
+        TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        QuickCheck -any,
+        amazonka-s3 -any,
+        base -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        idgzpedoaf-dbfjwldocy-karcmrrnvw -any,
+        uslahbwpjb-vdtqwxhxnj-hiqltqwrnx -any,
+        bitzgjembd-vaymfjlvqk-iuthenagvi -any,
+        lens -any,
+        postgresql-tx -any,
+        postgresql-tx-monad-logger -any,
+        quickcheck-instances -any,
+        gtcvzcyrqh-fomvyfnmxq-bonfggbrvq -any,
+        mgocxjmugg-szydfszzpd-rcfzbgiwzv -any,
+        jrqqfpuace-ckjryxrdrw-trllbleiex -any,
+        wjcvquzmqj-ngmhegkhun-ozevzugvrv -any,
+        civunfdiag-tziozhaunn-zdkpvlcwwa -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any

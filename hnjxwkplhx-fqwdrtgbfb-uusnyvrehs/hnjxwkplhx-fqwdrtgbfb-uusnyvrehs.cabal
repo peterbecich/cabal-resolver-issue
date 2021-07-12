@@ -1,0 +1,196 @@
+cabal-version: 1.12
+name:          hnjxwkplhx-fqwdrtgbfb-uusnyvrehs
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DeriveGeneric DataKinds DerivingStrategies
+        DerivingVia EmptyDataDecls FlexibleContexts FlexibleInstances
+        FunctionalDependencies GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedLabels OverloadedStrings
+        PartialTypeSignatures QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeFamilyDependencies
+        TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        aeson-pretty -any,
+        amazonka -any,
+        amazonka-s3 -any,
+        base -any,
+        vghsvugwnc-sobhsxydmt-hbfuxwixxn -any,
+        classy-prelude -any,
+        clock -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        idgzpedoaf-dbfjwldocy-karcmrrnvw -any,
+        either -any,
+        ekg-core -any,
+        jcfinelkzr-qctedwphye-ssbamdyxuz -any,
+        uslahbwpjb-vdtqwxhxnj-hiqltqwrnx -any,
+        bitzgjembd-vaymfjlvqk-iuthenagvi -any,
+        exceptions -any,
+        fast-logger -any,
+        jose-jwt -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        lens -any,
+        lens-aeson -any,
+        monad-logger -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        mtl -any,
+        network -any,
+        nonempty-containers -any,
+        ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
+        akgvmhdcfs-edgsqlgfhp-ducbdjoqto -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        postgresql-query -any,
+        postgresql-simple -any,
+        postgresql-tx -any,
+        postgresql-tx-query -any,
+        gtcvzcyrqh-fomvyfnmxq-bonfggbrvq -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        raw-strings-qq -any,
+        cqgeqmqnyg-hbyqhbbbdm-eazabhchvh -any,
+        rqrhrfngcb-lhrmfapvdl-uebrqoygak -any,
+        civunfdiag-tziozhaunn-zdkpvlcwwa -any,
+        servant -any,
+        servant-ekg -any,
+        servant-server -any,
+        servant-websockets -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        xghlolyoos-nlcnkznbnm-zjsjlqbprk -any,
+        tar -any,
+        temporary -any,
+        text -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        transformers -any,
+        unliftio -any,
+        unliftio-pool -any,
+        uri-encode -any,
+        uuid -any,
+        wai -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        websockets -any,
+        zlib -any
+
+test-suite lwecyjcczc-iemtmcnvyv-jpqcnmysdi
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DeriveGeneric DataKinds DerivingStrategies
+        DerivingVia EmptyDataDecls FlexibleContexts FlexibleInstances
+        FunctionalDependencies GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedLabels OverloadedStrings
+        PartialTypeSignatures QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeFamilyDependencies
+        TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        QuickCheck -any,
+        aeson -any,
+        aeson-pretty -any,
+        amazonka -any,
+        amazonka-s3 -any,
+        base -any,
+        vghsvugwnc-sobhsxydmt-hbfuxwixxn -any,
+        classy-prelude -any,
+        clock -any,
+        afterjznqu-mkszchedmv-cemvtpwxvm -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        connection -any,
+        data-default -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        idgzpedoaf-dbfjwldocy-karcmrrnvw -any,
+        hnjxwkplhx-fqwdrtgbfb-uusnyvrehs -any,
+        kaeynxdrei-dgomswchbk-wtcmryrwvb -any,
+        either -any,
+        ekg-core -any,
+        jcfinelkzr-qctedwphye-ssbamdyxuz -any,
+        uslahbwpjb-vdtqwxhxnj-hiqltqwrnx -any,
+        bitzgjembd-vaymfjlvqk-iuthenagvi -any,
+        exceptions -any,
+        fast-logger -any,
+        file-embed -any,
+        file-path-th -any,
+        hspec -any,
+        hspec-expectations -any,
+        http-client-tls -any,
+        http-conduit -any,
+        jose-jwt -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        wrsxalzuux-fkrmnzenbw-mlawexhwxe -any,
+        lens -any,
+        lens-aeson -any,
+        monad-logger -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        mtl -any,
+        ibcsaqswoj-kghjffqrcb-fifltunohv -any,
+        network -any,
+        nonempty-containers -any,
+        ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
+        akgvmhdcfs-edgsqlgfhp-ducbdjoqto -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        postgresql-query -any,
+        postgresql-simple -any,
+        postgresql-tx -any,
+        postgresql-tx-query -any,
+        gtcvzcyrqh-fomvyfnmxq-bonfggbrvq -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        raw-strings-qq -any,
+        cqgeqmqnyg-hbyqhbbbdm-eazabhchvh -any,
+        rqrhrfngcb-lhrmfapvdl-uebrqoygak -any,
+        resourcet -any,
+        civunfdiag-tziozhaunn-zdkpvlcwwa -any,
+        zqlzfxaouu-ixmlfpdwfx-bvffwsusxw -any,
+        servant -any,
+        servant-ekg -any,
+        servant-server -any,
+        servant-websockets -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        xghlolyoos-nlcnkznbnm-zjsjlqbprk -any,
+        tar -any,
+        temporary -any,
+        text -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        transformers -any,
+        unliftio -any,
+        unliftio-pool -any,
+        uri-encode -any,
+        uuid -any,
+        wai -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        ojfbtzpcfi-apxmpdnheh-xufedojzlq -any,
+        websockets -any,
+        yaml -any,
+        zlib -any

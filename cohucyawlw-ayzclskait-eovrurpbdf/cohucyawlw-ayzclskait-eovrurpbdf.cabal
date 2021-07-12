@@ -1,0 +1,25 @@
+cabal-version: 1.12
+name:          cohucyawlw-ayzclskait-eovrurpbdf
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base -any,
+        containers -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        aicczlxqqo-zpjknbeumz-abqtjkcjjx -any,
+        nonempty-containers -any,
+        ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
+        scientific -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        stm -any,
+        text -any,
+        unordered-containers -any

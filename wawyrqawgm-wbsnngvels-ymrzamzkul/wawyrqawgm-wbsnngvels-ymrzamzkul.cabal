@@ -1,0 +1,18 @@
+cabal-version: 1.12
+name:          wawyrqawgm-wbsnngvels-ymrzamzkul
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        base -any,
+        hipsql-monad -any,
+        hipsql-server -any,
+        postgresql-simple -any,
+        postgresql-tx -any

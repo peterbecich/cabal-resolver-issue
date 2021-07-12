@@ -1,0 +1,67 @@
+cabal-version: 1.12
+name:          knlxweyfcf-ehyxlbsjov-czstiyephf
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions: NoImplicitPrelude
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        base -any,
+        vghsvugwnc-sobhsxydmt-hbfuxwixxn -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        mdoykpipvg-mkkzuyqaxq-vjaxuxjyad -any,
+        jcfinelkzr-qctedwphye-ssbamdyxuz -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        lens -any,
+        monad-control -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        ysovwneqof-htzfreipkt-avvjcvvcdp -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        servant-server -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        text -any
+
+test-suite pcfsbeulai-shfjozfygd-ljevdobbtm
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions: NoImplicitPrelude
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        base -any,
+        vghsvugwnc-sobhsxydmt-hbfuxwixxn -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        mdoykpipvg-mkkzuyqaxq-vjaxuxjyad -any,
+        jcfinelkzr-qctedwphye-ssbamdyxuz -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        extra -any,
+        lens -any,
+        monad-control -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        ysovwneqof-htzfreipkt-avvjcvvcdp -any,
+        knlxweyfcf-ehyxlbsjov-czstiyephf -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        servant-server -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        tasty -any,
+        tasty-quickcheck -any,
+        text -any

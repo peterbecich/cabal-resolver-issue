@@ -1,0 +1,94 @@
+cabal-version: 1.12
+name:          oqnwogrdyu-jcnnczqyvy-hdpyhkjidz
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments DeriveAnyClass DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia FlexibleContexts FlexibleInstances
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        NamedFieldPuns NoImplicitPrelude OverloadedStrings QuasiQuotes
+        RankNTypes RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TypeApplications TypeFamilies UndecidableInstances
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base -any,
+        bytestring -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        exceptions -any,
+        http-client -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        network-uri -any,
+        ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
+        safe-exceptions -any,
+        servant -any,
+        servant-client -any,
+        servant-client-core -any,
+        jzkwdkcfrm-edzuwumizr-rgnvciqrvk -any,
+        servant-websockets-client -any,
+        servant-websockets-core -any,
+        bulvlkdfna-dejoouyizu-hyaxeldtbf -any,
+        text -any,
+        vulsdpompx-fiahihpbmu-tkeebysusq -any,
+        websockets -any
+
+test-suite twjgfmqetb-vtxwwrziph-bzzzaniqek
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments DeriveAnyClass DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia FlexibleContexts FlexibleInstances
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        NamedFieldPuns NoImplicitPrelude OverloadedStrings QuasiQuotes
+        RankNTypes RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TypeApplications TypeFamilies UndecidableInstances
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        base -any,
+        bytestring -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        exceptions -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        http-client -any,
+        http-types -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        wrsxalzuux-fkrmnzenbw-mlawexhwxe -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        network-uri -any,
+        nonempty-containers -any,
+        phfepeqnuu-tzcfeylnrk-wxkjpqaipk -any,
+        fdxitgbslx-kusfamsfng-ctqbkqzlzf -any,
+        ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
+        cvlrjouiri-wbgjtuteng-igggcgpiff -any,
+        safe-exceptions -any,
+        servant -any,
+        servant-client -any,
+        servant-client-core -any,
+        jzkwdkcfrm-edzuwumizr-rgnvciqrvk -any,
+        servant-websockets-client -any,
+        servant-websockets-core -any,
+        bulvlkdfna-dejoouyizu-hyaxeldtbf -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        text -any,
+        vulsdpompx-fiahihpbmu-tkeebysusq -any,
+        uuid -any,
+        vector -any,
+        ojfbtzpcfi-apxmpdnheh-xufedojzlq -any,
+        websockets -any

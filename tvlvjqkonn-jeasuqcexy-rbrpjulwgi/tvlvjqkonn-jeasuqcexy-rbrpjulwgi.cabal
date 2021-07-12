@@ -1,0 +1,273 @@
+cabal-version: 1.12
+name:          tvlvjqkonn-jeasuqcexy-rbrpjulwgi
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DeriveFunctor DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses NamedFieldPuns NoImplicitPrelude
+        OverloadedStrings PatternSynonyms QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        ViewPatterns MultiWayIf
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -fwarn-redundant-constraints
+
+    build-depends:
+        MonadRandom -any,
+        aeson -any,
+        aeson-better-errors -any,
+        base -any,
+        bytestring -any,
+        dkqmdspphm-upsilnxisj-zafbrsprsq -any,
+        case-insensitive -any,
+        cassava -any,
+        classy-prelude -any,
+        clock -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        conduit -any,
+        containers -any,
+        qivxmeiywc-jecrjyijco-tprliqfsfi -any,
+        iudqbcujcd-ynukvjxgxw-nicdtugoxn -any,
+        data-default -any,
+        either -any,
+        ekg -any,
+        ekg-core -any,
+        email-validate -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        extra -any,
+        fast-logger -any,
+        file-embed -any,
+        file-path-th -any,
+        filepath -any,
+        generic-lens -any,
+        hashable -any,
+        http-api-data -any,
+        http-client -any,
+        http-types -any,
+        jose-jwt -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        keys -any,
+        lens -any,
+        lens-aeson -any,
+        mmorph -any,
+        monad-logger -any,
+        mtl -any,
+        xtwihehity-ujcjqxvexa-mtrhiynzie -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        network -any,
+        nonempty-containers -any,
+        ordered-containers -any,
+        parallel -any,
+        path-pieces -any,
+        persistent -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        postgresql-simple -any,
+        random -any,
+        ysovwneqof-htzfreipkt-avvjcvvcdp -any,
+        luljacqjym-uleizmtdpg-voznuwnupa -any,
+        ldzbulfkvt-hofnssjwwf-zfzbqyxteu -any,
+        aatejcpmjq-tdepajmtvx-fhrxckzqsk -any,
+        uhdauwmvxd-nvcxoslsto-wmmmgnesij -any,
+        ljcpnrxmqv-spomfvvntc-wxhqxrxhvn -any,
+        trkplfabrj-vqbcqmmylp-dalptunfba -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        refined -any,
+        rontohsvqd-kzkpimemzd-odglltphce -any,
+        resourcet -any,
+        servant -any,
+        servant-docs -any,
+        servant-multipart -any,
+        servant-server -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        servant-websockets -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        lklojpplmm-gahraeiacr-nburlworaj -any,
+        taswpnhopu-fnmrhygmff-jzgushedcg -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        qvasxrulmh-hkqryfmwwu-wbiunuatjc -any,
+        stm-conduit -any,
+        tar -any,
+        template-haskell -any,
+        text -any,
+        text-show -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        transformers -any,
+        unliftio -any,
+        unliftio-core -any,
+        unordered-containers -any,
+        uri-encode -any,
+        uuid -any,
+        ebyfzvaadd-akxeqhfdsa-kjiwbyvtth -any,
+        wai -any,
+        wai-extra -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        warp -any,
+        websockets -any,
+        writer-cps-mtl -any,
+        yaml -any,
+        yesod -any,
+        yesod-core -any,
+        yesod-websockets -any,
+        zip-archive -any
+
+executable grfvmrubxi-warytfistc-qhtwfgpiut
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DeriveFunctor DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses NamedFieldPuns NoImplicitPrelude
+        OverloadedStrings PatternSynonyms QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        ViewPatterns MultiWayIf
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        base -any,
+        tvlvjqkonn-jeasuqcexy-rbrpjulwgi -any,
+        taswpnhopu-fnmrhygmff-jzgushedcg -any
+
+executable clixettwzf-rdpshsicox-vyvkdfqzhm
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DeriveFunctor DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses NamedFieldPuns NoImplicitPrelude
+        OverloadedStrings PatternSynonyms QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        ViewPatterns MultiWayIf
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        base -any,
+        bytestring -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        mtl -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        text -any,
+        text-show -any,
+        ebyfzvaadd-akxeqhfdsa-kjiwbyvtth -any,
+        yaml -any
+
+test-suite hhsymgxame-wffdxhfsaf-tzruvbdpdm
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DeriveFunctor DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses NamedFieldPuns NoImplicitPrelude
+        OverloadedStrings PatternSynonyms QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        ViewPatterns MultiWayIf
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        aeson-qq -any,
+        base -any,
+        case-insensitive -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        either -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        extra -any,
+        file-path-th -any,
+        filepath -any,
+        generic-lens -any,
+        generic-random -any,
+        hspec -any,
+        lens -any,
+        lens-aeson -any,
+        monad-logger -any,
+        mtl -any,
+        ordered-containers -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        postgresql-simple -any,
+        random -any,
+        ysovwneqof-htzfreipkt-avvjcvvcdp -any,
+        luljacqjym-uleizmtdpg-voznuwnupa -any,
+        tvlvjqkonn-jeasuqcexy-rbrpjulwgi -any,
+        aatejcpmjq-tdepajmtvx-fhrxckzqsk -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        mgocxjmugg-szydfszzpd-rcfzbgiwzv -any,
+        resource-pool -any,
+        resourcet -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        tasty -any,
+        tasty-golden -any,
+        tasty-hspec -any,
+        tasty-hunit -any,
+        tasty-quickcheck -any,
+        text -any,
+        text-show -any,
+        time -any,
+        ebyfzvaadd-akxeqhfdsa-kjiwbyvtth -any,
+        yaml -any
+
+benchmark bdkimqcrrx-ovbtkgunxa-jqvhtpcdti
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DeriveFunctor DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses NamedFieldPuns NoImplicitPrelude
+        OverloadedStrings PatternSynonyms QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        ViewPatterns MultiWayIf
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T" -O2
+
+    build-depends:
+        aeson -any,
+        base -any,
+        classy-prelude -any,
+        criterion -any,
+        lens -any,
+        mtl -any,
+        random -any,
+        luljacqjym-uleizmtdpg-voznuwnupa -any,
+        tvlvjqkonn-jeasuqcexy-rbrpjulwgi -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        qvasxrulmh-hkqryfmwwu-wbiunuatjc -any

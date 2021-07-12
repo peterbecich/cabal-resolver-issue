@@ -1,0 +1,560 @@
+cabal-version: 3.0
+name:          fjiwadmxge-aqjkxoqtiw-xcrotcqoci
+version:       0.0.0.0
+build-type:    Custom
+
+custom-setup
+    setup-depends:
+        base -any,
+        Cabal -any,
+        cabal-auto-expose -any
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        NoImplicitPrelude NoMonomorphismRestriction AllowAmbiguousTypes
+        BlockArguments ConstraintKinds DataKinds DeriveAnyClass
+        DeriveFunctor DeriveGeneric DerivingStrategies DerivingVia
+        DuplicateRecordFields EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        MultiWayIf NamedFieldPuns NumericUnderscores OverloadedLabels
+        OverloadedStrings QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeFamilyDependencies
+        TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        aeson-better-errors -any,
+        avaleryar -any,
+        base -any,
+        binary -any,
+        bytestring -any,
+        vghsvugwnc-sobhsxydmt-hbfuxwixxn -any,
+        clock -any,
+        containers -any,
+        data-dword -any,
+        data-textual -any,
+        toqjmgsrfv-nouqirkvuc-ubtevxrbsz -any,
+        ekg-core -any,
+        exceptions -any,
+        generic-lens -any,
+        generics-sop -any,
+        hedgehog -any,
+        http-api-data -any,
+        http-types -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        dxzlydcoqy-hozbpoykds-zpmnquaytb -any,
+        lens -any,
+        monad-logger -any,
+        network-ip -any,
+        nonempty-containers -any,
+        postgresql-config -any,
+        postgresql-error-codes -any,
+        postgresql-simple -any,
+        openapi3 -any,
+        random -any,
+        cqgeqmqnyg-hbyqhbbbdm-eazabhchvh -any,
+        rqrhrfngcb-lhrmfapvdl-uebrqoygak -any,
+        scientific -any,
+        servant -any,
+        servant-client -any,
+        servant-client-core -any,
+        servant-docs -any,
+        servant-ekg -any,
+        servant-flatten -any,
+        servant-server -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        servant-websockets -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        bulvlkdfna-dejoouyizu-hyaxeldtbf -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        xghlolyoos-nlcnkznbnm-zjsjlqbprk -any,
+        snowflake -any,
+        squeal-postgresql -any,
+        stm -any,
+        streamly -any,
+        swagger2 -any,
+        template-haskell -any,
+        text -any,
+        text-show -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        unliftio -any,
+        unordered-containers -any,
+        uuid -any,
+        vector -any,
+        wai -any,
+        websockets -any
+
+executable qmgtoxfdfs-iaibjxmtvh-kutjoyvmwl
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        NoImplicitPrelude NoMonomorphismRestriction AllowAmbiguousTypes
+        BlockArguments ConstraintKinds DataKinds DeriveAnyClass
+        DeriveFunctor DeriveGeneric DerivingStrategies DerivingVia
+        DuplicateRecordFields EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        MultiWayIf NamedFieldPuns NumericUnderscores OverloadedLabels
+        OverloadedStrings QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeFamilyDependencies
+        TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        aeson-better-errors -any,
+        avaleryar -any,
+        base -any,
+        binary -any,
+        bytestring -any,
+        vghsvugwnc-sobhsxydmt-hbfuxwixxn -any,
+        clock -any,
+        containers -any,
+        data-dword -any,
+        data-textual -any,
+        toqjmgsrfv-nouqirkvuc-ubtevxrbsz -any,
+        ekg-core -any,
+        exceptions -any,
+        generic-lens -any,
+        generics-sop -any,
+        hedgehog -any,
+        http-api-data -any,
+        http-types -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        dxzlydcoqy-hozbpoykds-zpmnquaytb -any,
+        lens -any,
+        monad-logger -any,
+        network-ip -any,
+        nonempty-containers -any,
+        postgresql-config -any,
+        postgresql-error-codes -any,
+        postgresql-simple -any,
+        openapi3 -any,
+        random -any,
+        cqgeqmqnyg-hbyqhbbbdm-eazabhchvh -any,
+        rqrhrfngcb-lhrmfapvdl-uebrqoygak -any,
+        scientific -any,
+        servant -any,
+        servant-client -any,
+        servant-client-core -any,
+        servant-docs -any,
+        servant-ekg -any,
+        servant-flatten -any,
+        servant-server -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        servant-websockets -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        bulvlkdfna-dejoouyizu-hyaxeldtbf -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        xghlolyoos-nlcnkznbnm-zjsjlqbprk -any,
+        snowflake -any,
+        squeal-postgresql -any,
+        stm -any,
+        streamly -any,
+        swagger2 -any,
+        template-haskell -any,
+        text -any,
+        text-show -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        unliftio -any,
+        unordered-containers -any,
+        uuid -any,
+        vector -any,
+        wai -any,
+        websockets -any,
+        fjiwadmxge-aqjkxoqtiw-xcrotcqoci -any,
+        warp -any
+
+executable yyrzndkeji-wjcehbxgqu-uluwnkntfs
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        NoImplicitPrelude NoMonomorphismRestriction AllowAmbiguousTypes
+        BlockArguments ConstraintKinds DataKinds DeriveAnyClass
+        DeriveFunctor DeriveGeneric DerivingStrategies DerivingVia
+        DuplicateRecordFields EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        MultiWayIf NamedFieldPuns NumericUnderscores OverloadedLabels
+        OverloadedStrings QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeFamilyDependencies
+        TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        aeson-better-errors -any,
+        avaleryar -any,
+        base -any,
+        binary -any,
+        bytestring -any,
+        vghsvugwnc-sobhsxydmt-hbfuxwixxn -any,
+        clock -any,
+        containers -any,
+        data-dword -any,
+        data-textual -any,
+        toqjmgsrfv-nouqirkvuc-ubtevxrbsz -any,
+        ekg-core -any,
+        exceptions -any,
+        generic-lens -any,
+        generics-sop -any,
+        hedgehog -any,
+        http-api-data -any,
+        http-types -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        dxzlydcoqy-hozbpoykds-zpmnquaytb -any,
+        lens -any,
+        monad-logger -any,
+        network-ip -any,
+        nonempty-containers -any,
+        postgresql-config -any,
+        postgresql-error-codes -any,
+        postgresql-simple -any,
+        openapi3 -any,
+        random -any,
+        cqgeqmqnyg-hbyqhbbbdm-eazabhchvh -any,
+        rqrhrfngcb-lhrmfapvdl-uebrqoygak -any,
+        scientific -any,
+        servant -any,
+        servant-client -any,
+        servant-client-core -any,
+        servant-docs -any,
+        servant-ekg -any,
+        servant-flatten -any,
+        servant-server -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        servant-websockets -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        bulvlkdfna-dejoouyizu-hyaxeldtbf -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        xghlolyoos-nlcnkznbnm-zjsjlqbprk -any,
+        snowflake -any,
+        squeal-postgresql -any,
+        stm -any,
+        streamly -any,
+        swagger2 -any,
+        template-haskell -any,
+        text -any,
+        text-show -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        unliftio -any,
+        unordered-containers -any,
+        uuid -any,
+        vector -any,
+        wai -any,
+        websockets -any,
+        fjiwadmxge-aqjkxoqtiw-xcrotcqoci -any,
+        optparse-applicative -any
+
+executable xkicqikzeq-fqdkhzsosb-xkdbnggbqt
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        NoImplicitPrelude NoMonomorphismRestriction AllowAmbiguousTypes
+        BlockArguments ConstraintKinds DataKinds DeriveAnyClass
+        DeriveFunctor DeriveGeneric DerivingStrategies DerivingVia
+        DuplicateRecordFields EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        MultiWayIf NamedFieldPuns NumericUnderscores OverloadedLabels
+        OverloadedStrings QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeFamilyDependencies
+        TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        aeson-better-errors -any,
+        avaleryar -any,
+        base -any,
+        binary -any,
+        bytestring -any,
+        vghsvugwnc-sobhsxydmt-hbfuxwixxn -any,
+        clock -any,
+        containers -any,
+        data-dword -any,
+        data-textual -any,
+        toqjmgsrfv-nouqirkvuc-ubtevxrbsz -any,
+        ekg-core -any,
+        exceptions -any,
+        generic-lens -any,
+        generics-sop -any,
+        hedgehog -any,
+        http-api-data -any,
+        http-types -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        dxzlydcoqy-hozbpoykds-zpmnquaytb -any,
+        lens -any,
+        monad-logger -any,
+        network-ip -any,
+        nonempty-containers -any,
+        postgresql-config -any,
+        postgresql-error-codes -any,
+        postgresql-simple -any,
+        openapi3 -any,
+        random -any,
+        cqgeqmqnyg-hbyqhbbbdm-eazabhchvh -any,
+        rqrhrfngcb-lhrmfapvdl-uebrqoygak -any,
+        scientific -any,
+        servant -any,
+        servant-client -any,
+        servant-client-core -any,
+        servant-docs -any,
+        servant-ekg -any,
+        servant-flatten -any,
+        servant-server -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        servant-websockets -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        bulvlkdfna-dejoouyizu-hyaxeldtbf -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        xghlolyoos-nlcnkznbnm-zjsjlqbprk -any,
+        snowflake -any,
+        squeal-postgresql -any,
+        stm -any,
+        streamly -any,
+        swagger2 -any,
+        template-haskell -any,
+        text -any,
+        text-show -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        unliftio -any,
+        unordered-containers -any,
+        uuid -any,
+        vector -any,
+        wai -any,
+        websockets -any,
+        fjiwadmxge-aqjkxoqtiw-xcrotcqoci -any,
+        http-client -any,
+        optparse-applicative -any
+
+test-suite tahhpgguby-gengrnijrl-dvsbgknjup
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        NoImplicitPrelude NoMonomorphismRestriction AllowAmbiguousTypes
+        BlockArguments ConstraintKinds DataKinds DeriveAnyClass
+        DeriveFunctor DeriveGeneric DerivingStrategies DerivingVia
+        DuplicateRecordFields EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        MultiWayIf NamedFieldPuns NumericUnderscores OverloadedLabels
+        OverloadedStrings QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeFamilyDependencies
+        TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        aeson-better-errors -any,
+        avaleryar -any,
+        base -any,
+        binary -any,
+        bytestring -any,
+        vghsvugwnc-sobhsxydmt-hbfuxwixxn -any,
+        clock -any,
+        containers -any,
+        data-dword -any,
+        data-textual -any,
+        toqjmgsrfv-nouqirkvuc-ubtevxrbsz -any,
+        ekg-core -any,
+        exceptions -any,
+        generic-lens -any,
+        generics-sop -any,
+        hedgehog -any,
+        http-api-data -any,
+        http-types -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        dxzlydcoqy-hozbpoykds-zpmnquaytb -any,
+        lens -any,
+        monad-logger -any,
+        network-ip -any,
+        nonempty-containers -any,
+        postgresql-config -any,
+        postgresql-error-codes -any,
+        postgresql-simple -any,
+        openapi3 -any,
+        random -any,
+        cqgeqmqnyg-hbyqhbbbdm-eazabhchvh -any,
+        rqrhrfngcb-lhrmfapvdl-uebrqoygak -any,
+        scientific -any,
+        servant -any,
+        servant-client -any,
+        servant-client-core -any,
+        servant-docs -any,
+        servant-ekg -any,
+        servant-flatten -any,
+        servant-server -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        servant-websockets -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        bulvlkdfna-dejoouyizu-hyaxeldtbf -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        xghlolyoos-nlcnkznbnm-zjsjlqbprk -any,
+        snowflake -any,
+        squeal-postgresql -any,
+        stm -any,
+        streamly -any,
+        swagger2 -any,
+        template-haskell -any,
+        text -any,
+        text-show -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        unliftio -any,
+        unordered-containers -any,
+        uuid -any,
+        vector -any,
+        wai -any,
+        websockets -any,
+        jyikfaivsc-mhchvgdmxv-qdqsrsnxmt -any,
+        fjiwadmxge-aqjkxoqtiw-xcrotcqoci -any,
+        file-path-th -any
+
+test-suite qwiixlfujd-eqvtpotvfg-qyhoeizfvf
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        NoImplicitPrelude NoMonomorphismRestriction AllowAmbiguousTypes
+        BlockArguments ConstraintKinds DataKinds DeriveAnyClass
+        DeriveFunctor DeriveGeneric DerivingStrategies DerivingVia
+        DuplicateRecordFields EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        MultiWayIf NamedFieldPuns NumericUnderscores OverloadedLabels
+        OverloadedStrings QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeFamilyDependencies
+        TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        aeson-better-errors -any,
+        avaleryar -any,
+        base -any,
+        binary -any,
+        bytestring -any,
+        vghsvugwnc-sobhsxydmt-hbfuxwixxn -any,
+        clock -any,
+        containers -any,
+        data-dword -any,
+        data-textual -any,
+        toqjmgsrfv-nouqirkvuc-ubtevxrbsz -any,
+        ekg-core -any,
+        exceptions -any,
+        generic-lens -any,
+        generics-sop -any,
+        hedgehog -any,
+        http-api-data -any,
+        http-types -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        dxzlydcoqy-hozbpoykds-zpmnquaytb -any,
+        lens -any,
+        monad-logger -any,
+        network-ip -any,
+        nonempty-containers -any,
+        postgresql-config -any,
+        postgresql-error-codes -any,
+        postgresql-simple -any,
+        openapi3 -any,
+        random -any,
+        cqgeqmqnyg-hbyqhbbbdm-eazabhchvh -any,
+        rqrhrfngcb-lhrmfapvdl-uebrqoygak -any,
+        scientific -any,
+        servant -any,
+        servant-client -any,
+        servant-client-core -any,
+        servant-docs -any,
+        servant-ekg -any,
+        servant-flatten -any,
+        servant-server -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        servant-websockets -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        bulvlkdfna-dejoouyizu-hyaxeldtbf -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        xghlolyoos-nlcnkznbnm-zjsjlqbprk -any,
+        snowflake -any,
+        squeal-postgresql -any,
+        stm -any,
+        streamly -any,
+        swagger2 -any,
+        template-haskell -any,
+        text -any,
+        text-show -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        unliftio -any,
+        unordered-containers -any,
+        uuid -any,
+        vector -any,
+        wai -any,
+        websockets -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        fjiwadmxge-aqjkxoqtiw-xcrotcqoci -any,
+        file-path-th -any,
+        hashable -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        hspec-hedgehog -any,
+        HUnit -any,
+        interpolatedstring-perl6 -any,
+        monad-loops -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any

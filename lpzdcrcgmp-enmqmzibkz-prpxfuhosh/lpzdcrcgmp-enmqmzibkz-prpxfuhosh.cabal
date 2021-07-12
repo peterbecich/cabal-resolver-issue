@@ -1,0 +1,90 @@
+cabal-version: 1.12
+name:          lpzdcrcgmp-enmqmzibkz-prpxfuhosh
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        AllowAmbiguousTypes ConstraintKinds DataKinds DeriveAnyClass
+        DeriveFunctor DeriveGeneric DerivingStrategies DerivingVia
+        DuplicateRecordFields FlexibleContexts FlexibleInstances GADTs
+        GeneralizedNewtypeDeriving KindSignatures LambdaCase
+        MultiParamTypeClasses NamedFieldPuns NoImplicitPrelude
+        OverloadedStrings RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TypeApplications TypeFamilies
+        TypeOperators UndecidableInstances
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        composition -any,
+        containers -any,
+        exceptions -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        mtl -any,
+        nonempty-containers -any,
+        servant -any,
+        servant-flatten -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        text -any,
+        unordered-containers -any,
+        uuid -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any
+
+test-suite msljkawnja-qkckgfdgif-hlbfffuhew
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        AllowAmbiguousTypes ConstraintKinds DataKinds DeriveAnyClass
+        DeriveFunctor DeriveGeneric DerivingStrategies DerivingVia
+        DuplicateRecordFields FlexibleContexts FlexibleInstances GADTs
+        GeneralizedNewtypeDeriving KindSignatures LambdaCase
+        MultiParamTypeClasses NamedFieldPuns NoImplicitPrelude
+        OverloadedStrings RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TypeApplications TypeFamilies
+        TypeOperators UndecidableInstances TemplateHaskell
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        base -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        composition -any,
+        containers -any,
+        exceptions -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        mtl -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        boardlbhyl-fwkrjpkdjj-uanqxbjouz -any,
+        nonempty-containers -any,
+        servant -any,
+        servant-flatten -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        gcencghsrd-meylbcllzm-pxzhgfnhah -any,
+        cimzacikqn-syzmmnqrci-udyctttsxo -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        text -any,
+        unordered-containers -any,
+        uuid -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any

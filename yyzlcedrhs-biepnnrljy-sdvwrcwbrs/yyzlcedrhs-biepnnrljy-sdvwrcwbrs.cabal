@@ -1,0 +1,48 @@
+cabal-version: 1.12
+name:          yyzlcedrhs-biepnnrljy-sdvwrcwbrs
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments DataKinds FlexibleContexts FlexibleInstances
+        NamedFieldPuns OverloadedStrings RecordWildCards
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        base -any,
+        servant -any,
+        servant-docs -any,
+        ixtkyqihkv-imljloiqex-augjcvzgch -any,
+        xsbdpdzvqi-tpyglsxlmh-awbcffuslv -any,
+        zpphqaohhd-blpklbpmiq-pgdhgxbdlu -any
+
+test-suite sfbenykzya-sfzmqeqxss-xiowwmjlbv
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments DataKinds FlexibleContexts FlexibleInstances
+        NamedFieldPuns OverloadedStrings RecordWildCards
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        base -any,
+        file-path-th -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        servant -any,
+        servant-docs -any,
+        ixtkyqihkv-imljloiqex-augjcvzgch -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        xsbdpdzvqi-tpyglsxlmh-awbcffuslv -any,
+        zpphqaohhd-blpklbpmiq-pgdhgxbdlu -any,
+        yyzlcedrhs-biepnnrljy-sdvwrcwbrs -any

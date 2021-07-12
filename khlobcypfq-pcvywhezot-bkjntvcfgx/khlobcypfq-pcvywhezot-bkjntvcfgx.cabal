@@ -1,0 +1,41 @@
+cabal-version: 1.12
+name:          khlobcypfq-pcvywhezot-bkjntvcfgx
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+executable elffbcmqpd-jaiiknkugv-tuzwifuocf
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        AllowAmbiguousTypes BlockArguments ConstraintKinds DeriveAnyClass
+        DeriveDataTypeable DeriveFunctor DeriveGeneric DerivingStrategies
+        DerivingVia DataKinds DefaultSignatures DuplicateRecordFields
+        EmptyDataDecls FlexibleContexts FlexibleInstances
+        FunctionalDependencies GADTs GeneralizedNewtypeDeriving
+        InstanceSigs LambdaCase MultiParamTypeClasses NamedFieldPuns
+        NoImplicitPrelude NoMonomorphismRestriction NumericUnderscores
+        OverloadedLabels OverloadedStrings QuantifiedConstraints
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TupleSections TypeApplications TypeFamilies
+        TypeFamilyDependencies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        base -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        file-embed -any,
+        file-path-th -any,
+        ayqaodtiqr-lyoodcipiw-hvmfzfurzz -any,
+        lens -any,
+        lens-aeson -any,
+        postgresql-simple -any,
+        random -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        yaml -any,
+        yesod -any

@@ -1,0 +1,82 @@
+cabal-version: 1.12
+name:          opmzrinbix-dwnjuztviv-lhnefavumr
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        CPP ConstraintKinds DataKinds DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings PackageImports
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        async -any,
+        base -any,
+        containers -any,
+        directory -any,
+        filepath -any,
+        hspec -any,
+        hspec-core -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        mtl -any,
+        resourcet -any,
+        stm -any,
+        tagged -any,
+        tasty -any,
+        text -any,
+        time -any,
+        transformers -any,
+        unix -any,
+        xml-conduit -any
+
+test-suite djqqjqzyyy-pgnhdvltgr-vknnhnfbkb
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        CPP ConstraintKinds DataKinds DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings PackageImports
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        async -any,
+        base -any,
+        containers -any,
+        directory -any,
+        filepath -any,
+        hspec -any,
+        hspec-core -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        mtl -any,
+        resourcet -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        stm -any,
+        tagged -any,
+        tasty -any,
+        text -any,
+        time -any,
+        transformers -any,
+        unix -any,
+        xml-conduit -any

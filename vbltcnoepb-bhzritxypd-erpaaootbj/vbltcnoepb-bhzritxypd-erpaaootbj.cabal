@@ -1,0 +1,58 @@
+cabal-version: 1.12
+name:          vbltcnoepb-bhzritxypd-erpaaootbj
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        CPP ConstraintKinds DataKinds DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings PackageImports
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        kxjfyqvjgh-gktxcmwtsj-nwnbfmdmgy -any,
+        base -any,
+        base64-bytestring -any,
+        case-insensitive -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        cryptonite -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        file-path-th -any,
+        free -any,
+        jose-jwt -any,
+        lens -any,
+        monad-logger -any,
+        mtl -any,
+        ibcsaqswoj-kghjffqrcb-fifltunohv -any,
+        persistent -any,
+        persistent-postgresql -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        persistent-template -any,
+        etnxirubqy-dvsnrbmtbe-wwlkbvjnsk -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        text -any,
+        text-show -any,
+        time -any,
+        unordered-containers -any,
+        uuid -any,
+        hyvhvjnisq-lvthavwoui-ptfwyvqrwk -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        writer-cps-mtl -any,
+        x509 -any,
+        x509-store -any

@@ -1,0 +1,98 @@
+cabal-version: 1.12
+name:          kmydpfguoy-dmlditoywj-jbanrjbeln
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        CPP DeriveDataTypeable DeriveGeneric DerivingStrategies
+        EmptyDataDecls FlexibleContexts FlexibleInstances GADTs
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        NamedFieldPuns NoImplicitPrelude NoMonomorphismRestriction
+        OverloadedStrings PackageImports QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeFamilies ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        exceptions -any,
+        file-path-th -any,
+        http-client-tls -any,
+        http-types -any,
+        lens -any,
+        mmorph -any,
+        monad-control -any,
+        monad-logger -any,
+        network-uri -any,
+        persistent -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        persistent-template -any,
+        civunfdiag-tziozhaunn-zdkpvlcwwa -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        text -any,
+        time -any,
+        transformers-base -any,
+        unliftio-core -any,
+        unordered-containers -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any
+
+test-suite qvfnavpzka-gborhvjlpn-gjfivzasru
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        CPP DeriveDataTypeable DeriveGeneric DerivingStrategies
+        EmptyDataDecls FlexibleContexts FlexibleInstances GADTs
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        NamedFieldPuns NoImplicitPrelude NoMonomorphismRestriction
+        OverloadedStrings PackageImports QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeFamilies ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        aeson-qq -any,
+        base -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        kmydpfguoy-dmlditoywj-jbanrjbeln -any,
+        exceptions -any,
+        file-path-th -any,
+        http-client-tls -any,
+        http-types -any,
+        lens -any,
+        mmorph -any,
+        monad-control -any,
+        monad-logger -any,
+        network-uri -any,
+        persistent -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        persistent-template -any,
+        civunfdiag-tziozhaunn-zdkpvlcwwa -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        tasty -any,
+        tasty-hunit -any,
+        text -any,
+        time -any,
+        transformers-base -any,
+        unliftio-core -any,
+        unordered-containers -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any

@@ -1,0 +1,60 @@
+cabal-version: 1.12
+name:          xmwnpwaspa-ifrscictqx-naqfoptqaq
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        AllowAmbiguousTypes CPP ConstraintKinds DataKinds DefaultSignatures
+        DeriveDataTypeable DeriveGeneric DerivingStrategies DerivingVia
+        EmptyDataDecls FlexibleContexts FlexibleInstances
+        FunctionalDependencies GADTs GeneralizedNewtypeDeriving
+        InstanceSigs LambdaCase MultiParamTypeClasses MultiWayIf
+        NamedFieldPuns NoImplicitPrelude NoMonomorphismRestriction
+        OverloadedStrings PackageImports QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        aeson-better-errors -any,
+        aeson-diff -any,
+        aeson-pretty -any,
+        base -any,
+        base64-bytestring -any,
+        bytestring -any,
+        case-insensitive -any,
+        casing -any,
+        classy-prelude -any,
+        containers -any,
+        contravariant -any,
+        dlist -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        fgl -any,
+        generic-override -any,
+        generics-eot -any,
+        http-api-data -any,
+        http-media -any,
+        invariant -any,
+        lens -any,
+        lens-aeson -any,
+        mtl -any,
+        network-uri -any,
+        nonempty-containers -any,
+        pxmakzoxwb-fijzzixsga-gjuqhknsmw -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        text -any,
+        text-show -any,
+        time -any,
+        transformers -any,
+        unordered-containers -any,
+        uuid -any,
+        vector -any,
+        writer-cps-mtl -any

@@ -1,0 +1,38 @@
+cabal-version: 1.12
+name:          mbpugskatb-tiyjwpvxro-njveyigxha
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds LambdaCase NoImplicitPrelude ScopedTypeVariables
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        HUnit -any,
+        aeson -any,
+        aeson-pretty -any,
+        base -any,
+        bytestring -any,
+        containers -any,
+        exceptions -any,
+        hscolour -any,
+        hspec -any,
+        hspec-core -any,
+        hspec-expectations-pretty-diff -any,
+        monad-control -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        nicify-lib -any,
+        postgresql-tx -any,
+        rosebud -any,
+        servant-docs -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        taswpnhopu-fnmrhygmff-jzgushedcg -any,
+        temporary -any,
+        text -any,
+        time -any

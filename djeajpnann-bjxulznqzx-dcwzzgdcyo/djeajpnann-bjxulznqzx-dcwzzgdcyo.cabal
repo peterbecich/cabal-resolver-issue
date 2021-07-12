@@ -1,0 +1,16 @@
+cabal-version: 1.12
+name:          djeajpnann-bjxulznqzx-dcwzzgdcyo
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+executable gzjukxelmm-qoplmzypus-oacyadbwcs
+    main-is:          main.hs
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        base -any,
+        tzdnwycbfe-eedgfzqujz-vdbfcumwyt -any

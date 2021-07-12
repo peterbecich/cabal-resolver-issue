@@ -1,0 +1,30 @@
+cabal-version: 1.12
+name:          aqnjlfuwxk-ymqzgquqlr-vmgxdtndwx
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions: NoImplicitPrelude
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        base -any,
+        base64-bytestring -any,
+        binary -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        mdoykpipvg-mkkzuyqaxq-vjaxuxjyad -any,
+        jose-jwt -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        network-uri -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        servant -any,
+        servant-websockets -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        text -any,
+        time -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any

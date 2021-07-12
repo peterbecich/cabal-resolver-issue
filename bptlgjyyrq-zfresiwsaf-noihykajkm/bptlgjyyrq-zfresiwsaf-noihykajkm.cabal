@@ -1,0 +1,77 @@
+cabal-version: 1.12
+name:          bptlgjyyrq-zfresiwsaf-noihykajkm
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DeriveGeneric DerivingStrategies
+        EmptyDataDecls FlexibleContexts FlexibleInstances GADTs
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        NamedFieldPuns NoImplicitPrelude NoMonomorphismRestriction
+        OverloadedStrings QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeOperators
+        ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        file-embed -any,
+        file-path-th -any,
+        http-client -any,
+        nbpvxcqiih-kifutcfxel-yxbuxwaxvc -any,
+        network-uri -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        servant -any,
+        servant-client -any,
+        servant-server -any,
+        vulsdpompx-fiahihpbmu-tkeebysusq -any,
+        yaml -any
+
+executable fctunooctf-cudoqhrfhz-eonjrvtbvb
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DeriveGeneric DerivingStrategies
+        EmptyDataDecls FlexibleContexts FlexibleInstances GADTs
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        NamedFieldPuns NoImplicitPrelude NoMonomorphismRestriction
+        OverloadedStrings QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeOperators
+        ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        base -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        file-embed -any,
+        file-path-th -any,
+        hspec -any,
+        http-client -any,
+        nbpvxcqiih-kifutcfxel-yxbuxwaxvc -any,
+        network-uri -any,
+        bptlgjyyrq-zfresiwsaf-noihykajkm -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        servant -any,
+        servant-client -any,
+        servant-server -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        vulsdpompx-fiahihpbmu-tkeebysusq -any,
+        yaml -any

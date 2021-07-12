@@ -1,0 +1,156 @@
+cabal-version: 1.12
+name:          vhpkbpdaab-qgchccpiko-nbaihjjvlj
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        FlexibleInstances LambdaCase OverloadedStrings RankNTypes
+        TypeApplications TypeOperators TypeFamilies
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        attoparsec -any,
+        base -any,
+        bytestring -any,
+        conduit -any,
+        containers -any,
+        exceptions -any,
+        http-client -any,
+        http-media -any,
+        http-types -any,
+        insert-ordered-containers -any,
+        lens -any,
+        microlens -any,
+        mtl -any,
+        network-uri -any,
+        openapi3 -any,
+        resourcet -any,
+        servant -any,
+        servant-client -any,
+        servant-client-core -any,
+        servant-docs -any,
+        servant-openapi3 -any,
+        servant-server -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        stm -any,
+        streamly -any,
+        streamly-bytestring -any,
+        text -any,
+        text-manipulate -any,
+        time -any,
+        unordered-containers -any,
+        wai -any
+
+test-suite dtprjlsuum-oepgizqmge-heimmgrlok
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        FlexibleInstances LambdaCase OverloadedStrings RankNTypes
+        TypeApplications TypeOperators TypeFamilies
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        attoparsec -any,
+        base -any,
+        bytestring -any,
+        conduit -any,
+        containers -any,
+        exceptions -any,
+        hspec -any,
+        hspec-wai -any,
+        http-client -any,
+        http-media -any,
+        http-types -any,
+        insert-ordered-containers -any,
+        lens -any,
+        microlens -any,
+        mtl -any,
+        network-uri -any,
+        openapi3 -any,
+        resourcet -any,
+        servant -any,
+        servant-client -any,
+        servant-client-core -any,
+        servant-docs -any,
+        servant-openapi3 -any,
+        servant-server -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        stm -any,
+        streamly -any,
+        streamly-bytestring -any,
+        text -any,
+        text-manipulate -any,
+        time -any,
+        transformers -any,
+        unordered-containers -any,
+        wai -any,
+        wai-extra -any
+
+test-suite plzoxsrqzu-tprzpbrfvq-vsxcjmazit
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        FlexibleInstances LambdaCase OverloadedStrings RankNTypes
+        TypeApplications TypeOperators TypeFamilies
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        attoparsec -any,
+        base -any,
+        bytestring -any,
+        conduit -any,
+        containers -any,
+        exceptions -any,
+        hedgehog -any,
+        hspec -any,
+        hspec-hedgehog -any,
+        http-client -any,
+        http-media -any,
+        http-types -any,
+        insert-ordered-containers -any,
+        lens -any,
+        microlens -any,
+        mtl -any,
+        network-uri -any,
+        openapi3 -any,
+        resourcet -any,
+        servant -any,
+        servant-client -any,
+        servant-client-core -any,
+        servant-docs -any,
+        servant-openapi3 -any,
+        servant-server -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        stm -any,
+        streamly -any,
+        streamly-bytestring -any,
+        text -any,
+        text-manipulate -any,
+        time -any,
+        transformers -any,
+        unordered-containers -any,
+        wai -any

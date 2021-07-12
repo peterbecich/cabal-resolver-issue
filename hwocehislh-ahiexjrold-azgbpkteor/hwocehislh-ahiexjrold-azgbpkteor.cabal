@@ -1,0 +1,81 @@
+cabal-version: 1.12
+name:          hwocehislh-ahiexjrold-azgbpkteor
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        CPP ConstraintKinds DataKinds DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings PackageImports
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        base -any,
+        idgzpedoaf-dbfjwldocy-karcmrrnvw -any,
+        aicczlxqqo-zpjknbeumz-abqtjkcjjx -any,
+        ayqaodtiqr-lyoodcipiw-hvmfzfurzz -any,
+        ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
+        gtcvzcyrqh-fomvyfnmxq-bonfggbrvq -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        bulvlkdfna-dejoouyizu-hyaxeldtbf -any
+
+test-suite gciowvgfko-reyxltwdbm-odteqfftwo
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        CPP ConstraintKinds DataKinds DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings PackageImports
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        QuickCheck -any,
+        base -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        idgzpedoaf-dbfjwldocy-karcmrrnvw -any,
+        generic-random -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        wrsxalzuux-fkrmnzenbw-mlawexhwxe -any,
+        aicczlxqqo-zpjknbeumz-abqtjkcjjx -any,
+        ayqaodtiqr-lyoodcipiw-hvmfzfurzz -any,
+        monad-logger -any,
+        nonempty-containers -any,
+        fdxitgbslx-kusfamsfng-ctqbkqzlzf -any,
+        ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
+        hwocehislh-ahiexjrold-azgbpkteor -any,
+        uhdauwmvxd-nvcxoslsto-wmmmgnesij -any,
+        gtcvzcyrqh-fomvyfnmxq-bonfggbrvq -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        safe-exceptions -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        gcencghsrd-meylbcllzm-pxzhgfnhah -any,
+        bulvlkdfna-dejoouyizu-hyaxeldtbf -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        text -any,
+        time -any,
+        uuid-types -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any

@@ -1,0 +1,38 @@
+cabal-version: 1.12
+name:          eaanawwfrj-acdutlfxan-mvvlnkyckf
+version:       0.0.0.0
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions: NoImplicitPrelude OverloadedStrings OverloadedLabels
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        Interpolation -any,
+        aeson -any,
+        base >=4.7 && <5,
+        bytestring -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        text -any,
+        unordered-containers -any
+
+executable plwobmldtx-ozwsycvnlj-uwqdjmkdxs
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions: NoImplicitPrelude OverloadedStrings OverloadedLabels
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts -with-rtsopts=-N
+
+    build-depends:
+        Interpolation -any,
+        aeson -any,
+        base >=4.7 && <5,
+        bytestring -any,
+        eaanawwfrj-acdutlfxan-mvvlnkyckf -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        text -any,
+        unordered-containers -any

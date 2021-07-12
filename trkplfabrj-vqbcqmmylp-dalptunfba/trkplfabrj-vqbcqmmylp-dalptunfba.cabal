@@ -1,0 +1,193 @@
+cabal-version: 1.12
+name:          trkplfabrj-vqbcqmmylp-dalptunfba
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        CPP ConstraintKinds DataKinds DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings PackageImports
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        HaXml -any,
+        HaXml-simspace -any,
+        aeson -any,
+        async -any,
+        base -any,
+        bytestring -any,
+        dkqmdspphm-upsilnxisj-zafbrsprsq -any,
+        casing -any,
+        classy-prelude -any,
+        clock -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        composite-base -any,
+        conduit -any,
+        conduit-extra -any,
+        connection -any,
+        containers -any,
+        svjggidczx-klsmyehdey-hhszutopxk -any,
+        cryptonite -any,
+        ekg-core -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        exceptions -any,
+        fast-logger -any,
+        generic-lens -any,
+        http-client -any,
+        http-client-tls -any,
+        http-conduit -any,
+        http-types -any,
+        immortal -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        lens -any,
+        mmorph -any,
+        monad-control -any,
+        monad-logger -any,
+        mtl -any,
+        mwc-probability -any,
+        mwc-random -any,
+        network-uri -any,
+        nonempty-containers -any,
+        phfepeqnuu-tzcfeylnrk-wxkjpqaipk -any,
+        ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
+        nsx-client -any,
+        path-pieces -any,
+        persistent -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        postgresql-simple -any,
+        ysovwneqof-htzfreipkt-avvjcvvcdp -any,
+        luljacqjym-uleizmtdpg-voznuwnupa -any,
+        gtcvzcyrqh-fomvyfnmxq-bonfggbrvq -any,
+        lnbsavfifx-jvkkyhijuo-mwztyrysqo -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        resourcet -any,
+        servant-client-core -any,
+        servant-server -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        soap -any,
+        text -any,
+        text-show -any,
+        time -any,
+        transformers -any,
+        typed-process -any,
+        unliftio-core -any,
+        uuid -any,
+        vinyl -any,
+        vmware-bindings -any,
+        vmware-sdk -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        writer-cps-mtl -any,
+        xml-conduit -any,
+        xml-types -any
+
+test-suite hgpkbhxkvp-bjrmcvxnzw-jwnwbukydg
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        CPP ConstraintKinds DataKinds DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings PackageImports
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        HaXml -any,
+        HaXml-simspace -any,
+        aeson -any,
+        async -any,
+        base -any,
+        bytestring -any,
+        dkqmdspphm-upsilnxisj-zafbrsprsq -any,
+        casing -any,
+        classy-prelude -any,
+        clock -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        composite-base -any,
+        conduit -any,
+        conduit-extra -any,
+        connection -any,
+        containers -any,
+        svjggidczx-klsmyehdey-hhszutopxk -any,
+        cryptonite -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        ekg-core -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        exceptions -any,
+        fast-logger -any,
+        file-path-th -any,
+        generic-lens -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        http-client -any,
+        http-client-tls -any,
+        http-conduit -any,
+        http-types -any,
+        immortal -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        lens -any,
+        mmorph -any,
+        monad-control -any,
+        monad-logger -any,
+        mtl -any,
+        mwc-probability -any,
+        mwc-random -any,
+        network-uri -any,
+        nonempty-containers -any,
+        phfepeqnuu-tzcfeylnrk-wxkjpqaipk -any,
+        ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
+        nsx-client -any,
+        path-pieces -any,
+        persistent -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        postgresql-simple -any,
+        ysovwneqof-htzfreipkt-avvjcvvcdp -any,
+        luljacqjym-uleizmtdpg-voznuwnupa -any,
+        gtcvzcyrqh-fomvyfnmxq-bonfggbrvq -any,
+        lnbsavfifx-jvkkyhijuo-mwztyrysqo -any,
+        trkplfabrj-vqbcqmmylp-dalptunfba -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        resourcet -any,
+        servant-client-core -any,
+        servant-server -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        soap -any,
+        text -any,
+        text-show -any,
+        time -any,
+        transformers -any,
+        typed-process -any,
+        unliftio-core -any,
+        uuid -any,
+        vinyl -any,
+        vmware-bindings -any,
+        vmware-sdk -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        writer-cps-mtl -any,
+        xml-conduit -any,
+        xml-types -any

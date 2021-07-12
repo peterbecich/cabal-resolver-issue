@@ -1,0 +1,65 @@
+cabal-version: 1.12
+name:          ichjcyhicw-wzhlponhfw-znkokswool
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base -any,
+        bytestring -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        hspec-core -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        ibcsaqswoj-kghjffqrcb-fifltunohv -any,
+        optparse-applicative -any,
+        atgnezedgv-lbskucbixg-bdkbwtkusi -any,
+        postgresql-tx -any,
+        postgresql-tx-query -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        text -any,
+        uuid -any,
+        ojfbtzpcfi-apxmpdnheh-xufedojzlq -any,
+        yaml -any
+
+executable qzdgdoyaru-prtrdcrofn-yupyqmignf
+    main-is:          main.hs
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        base -any,
+        bytestring -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        hspec-core -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        ibcsaqswoj-kghjffqrcb-fifltunohv -any,
+        ichjcyhicw-wzhlponhfw-znkokswool -any,
+        optparse-applicative -any,
+        atgnezedgv-lbskucbixg-bdkbwtkusi -any,
+        postgresql-tx -any,
+        postgresql-tx-query -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        text -any,
+        uuid -any,
+        ojfbtzpcfi-apxmpdnheh-xufedojzlq -any,
+        yaml -any

@@ -1,0 +1,162 @@
+cabal-version: 3.0
+name:          othbhqjnul-tazoftxenx-flrjltywxr
+version:       0.0.0.0
+build-type:    Custom
+
+custom-setup
+    setup-depends:
+        base -any,
+        Cabal -any,
+        cabal-auto-expose -any
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        NoImplicitPrelude BlockArguments ConstraintKinds DataKinds
+        DeriveAnyClass DeriveGeneric DerivingStrategies DerivingVia
+        DuplicateRecordFields FlexibleContexts FlexibleInstances
+        GeneralizedNewtypeDeriving KindSignatures LambdaCase
+        MultiParamTypeClasses NamedFieldPuns OverloadedStrings QuasiQuotes
+        RankNTypes RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        avaleryar -any,
+        base -any,
+        binary -any,
+        bytestring -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        directory -any,
+        dlist -any,
+        exceptions -any,
+        filepath -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        mtl -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        ibcsaqswoj-kghjffqrcb-fifltunohv -any,
+        postgresql-query -any,
+        postgresql-simple -any,
+        postgresql-tx -any,
+        postgresql-tx-monad-logger -any,
+        postgresql-tx-query -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        text -any,
+        uuid -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        wl-pprint-text -any,
+        writer-cps-mtl -any
+
+executable hzaylsovlm-lwlqadgubf-gvtjgioymy
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        NoImplicitPrelude BlockArguments ConstraintKinds DataKinds
+        DeriveAnyClass DeriveGeneric DerivingStrategies DerivingVia
+        DuplicateRecordFields FlexibleContexts FlexibleInstances
+        GeneralizedNewtypeDeriving KindSignatures LambdaCase
+        MultiParamTypeClasses NamedFieldPuns OverloadedStrings QuasiQuotes
+        RankNTypes RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        avaleryar -any,
+        base -any,
+        binary -any,
+        bytestring -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        directory -any,
+        dlist -any,
+        exceptions -any,
+        filepath -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        mtl -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        ibcsaqswoj-kghjffqrcb-fifltunohv -any,
+        postgresql-query -any,
+        postgresql-simple -any,
+        postgresql-tx -any,
+        postgresql-tx-monad-logger -any,
+        postgresql-tx-query -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        text -any,
+        uuid -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        wl-pprint-text -any,
+        writer-cps-mtl -any,
+        avaleryar-repl -any,
+        optparse-applicative -any,
+        othbhqjnul-tazoftxenx-flrjltywxr -any
+
+test-suite tevgxkrgzj-bcniddnlpu-gzddotypkp
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        NoImplicitPrelude BlockArguments ConstraintKinds DataKinds
+        DeriveAnyClass DeriveGeneric DerivingStrategies DerivingVia
+        DuplicateRecordFields FlexibleContexts FlexibleInstances
+        GeneralizedNewtypeDeriving KindSignatures LambdaCase
+        MultiParamTypeClasses NamedFieldPuns OverloadedStrings QuasiQuotes
+        RankNTypes RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        avaleryar -any,
+        base -any,
+        binary -any,
+        bytestring -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        directory -any,
+        dlist -any,
+        exceptions -any,
+        filepath -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        mtl -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        ibcsaqswoj-kghjffqrcb-fifltunohv -any,
+        postgresql-query -any,
+        postgresql-simple -any,
+        postgresql-tx -any,
+        postgresql-tx-monad-logger -any,
+        postgresql-tx-query -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        text -any,
+        uuid -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        wl-pprint-text -any,
+        writer-cps-mtl -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        file-path-th -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        wrsxalzuux-fkrmnzenbw-mlawexhwxe -any,
+        boardlbhyl-fwkrjpkdjj-uanqxbjouz -any,
+        QuickCheck -any,
+        othbhqjnul-tazoftxenx-flrjltywxr -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        transformers-base -any,
+        ojfbtzpcfi-apxmpdnheh-xufedojzlq -any

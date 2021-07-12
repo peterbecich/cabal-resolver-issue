@@ -1,0 +1,128 @@
+cabal-version: 1.12
+name:          pxtkkfktom-ixtvvmcwub-fbsbtnbddu
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments ConstraintKinds DataKinds DeriveAnyClass
+        DeriveDataTypeable DeriveGeneric DerivingStrategies DerivingVia
+        DuplicateRecordFields EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction NumericUnderscores OverloadedLabels
+        OverloadedStrings PackageImports PartialTypeSignatures
+        QuantifiedConstraints QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TupleSections
+        TypeApplications TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -optP-Wno-nonportable-include-path
+
+    build-depends:
+        aeson -any,
+        aeson-pretty -any,
+        array -any,
+        base -any,
+        bytestring -any,
+        containers -any,
+        directory -any,
+        dlist -any,
+        filepath -any,
+        generic-lens -any,
+        ghc-prim -any,
+        hasql -any,
+        ki -any,
+        lens -any,
+        mmorph -any,
+        mtl -any,
+        network -any,
+        optparse-applicative -any,
+        pipes -any,
+        port-utils -any,
+        postgres-options -any,
+        postgresql-simple -any,
+        process -any,
+        safe-exceptions -any,
+        say -any,
+        serialise -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        stm -any,
+        template-haskell -any,
+        temporary -any,
+        text -any,
+        text-ansi -any,
+        these -any,
+        time -any,
+        tmp-postgres -any,
+        unix -any,
+        unordered-containers -any,
+        uuid -any,
+        vector -any
+
+executable wmyklhyuid-kdpqkvlojm-wjzzrnbliq
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments ConstraintKinds DataKinds DeriveAnyClass
+        DeriveDataTypeable DeriveGeneric DerivingStrategies DerivingVia
+        DuplicateRecordFields EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction NumericUnderscores OverloadedLabels
+        OverloadedStrings PackageImports PartialTypeSignatures
+        QuantifiedConstraints QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TupleSections
+        TypeApplications TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -optP-Wno-nonportable-include-path -threaded -O
+        -with-rtsopts=-N
+
+    build-depends:
+        aeson -any,
+        aeson-pretty -any,
+        array -any,
+        base -any,
+        bytestring -any,
+        containers -any,
+        directory -any,
+        dlist -any,
+        filepath -any,
+        pxtkkfktom-ixtvvmcwub-fbsbtnbddu -any,
+        generic-lens -any,
+        ghc-prim -any,
+        hasql -any,
+        ki -any,
+        lens -any,
+        mmorph -any,
+        mtl -any,
+        network -any,
+        optparse-applicative -any,
+        pipes -any,
+        port-utils -any,
+        postgres-options -any,
+        postgresql-simple -any,
+        process -any,
+        safe-exceptions -any,
+        say -any,
+        serialise -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        stm -any,
+        template-haskell -any,
+        temporary -any,
+        text -any,
+        text-ansi -any,
+        these -any,
+        time -any,
+        tmp-postgres -any,
+        unix -any,
+        unordered-containers -any,
+        uuid -any,
+        vector -any
