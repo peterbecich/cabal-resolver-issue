@@ -1,0 +1,85 @@
+cabal-version: 1.12
+name:          jcfinelkzr-qctedwphye-ssbamdyxuz
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments ConstraintKinds DataKinds DeriveAnyClass
+        DeriveGeneric DerivingStrategies DerivingVia DuplicateRecordFields
+        FlexibleContexts FlexibleInstances GeneralizedNewtypeDeriving
+        KindSignatures LambdaCase MultiParamTypeClasses NamedFieldPuns
+        NoImplicitPrelude OverloadedStrings QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        avaleryar -any,
+        base -any,
+        containers -any,
+        uslahbwpjb-vdtqwxhxnj-hiqltqwrnx -any,
+        bitzgjembd-vaymfjlvqk-iuthenagvi -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        mtl -any,
+        postgresql-query -any,
+        postgresql-simple -any,
+        postgresql-tx -any,
+        postgresql-tx-query -any,
+        othbhqjnul-tazoftxenx-flrjltywxr -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        text -any
+
+test-suite nyzkogwepq-emitaefmgx-cogabihhgp
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments ConstraintKinds DataKinds DeriveAnyClass
+        DeriveGeneric DerivingStrategies DerivingVia DuplicateRecordFields
+        FlexibleContexts FlexibleInstances GeneralizedNewtypeDeriving
+        KindSignatures LambdaCase MultiParamTypeClasses NamedFieldPuns
+        NoImplicitPrelude OverloadedStrings QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        avaleryar -any,
+        base -any,
+        containers -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        jcfinelkzr-qctedwphye-ssbamdyxuz -any,
+        uslahbwpjb-vdtqwxhxnj-hiqltqwrnx -any,
+        bitzgjembd-vaymfjlvqk-iuthenagvi -any,
+        traedgtejy-dxdtlzbjko-kicveovpzi -any,
+        file-path-th -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        wrsxalzuux-fkrmnzenbw-mlawexhwxe -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        mtl -any,
+        postgresql-query -any,
+        postgresql-simple -any,
+        postgresql-tx -any,
+        postgresql-tx-query -any,
+        othbhqjnul-tazoftxenx-flrjltywxr -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        text -any,
+        time -any,
+        ojfbtzpcfi-apxmpdnheh-xufedojzlq -any

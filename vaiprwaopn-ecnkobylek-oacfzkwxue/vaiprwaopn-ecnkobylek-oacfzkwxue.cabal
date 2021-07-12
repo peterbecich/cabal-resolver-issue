@@ -1,0 +1,162 @@
+cabal-version: 1.12
+name:          vaiprwaopn-ecnkobylek-oacfzkwxue
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedLabels OverloadedStrings
+        PackageImports QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeOperators
+        ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        aeson-qq -any,
+        base -any,
+        bytestring -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        toqjmgsrfv-nouqirkvuc-ubtevxrbsz -any,
+        exceptions -any,
+        generic-lens -any,
+        generics-sop -any,
+        hspec -any,
+        hspec-expectations -any,
+        http-client -any,
+        interpolate -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        wrsxalzuux-fkrmnzenbw-mlawexhwxe -any,
+        ayqaodtiqr-lyoodcipiw-hvmfzfurzz -any,
+        lens -any,
+        monad-control -any,
+        monad-logger -any,
+        mtl -any,
+        persistent -any,
+        persistent-postgresql -any,
+        persistent-qq -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        postgresql-simple -any,
+        icjwsujuik-dxgvtezivw-xkzrtwpdfq -any,
+        random -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        refined -any,
+        servant-client -any,
+        servant-server -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        tbccaljfec-jlsockgxxr-aapixuyltq -any,
+        qvrbmctarr-jdixlpvffc-xosbzozjui -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        sop-core -any,
+        squeal-postgresql -any,
+        squeal-postgresql-ltree -any,
+        streamly -any,
+        text -any,
+        time -any,
+        unliftio -any,
+        unordered-containers -any,
+        uuid -any,
+        vector -any,
+        wai -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        ojfbtzpcfi-apxmpdnheh-xufedojzlq -any,
+        warp -any
+
+test-suite yhxwaadchn-yocgmkykmj-hpcprmivml
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedLabels OverloadedStrings
+        PackageImports QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeOperators
+        ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        aeson-qq -any,
+        base -any,
+        bytestring -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        toqjmgsrfv-nouqirkvuc-ubtevxrbsz -any,
+        exceptions -any,
+        generic-lens -any,
+        generics-sop -any,
+        hspec -any,
+        hspec-expectations -any,
+        http-client -any,
+        interpolate -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        wrsxalzuux-fkrmnzenbw-mlawexhwxe -any,
+        ayqaodtiqr-lyoodcipiw-hvmfzfurzz -any,
+        lens -any,
+        monad-control -any,
+        monad-logger -any,
+        mtl -any,
+        persistent -any,
+        persistent-postgresql -any,
+        persistent-qq -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        postgresql-simple -any,
+        icjwsujuik-dxgvtezivw-xkzrtwpdfq -any,
+        random -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        refined -any,
+        servant-client -any,
+        servant-server -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        tbccaljfec-jlsockgxxr-aapixuyltq -any,
+        qvrbmctarr-jdixlpvffc-xosbzozjui -any,
+        vaiprwaopn-ecnkobylek-oacfzkwxue -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        sop-core -any,
+        squeal-postgresql -any,
+        squeal-postgresql-ltree -any,
+        streamly -any,
+        text -any,
+        time -any,
+        unliftio -any,
+        unordered-containers -any,
+        uuid -any,
+        vector -any,
+        wai -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        ojfbtzpcfi-apxmpdnheh-xufedojzlq -any,
+        warp -any

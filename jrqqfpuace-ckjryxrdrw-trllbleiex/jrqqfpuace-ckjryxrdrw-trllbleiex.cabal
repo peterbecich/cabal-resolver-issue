@@ -1,0 +1,112 @@
+cabal-version: 1.12
+name:          jrqqfpuace-ckjryxrdrw-trllbleiex
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments ConstraintKinds DataKinds DeriveAnyClass
+        DeriveGeneric DerivingStrategies DerivingVia DuplicateRecordFields
+        FlexibleContexts FlexibleInstances GeneralizedNewtypeDeriving
+        KindSignatures LambdaCase MultiParamTypeClasses NamedFieldPuns
+        NoImplicitPrelude OverloadedStrings QuasiQuotes RankNTypes
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        aeson-better-errors -any,
+        zvxosjlaim-rilcnymlpm-zokgocnrdo -any,
+        base -any,
+        vghsvugwnc-sobhsxydmt-hbfuxwixxn -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        data-interval -any,
+        uslahbwpjb-vdtqwxhxnj-hiqltqwrnx -any,
+        filepath -any,
+        generic-override -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        nonempty-containers -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        rontohsvqd-kzkpimemzd-odglltphce -any,
+        civunfdiag-tziozhaunn-zdkpvlcwwa -any,
+        servant -any,
+        servant-multipart -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        text -any,
+        text-show -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        uuid -any,
+        vector -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any
+
+test-suite ebnvmntjum-ydnhqrjcnk-dqwhhdeepb
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments ConstraintKinds DataKinds DeriveAnyClass
+        DeriveGeneric DerivingStrategies DerivingVia DuplicateRecordFields
+        FlexibleContexts FlexibleInstances GeneralizedNewtypeDeriving
+        KindSignatures LambdaCase MultiParamTypeClasses NamedFieldPuns
+        NoImplicitPrelude OverloadedStrings QuasiQuotes RankNTypes
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        aeson-better-errors -any,
+        aeson-qq -any,
+        zvxosjlaim-rilcnymlpm-zokgocnrdo -any,
+        base -any,
+        vghsvugwnc-sobhsxydmt-hbfuxwixxn -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        data-interval -any,
+        uslahbwpjb-vdtqwxhxnj-hiqltqwrnx -any,
+        traedgtejy-dxdtlzbjko-kicveovpzi -any,
+        filepath -any,
+        generic-override -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        http-media -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        network-uri -any,
+        nonempty-containers -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        jrqqfpuace-ckjryxrdrw-trllbleiex -any,
+        rontohsvqd-kzkpimemzd-odglltphce -any,
+        etlyrgxsia-bttjzmnkkc-ggszlfphiz -any,
+        civunfdiag-tziozhaunn-zdkpvlcwwa -any,
+        servant -any,
+        servant-multipart -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        gcencghsrd-meylbcllzm-pxzhgfnhah -any,
+        cimzacikqn-syzmmnqrci-udyctttsxo -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        text -any,
+        text-show -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        uuid -any,
+        vector -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any

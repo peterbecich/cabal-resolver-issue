@@ -1,0 +1,146 @@
+cabal-version: 1.12
+name:          jwjkdfxmsk-aqlvhafber-mgjybvzgea
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        AllowAmbiguousTypes BlockArguments DataKinds DeriveGeneric
+        DerivingStrategies DerivingVia FlexibleContexts LambdaCase
+        NamedFieldPuns NoImplicitPrelude OverloadedStrings RankNTypes
+        RecordWildCards ScopedTypeVariables TypeApplications TypeFamilies
+        TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        rytzenhuwi-ifmlrhcceo-gawhrxxqam -any,
+        attoparsec -any,
+        base -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        qivxmeiywc-jecrjyijco-tprliqfsfi -any,
+        context -any,
+        generic-override -any,
+        generic-override-aeson -any,
+        http-client -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        mtl -any,
+        network-uri -any,
+        xbzyruovta-rnmmmtmvhp-fwuvrkmhuu -any,
+        ufcseumbsb-onvrgktxnv-rttptmphfp -any,
+        postgresql-simple -any,
+        civunfdiag-tziozhaunn-zdkpvlcwwa -any,
+        jzkwdkcfrm-edzuwumizr-rgnvciqrvk -any,
+        servant-server -any,
+        glihvutyjc-vljgwvnbeu-acqhevrzxx -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        apgymziwpt-hfuoxfazde-mduxjobqdb -any,
+        axwjpkrvbz-tjiqqivkjb-vdcyriwmgb -any,
+        text -any,
+        time -any,
+        uuid -any,
+        variadic -any
+
+executable epsyraewpu-tyvleiswfx-kahmfuighe
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        AllowAmbiguousTypes BlockArguments DataKinds DeriveGeneric
+        DerivingStrategies DerivingVia FlexibleContexts LambdaCase
+        NamedFieldPuns NoImplicitPrelude OverloadedStrings RankNTypes
+        RecordWildCards ScopedTypeVariables TypeApplications TypeFamilies
+        TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        rytzenhuwi-ifmlrhcceo-gawhrxxqam -any,
+        attoparsec -any,
+        base -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        qivxmeiywc-jecrjyijco-tprliqfsfi -any,
+        context -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        generic-override -any,
+        generic-override-aeson -any,
+        http-client -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        sjywzbvzez-scteewdihq-qamzizyjfw -any,
+        mtl -any,
+        network-uri -any,
+        xbzyruovta-rnmmmtmvhp-fwuvrkmhuu -any,
+        ufcseumbsb-onvrgktxnv-rttptmphfp -any,
+        jwjkdfxmsk-aqlvhafber-mgjybvzgea -any,
+        postgresql-simple -any,
+        civunfdiag-tziozhaunn-zdkpvlcwwa -any,
+        jzkwdkcfrm-edzuwumizr-rgnvciqrvk -any,
+        servant-server -any,
+        glihvutyjc-vljgwvnbeu-acqhevrzxx -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        apgymziwpt-hfuoxfazde-mduxjobqdb -any,
+        axwjpkrvbz-tjiqqivkjb-vdcyriwmgb -any,
+        text -any,
+        time -any,
+        uuid -any,
+        variadic -any,
+        warp -any
+
+test-suite ypopfsmnaa-ykiibfyknd-vmvfooqcwy
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        AllowAmbiguousTypes BlockArguments DataKinds DeriveGeneric
+        DerivingStrategies DerivingVia FlexibleContexts LambdaCase
+        NamedFieldPuns NoImplicitPrelude OverloadedStrings RankNTypes
+        RecordWildCards ScopedTypeVariables TypeApplications TypeFamilies
+        TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        rytzenhuwi-ifmlrhcceo-gawhrxxqam -any,
+        attoparsec -any,
+        base -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        qivxmeiywc-jecrjyijco-tprliqfsfi -any,
+        context -any,
+        generic-override -any,
+        generic-override-aeson -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        http-client -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        mtl -any,
+        network-uri -any,
+        xbzyruovta-rnmmmtmvhp-fwuvrkmhuu -any,
+        ufcseumbsb-onvrgktxnv-rttptmphfp -any,
+        jwjkdfxmsk-aqlvhafber-mgjybvzgea -any,
+        postgresql-simple -any,
+        civunfdiag-tziozhaunn-zdkpvlcwwa -any,
+        jzkwdkcfrm-edzuwumizr-rgnvciqrvk -any,
+        servant-server -any,
+        glihvutyjc-vljgwvnbeu-acqhevrzxx -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        apgymziwpt-hfuoxfazde-mduxjobqdb -any,
+        axwjpkrvbz-tjiqqivkjb-vdcyriwmgb -any,
+        text -any,
+        time -any,
+        uuid -any,
+        variadic -any

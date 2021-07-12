@@ -1,0 +1,73 @@
+cabal-version: 1.12
+name:          xetwqvgmww-woaeagiyhy-xenoupdlax
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        CPP ConstraintKinds DataKinds DeriveDataTypeable DeriveGeneric
+        DerivingStrategies EmptyDataDecls FlexibleContexts
+        FlexibleInstances GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TypeApplications TemplateHaskell TupleSections TypeFamilies
+        ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -freduction-depth=500
+
+    build-depends:      base -any
+
+test-suite amrprfcbcw-ejekskcmvi-ajvfmrlksc
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        CPP ConstraintKinds DataKinds DeriveDataTypeable DeriveGeneric
+        DerivingStrategies EmptyDataDecls FlexibleContexts
+        FlexibleInstances GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TypeApplications TemplateHaskell TupleSections TypeFamilies
+        ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -freduction-depth=500 -threaded -rtsopts
+        "-with-rtsopts=-N -T"
+
+    build-depends:
+        QuickCheck -any,
+        base -any,
+        bitwise -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        lens -any,
+        monad-logger -any,
+        mtl -any,
+        persistent -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        ysovwneqof-htzfreipkt-avvjcvvcdp -any,
+        yjkwuakvbb-kyyojbhxic-bekeuwketn -any,
+        luljacqjym-uleizmtdpg-voznuwnupa -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        mgocxjmugg-szydfszzpd-rcfzbgiwzv -any,
+        refined -any,
+        rontohsvqd-kzkpimemzd-odglltphce -any,
+        etnxirubqy-dvsnrbmtbe-wwlkbvjnsk -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        tasty -any,
+        tasty-hspec -any,
+        tasty-hunit -any,
+        tasty-quickcheck -any,
+        tasty-rerun -any,
+        text -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any

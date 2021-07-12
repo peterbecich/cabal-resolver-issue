@@ -1,0 +1,40 @@
+cabal-version: 1.12
+name:          jyikfaivsc-mhchvgdmxv-qdqsrsnxmt
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds FlexibleContexts FlexibleInstances
+        LambdaCase NoImplicitPrelude OverloadedStrings RecordWildCards
+        TemplateHaskell TupleSections
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        QuickCheck -any,
+        aeson -any,
+        aeson-pretty -any,
+        base -any,
+        bytestring -any,
+        containers -any,
+        data-default -any,
+        directory -any,
+        file-embed -any,
+        file-path-th -any,
+        filepath -any,
+        hspec -any,
+        lens -any,
+        openapi3 -any,
+        pandoc -any,
+        servant -any,
+        servant-docs -any,
+        servant-openapi3 -any,
+        servant-pandoc -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        text -any

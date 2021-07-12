@@ -1,0 +1,35 @@
+cabal-version: 1.12
+name:          traedgtejy-dxdtlzbjko-kicveovpzi
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments ConstraintKinds DataKinds DeriveAnyClass
+        DeriveGeneric DerivingStrategies DerivingVia DuplicateRecordFields
+        FlexibleContexts FlexibleInstances GeneralizedNewtypeDeriving
+        KindSignatures LambdaCase MultiParamTypeClasses NamedFieldPuns
+        NoImplicitPrelude OverloadedStrings QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        aeson-pretty -any,
+        base -any,
+        bytestring -any,
+        containers -any,
+        uslahbwpjb-vdtqwxhxnj-hiqltqwrnx -any,
+        http-media -any,
+        nonempty-containers -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        text -any,
+        time -any,
+        uuid -any

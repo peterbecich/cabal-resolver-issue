@@ -1,0 +1,63 @@
+cabal-version: 1.12
+name:          aicczlxqqo-zpjknbeumz-abqtjkcjjx
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        async -any,
+        base -any,
+        bytestring -any,
+        file-embed -any,
+        immortal -any,
+        xwcfdydvlh-vojeneytpf-dmrwfoeouv -any,
+        esjvmxceqv-jrjkdrvbgn-qfyvudaund -any,
+        monad-logger -any,
+        nonempty-containers -any,
+        ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
+        safe-exceptions -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        stm -any,
+        text -any,
+        time -any,
+        yaml -any
+
+test-suite hymkadksge-cwcqawqkef-fvnntbhqzt
+    type:             exitcode-stdio-1.0
+    main-is:          main.hs
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        async -any,
+        base -any,
+        bytestring -any,
+        file-embed -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        immortal -any,
+        xwcfdydvlh-vojeneytpf-dmrwfoeouv -any,
+        esjvmxceqv-jrjkdrvbgn-qfyvudaund -any,
+        aicczlxqqo-zpjknbeumz-abqtjkcjjx -any,
+        monad-logger -any,
+        nonempty-containers -any,
+        ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
+        safe-exceptions -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        stm -any,
+        text -any,
+        time -any,
+        yaml -any

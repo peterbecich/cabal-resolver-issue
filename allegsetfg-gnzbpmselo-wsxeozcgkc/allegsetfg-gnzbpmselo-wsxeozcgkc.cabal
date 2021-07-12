@@ -1,0 +1,87 @@
+cabal-version: 1.12
+name:          allegsetfg-gnzbpmselo-wsxeozcgkc
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        ApplicativeDo ConstraintKinds DeriveGeneric DataKinds
+        DeriveDataTypeable DerivingStrategies DerivingVia EmptyDataDecls
+        FlexibleContexts FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedLabels OverloadedStrings
+        PartialTypeSignatures QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeFamilyDependencies
+        TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        base -any,
+        network -any,
+        optparse-applicative -any,
+        text -any,
+        time -any
+
+executable hbfbjwsuyf-zhlggsagkx-xvzycmbuoj
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        ApplicativeDo ConstraintKinds DeriveGeneric DataKinds
+        DeriveDataTypeable DerivingStrategies DerivingVia EmptyDataDecls
+        FlexibleContexts FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedLabels OverloadedStrings
+        PartialTypeSignatures QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeFamilyDependencies
+        TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        base -any,
+        network -any,
+        optparse-applicative -any,
+        allegsetfg-gnzbpmselo-wsxeozcgkc -any,
+        text -any,
+        time -any
+
+test-suite cdcsmdcxcy-egaiurfwfg-oqigbvyhsl
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        ApplicativeDo ConstraintKinds DeriveGeneric DataKinds
+        DeriveDataTypeable DerivingStrategies DerivingVia EmptyDataDecls
+        FlexibleContexts FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedLabels OverloadedStrings
+        PartialTypeSignatures QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeFamilyDependencies
+        TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        base -any,
+        hspec -any,
+        hspec-expectations -any,
+        network -any,
+        optparse-applicative -any,
+        allegsetfg-gnzbpmselo-wsxeozcgkc -any,
+        text -any,
+        time -any

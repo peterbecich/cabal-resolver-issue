@@ -1,0 +1,99 @@
+cabal-version: 3.0
+name:          xtwihehity-ujcjqxvexa-mtrhiynzie
+version:       0.0.0.0
+build-type:    Custom
+
+custom-setup
+    setup-depends:
+        base -any,
+        Cabal -any,
+        cabal-auto-expose -any
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        NoImplicitPrelude DeriveAnyClass DeriveGeneric DerivingStrategies
+        FlexibleInstances GeneralizedNewtypeDeriving LambdaCase
+        NamedFieldPuns OverloadedStrings RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TypeApplications
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        aeson-casing -any,
+        base -any,
+        casing -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        exceptions -any,
+        http-client -any,
+        mtl -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        ibcsaqswoj-kghjffqrcb-fifltunohv -any,
+        network-uri -any,
+        nonempty-containers -any,
+        servant -any,
+        servant-client -any,
+        jzkwdkcfrm-edzuwumizr-rgnvciqrvk -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        text -any,
+        transformers -any,
+        vulsdpompx-fiahihpbmu-tkeebysusq -any,
+        uuid -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any
+
+test-suite hfrbeblhyq-uzvnnyzuyu-jcpbhpckxx
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        NoImplicitPrelude DeriveAnyClass DeriveGeneric DerivingStrategies
+        FlexibleInstances GeneralizedNewtypeDeriving LambdaCase
+        NamedFieldPuns OverloadedStrings RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TypeApplications
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        aeson-casing -any,
+        base -any,
+        casing -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        exceptions -any,
+        http-client -any,
+        mtl -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        ibcsaqswoj-kghjffqrcb-fifltunohv -any,
+        network-uri -any,
+        nonempty-containers -any,
+        servant -any,
+        servant-client -any,
+        jzkwdkcfrm-edzuwumizr-rgnvciqrvk -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        text -any,
+        transformers -any,
+        vulsdpompx-fiahihpbmu-tkeebysusq -any,
+        uuid -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        bytestring -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        xtwihehity-ujcjqxvexa-mtrhiynzie -any,
+        wnnqxxyjlv-fofbbgzfpm-cdfgfjnzud -any,
+        boardlbhyl-fwkrjpkdjj-uanqxbjouz -any,
+        postgresql-query -any,
+        postgresql-simple -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        ojfbtzpcfi-apxmpdnheh-xufedojzlq -any,
+        warp -any

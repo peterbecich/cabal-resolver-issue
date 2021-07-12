@@ -1,0 +1,41 @@
+cabal-version: 1.12
+name:          yghknvsgcz-tmltxosgbz-vzbmxaaypc
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base -any,
+        bytestring -any,
+        file-embed -any,
+        sgvkleouab-fcrennpwqn-vqnmpcxqyw -any,
+        jnorbguptn-dzaygmoajz-wszsbnnhpg -any,
+        yaml -any
+
+test-suite uefxoznlqr-rnuuupfojd-tnalwdmsfc
+    type:             exitcode-stdio-1.0
+    main-is:          main.hs
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        base -any,
+        bytestring -any,
+        file-embed -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        yghknvsgcz-tmltxosgbz-vzbmxaaypc -any,
+        sgvkleouab-fcrennpwqn-vqnmpcxqyw -any,
+        jnorbguptn-dzaygmoajz-wszsbnnhpg -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        yaml -any

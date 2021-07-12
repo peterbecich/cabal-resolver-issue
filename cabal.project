@@ -1,1 +1,222 @@
 packages: */*.cabal
+
+source-repository-package
+    type: git
+    location: https://github.com/Simspace/laws
+    tag: 8d5340bbc96c90ffc7094ed9a5a1aaf59fbd911c
+    --sha256: 020frqjx9q3105cz83is6dgxpfy4z47fsm320qym73iq2n5z64nh
+source-repository-package
+    type: git
+    location: https://github.com/Simspace/tasty-dumbcheck
+    tag: a02abdecd41e69caec85515045d976ffba3fc1b6
+    --sha256: 12b9pl6cvwg4dx1f2hrasb4b9s825w5x7pr4phdjc770sc8nj0km
+source-repository-package
+    type: git
+    location: https://github.com/Simspace/tasty-laws
+    tag: 70abf60f8559a53dea2289e7f3048117b91ef31b
+    --sha256: 1x2mkl8pmpick8z4nxsfvc92riw3vglfc7115j230b9vc8iicbjj
+
+source-repository-package
+    type: git
+    location: https://github.com/Simspace/on-error
+    tag: d9923c56ad16093a6bff844114d18a312ba833a5
+    --sha256: 0z1mh5da7l802flqn3kl4i6jvknywl74z2fvn374akmaf795af8g
+
+source-repository-package
+    type: git
+    location: https://github.com/Simspace/HaXml
+    tag: 8d0f5f4fc2a2d78ea7015b9331d7be350cd138f3
+    --sha256: 1xvn9cla9dryvwb423p7igy0y573gkxdwvdp8vn7wv70ibr4bdm2
+
+source-repository-package
+    type: git
+    location: git@github.com:Simspace/HaXml-simspace.git
+    tag: 7ce39144651ff45289f32eb805171e1c5336c284
+
+source-repository-package
+    type: git
+    location: https://github.com/morphismtech/squeal
+    tag: f25c3052bcecebe5e88ee95143c4ae446c24ca85
+    --sha256: 1lc7la2v4dgzf62y5wvhvsgkfbavi7cdansmkvs8fjsyglyvgsqm
+    subdir: squeal-postgresql
+source-repository-package
+    type: git
+    location: https://github.com/morphismtech/squeal
+    tag: f25c3052bcecebe5e88ee95143c4ae446c24ca85
+    --sha256: 1lc7la2v4dgzf62y5wvhvsgkfbavi7cdansmkvs8fjsyglyvgsqm
+    subdir: squeal-postgresql-ltree
+source-repository-package
+    type: git
+    location: https://github.com/morphismtech/squeal
+    tag: f25c3052bcecebe5e88ee95143c4ae446c24ca85
+    --sha256: 1lc7la2v4dgzf62y5wvhvsgkfbavi7cdansmkvs8fjsyglyvgsqm
+    subdir: squeal-postgresql-uuid-ossp
+
+source-repository-package
+    type: git
+    location: git@github.com:SimSpace/servant-pandoc
+    tag: 9f814b20cef51549b56bfa57d3a287f653245096
+
+source-repository-package
+    type: git
+    location: https://github.com/Simspace/servant-ekg
+    tag: e05c471c62891156c5f1abbc6d739ec236562310
+    --sha256: 0xiwfiwl3jc5i0b7zvdk1bckc7ag930gbgihqwmcqx1fkib26581
+
+source-repository-package
+    type: git
+    location: https://github.com/Simspace/amazonka
+    tag: 1c55a67cd159da204403aab8c8364fc964333997
+    --sha256: 108903xx95jka54cj29yb8rmm3jw199xps6l3474fgdsbmz43cbx
+    subdir: amazonka
+source-repository-package
+    type: git
+    location: https://github.com/Simspace/amazonka
+    tag: 1c55a67cd159da204403aab8c8364fc964333997
+    --sha256: 108903xx95jka54cj29yb8rmm3jw199xps6l3474fgdsbmz43cbx
+    subdir: amazonka-s3
+source-repository-package
+    type: git
+    location: https://github.com/Simspace/amazonka
+    tag: 1c55a67cd159da204403aab8c8364fc964333997
+    --sha256: 108903xx95jka54cj29yb8rmm3jw199xps6l3474fgdsbmz43cbx
+    subdir: core
+
+source-repository-package
+    type: git
+    location: https://github.com/Simspace/servant-websockets
+    tag: a7dd56ebd36133effb85f6b7eeaba2b8dedf0cf9
+    --sha256: 1n3vrpqv7wlajdl60lnr0q7ldfh19skchj1r3d9y5k5x5vvbiqm5
+    subdir: core
+source-repository-package
+    type: git
+    location: https://github.com/Simspace/servant-websockets
+    tag: a7dd56ebd36133effb85f6b7eeaba2b8dedf0cf9
+    --sha256: 1n3vrpqv7wlajdl60lnr0q7ldfh19skchj1r3d9y5k5x5vvbiqm5
+    subdir: client
+source-repository-package
+    type: git
+    location: https://github.com/Simspace/servant-websockets
+    tag: a7dd56ebd36133effb85f6b7eeaba2b8dedf0cf9
+    --sha256: 1n3vrpqv7wlajdl60lnr0q7ldfh19skchj1r3d9y5k5x5vvbiqm5
+    subdir: docs
+source-repository-package
+    type: git
+    location: https://github.com/Simspace/servant-websockets
+    tag: a7dd56ebd36133effb85f6b7eeaba2b8dedf0cf9
+    --sha256: 1n3vrpqv7wlajdl60lnr0q7ldfh19skchj1r3d9y5k5x5vvbiqm5
+    subdir: server
+
+source-repository-package
+    type: git
+    location: https://github.com/iand675/uri-templater
+    tag: ff5e62f40323c91108dd08b5426a7f093004fafa
+    --sha256: 0ym8wp9k9z40562imgjbw1ibjicxbxmls8dh2nwhs44xfb6pk62k
+
+source-repository-package
+    type: git
+    location: https://github.com/Simspace/avaleryar
+    tag: 7ef19ec508cb82a67b54fd3d12ba03ae8cfec3fc
+    --sha256: 0rrj5q0riaxrwsqnjfkagml5dw456bby1mdcn0pr7agvm0rgg381
+    subdir: core
+source-repository-package
+    type: git
+    location: https://github.com/Simspace/avaleryar
+    tag: 7ef19ec508cb82a67b54fd3d12ba03ae8cfec3fc
+    --sha256: 0rrj5q0riaxrwsqnjfkagml5dw456bby1mdcn0pr7agvm0rgg381
+    subdir: repl
+
+source-repository-package
+    type: git
+    location: git@github.com:Simspace/vmware-haskell-sdk.git
+    tag: e806b04fa2e882b0af58d2e7755932ca6ebb2f76
+    subdir: sdk
+source-repository-package
+    type: git
+    location: git@github.com:Simspace/vmware-haskell-sdk.git
+    tag: e806b04fa2e882b0af58d2e7755932ca6ebb2f76
+    subdir: vmware-bindings
+source-repository-package
+    type: git
+    location: git@github.com:Simspace/vmware-haskell-sdk.git
+    tag: e806b04fa2e882b0af58d2e7755932ca6ebb2f76
+    subdir: nsx-client
+
+source-repository-package
+    type: git
+    location: https://github.com/mwotton/squealgen
+    tag: 72ebca82f75534e806851b8336fc3e2400f801f6
+    --sha256: 1rj1az1xqdwi8yakwjxj4pv7bd3fzzjj4jgplrwp1q4gxbh81bq4
+
+source-repository-package
+    type: git
+    location: https://github.com/mwotton/roboservant
+    tag: b5b9daf01f1c6645bcd2ee2f99f967a99b631062
+    --sha256: 06liklp9hcznn30cj1smpa3dggx8a5g7hf3zris6b27r9vgpxj4c
+
+source-repository-package
+    type: git
+    location: https://github.com/estatico/generic-override
+    tag: b887d0392ed5ca1de3c10407af9ab8c4f9a0dfee
+    --sha256: 1k2d5npybdvxnzv63gbqzkmywlqyvjdn4k619p5zkmk1h4r25b11
+    subdir: .
+source-repository-package
+    type: git
+    location: https://github.com/estatico/generic-override
+    tag: b887d0392ed5ca1de3c10407af9ab8c4f9a0dfee
+    --sha256: 1k2d5npybdvxnzv63gbqzkmywlqyvjdn4k619p5zkmk1h4r25b11
+    subdir: aeson
+
+source-repository-package
+    type: git
+    location: https://github.com/Simspace/tmp-postgres
+    tag: 11a8128012879e88cc2338a6c9e79f64991e1352
+    --sha256: 13239kj8yaajaah2cqyqrxw0mrmcr93b7nlddc1xay8zqkhy52r6
+
+source-repository-package
+    type: git
+    location: https://github.com/Simspace/mono-traversable
+    tag: 93b3647d4ceddba06ef94c9c993ade32300af0d9
+    --sha256: 1xdxymgxiyhzg9kbbzgyrkxrh71c5jcyqqi9n559515klmn6qy55
+    subdir: classy-prelude
+
+source-repository-package
+    type: git
+    location: https://github.com/tekul/broch
+    tag: 885ace4652cad4dcd806c8c31c1a59bf6a9a3337
+    --sha256: 0szjmapgv7n1xn5cdhqi67h8gyhvnjcfhlxbpw8xvgpqs7kdsd3p
+
+source-repository-package
+    type: git
+    location: https://github.com/Simspace/odd-jobs
+    tag: 3e8f5ed9250d832e797aeaeb10b91dce592f3367
+    --sha256: 0ssscg2n8763rs6m3wg0kcl5kdpkcpv8kjapym8g7a78zpsnq6gp
+
+source-repository-package
+    type: git
+    location: https://github.com/Simspace/mongodb
+    tag: d18fb7c5dd2151048643aa86999df2060f37e0e1
+    --sha256: 197ngz7dh32aln17y2jl7hzbw3i3p01dw72m686gak0qd1f80k4j
+
+source-repository-package
+    type: git
+    location: https://github.com/Simspace/servant-validate
+    tag: 77be7630cc80fca016f64158c9a7d4134fdca744
+    --sha256: 02bix3bgb74mkl1fv4z477pc6qv0cy4fzc46hp4fdvn7zb959ska
+
+source-repository-package
+    type: git
+    location: https://github.com/Simspace/simformat
+    tag: 1e9c9c790a11231004ab895ec9dd7050d7dddde4
+
+source-repository-package
+    type: git
+    location: https://github.com/Simspace/cabal-auto-expose
+    tag: 6f8d16957c4ed1d11f93c8ea7ab66eb72a93217c
+    subdir: cabal-auto-expose
+    --sha256: 1kyy702pkwp56jr0vy5i3h6wcrz4vszxbdy7vlj18xgggwbczlv1
+
+source-repository-package
+    type: git
+    location: https://github.com/simspace/semver
+    tag: 353f0e5de569bf707c19c6cc9e5d462530bca765

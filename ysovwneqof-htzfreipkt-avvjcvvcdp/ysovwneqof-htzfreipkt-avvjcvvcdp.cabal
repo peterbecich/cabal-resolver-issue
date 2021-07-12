@@ -1,0 +1,78 @@
+cabal-version: 1.12
+name:          ysovwneqof-htzfreipkt-avvjcvvcdp
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        CPP ConstraintKinds DataKinds DeriveAnyClass DeriveDataTypeable
+        DeriveGeneric DerivingStrategies DerivingVia EmptyDataDecls
+        FlexibleContexts FlexibleInstances GADTs GeneralizedNewtypeDeriving
+        LambdaCase MultiParamTypeClasses MultiWayIf NamedFieldPuns
+        NoImplicitPrelude NoMonomorphismRestriction OverloadedStrings
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TypeApplications TemplateHaskell TupleSections
+        TypeFamilies ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -freduction-depth=500 -Wall -fwarn-tabs
+        -Wincomplete-uni-patterns -eventlog
+
+    build-depends:
+        aeson -any,
+        aeson-better-errors -any,
+        attoparsec -any,
+        base -any,
+        bitwise -any,
+        bytestring -any,
+        case-insensitive -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        toqjmgsrfv-nouqirkvuc-ubtevxrbsz -any,
+        esqueleto -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        exceptions -any,
+        extra -any,
+        file-path-th -any,
+        generics-sop -any,
+        interpolatedstring-perl6 -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        lens -any,
+        megaparsec -any,
+        monad-control -any,
+        monad-logger -any,
+        mtl -any,
+        network-uri -any,
+        persistent -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        persistent-template -any,
+        postgresql-simple -any,
+        random -any,
+        luljacqjym-uleizmtdpg-voznuwnupa -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        raw-strings-qq -any,
+        refined -any,
+        rontohsvqd-kzkpimemzd-odglltphce -any,
+        resource-pool -any,
+        servant-server -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        pvlpstgwdv-ssyeecmdfo-dyxijkjfba -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        split -any,
+        squeal-postgresql -any,
+        text -any,
+        text-show -any,
+        these -any,
+        these-lens -any,
+        time -any,
+        transformers -any,
+        transformers-base -any,
+        uuid -any,
+        vector -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any

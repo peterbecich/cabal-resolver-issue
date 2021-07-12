@@ -1,0 +1,66 @@
+cabal-version: 1.12
+name:          yhhtezsiap-fnkgdalzje-tdxkgqtftp
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        AllowAmbiguousTypes BlockArguments DataKinds DeriveAnyClass
+        DeriveDataTypeable DeriveGeneric DerivingStrategies DerivingVia
+        FlexibleContexts FlexibleInstances GeneralizedNewtypeDeriving
+        LambdaCase MultiParamTypeClasses NamedFieldPuns NoImplicitPrelude
+        OverloadedStrings RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TypeApplications TypeFamilies TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        base -any,
+        context-http-client -any,
+        http-client -any,
+        http-types -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        flhpkvdlib-mhpddozgax-oijajyqblg -any,
+        text -any,
+        unliftio-core -any
+
+test-suite uozyygrpqo-ammkytrwed-nexubnyssr
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        AllowAmbiguousTypes BlockArguments DataKinds DeriveAnyClass
+        DeriveDataTypeable DeriveGeneric DerivingStrategies DerivingVia
+        FlexibleContexts FlexibleInstances GeneralizedNewtypeDeriving
+        LambdaCase MultiParamTypeClasses NamedFieldPuns NoImplicitPrelude
+        OverloadedStrings RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TypeApplications TypeFamilies TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        async -any,
+        base -any,
+        containers -any,
+        context-http-client -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        http-client -any,
+        http-types -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        yhhtezsiap-fnkgdalzje-tdxkgqtftp -any,
+        flhpkvdlib-mhpddozgax-oijajyqblg -any,
+        llmifepzfk-hsrksvrsdv-fgfwzuxjmz -any,
+        xghlolyoos-nlcnkznbnm-zjsjlqbprk -any,
+        stm -any,
+        text -any,
+        unliftio-core -any,
+        wai -any,
+        warp -any

@@ -1,0 +1,103 @@
+cabal-version: 1.12
+name:          tzxxlogcui-czfejtajgt-cekpcvgynm
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base -any,
+        hedgehog -any,
+        ylxoyzxian-hniypedaoa-dgahfygwnk -any,
+        hspec-hedgehog -any,
+        http-api-data -any,
+        http-types -any,
+        servant -any,
+        servant-docs -any,
+        servant-server -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        qzacujuixq-fcgnmtcbmf-pnwvpkfkpq -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        nayaepihad-ahzciepdny-xqpqcpnvbv -any,
+        zblnwvepip-kjvrtssncl-wemnlpzrof -any,
+        text -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        transformers -any,
+        rqfouaqhgm-nxvkrcadip-armiklgokp -any
+
+executable bfigexkbbw-qsafuivbjq-hhaioikdth
+    main-is:          main.hs
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        base -any,
+        hedgehog -any,
+        ylxoyzxian-hniypedaoa-dgahfygwnk -any,
+        hspec-hedgehog -any,
+        http-api-data -any,
+        http-types -any,
+        servant -any,
+        servant-docs -any,
+        servant-server -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        qzacujuixq-fcgnmtcbmf-pnwvpkfkpq -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        nayaepihad-ahzciepdny-xqpqcpnvbv -any,
+        tzxxlogcui-czfejtajgt-cekpcvgynm -any,
+        zblnwvepip-kjvrtssncl-wemnlpzrof -any,
+        text -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        transformers -any,
+        rqfouaqhgm-nxvkrcadip-armiklgokp -any
+
+test-suite rupkbvcjyd-lngopmisza-zicxjyswkz
+    type:             exitcode-stdio-1.0
+    main-is:          main.hs
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        base -any,
+        file-path-th -any,
+        hedgehog -any,
+        ylxoyzxian-hniypedaoa-dgahfygwnk -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        hspec-hedgehog -any,
+        http-api-data -any,
+        http-client -any,
+        http-types -any,
+        servant -any,
+        servant-client -any,
+        servant-client-core -any,
+        servant-docs -any,
+        servant-server -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        qzacujuixq-fcgnmtcbmf-pnwvpkfkpq -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        nayaepihad-ahzciepdny-xqpqcpnvbv -any,
+        tzxxlogcui-czfejtajgt-cekpcvgynm -any,
+        hrdpcemlbl-vflmuqdmrm-qzgpglglqp -any,
+        zblnwvepip-kjvrtssncl-wemnlpzrof -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        text -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        transformers -any,
+        rqfouaqhgm-nxvkrcadip-armiklgokp -any,
+        warp -any

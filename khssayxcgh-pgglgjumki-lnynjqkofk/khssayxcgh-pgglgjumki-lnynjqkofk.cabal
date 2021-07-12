@@ -1,0 +1,84 @@
+cabal-version: 1.12
+name:          khssayxcgh-pgglgjumki-lnynjqkofk
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DeriveGeneric DerivingStrategies
+        EmptyDataDecls FlexibleContexts FlexibleInstances GADTs
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        NamedFieldPuns NoMonomorphismRestriction OverloadedStrings
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        QuickCheck -any,
+        aeson -any,
+        base -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        qivxmeiywc-jecrjyijco-tprliqfsfi -any,
+        ohouqyigpw-lndaiynzye-fcsmggspsv -any,
+        jyikfaivsc-mhchvgdmxv-qdqsrsnxmt -any,
+        file-path-th -any,
+        gitrev -any,
+        lens -any,
+        ctinvzdtjm-hfchrxvxxm-gpgeiyxotj -any,
+        openapi3 -any,
+        servant -any,
+        servant-docs -any,
+        servant-flatten -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        text -any,
+        uuid -any,
+        gqneousnmf-mnqkugguei-kcgvtbvdhv -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any
+
+test-suite lwhnnyrmnu-wbwdmmgdvc-ecbhhemrcv
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DeriveGeneric DerivingStrategies
+        EmptyDataDecls FlexibleContexts FlexibleInstances GADTs
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        NamedFieldPuns NoMonomorphismRestriction OverloadedStrings
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        QuickCheck -any,
+        aeson -any,
+        base -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        qivxmeiywc-jecrjyijco-tprliqfsfi -any,
+        ohouqyigpw-lndaiynzye-fcsmggspsv -any,
+        jyikfaivsc-mhchvgdmxv-qdqsrsnxmt -any,
+        file-path-th -any,
+        gitrev -any,
+        lens -any,
+        ctinvzdtjm-hfchrxvxxm-gpgeiyxotj -any,
+        openapi3 -any,
+        servant -any,
+        servant-docs -any,
+        servant-flatten -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        text -any,
+        uuid -any,
+        gqneousnmf-mnqkugguei-kcgvtbvdhv -any,
+        khssayxcgh-pgglgjumki-lnynjqkofk -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any

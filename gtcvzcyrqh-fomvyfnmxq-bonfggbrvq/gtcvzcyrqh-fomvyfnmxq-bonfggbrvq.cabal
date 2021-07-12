@@ -1,0 +1,82 @@
+cabal-version: 1.12
+name:          gtcvzcyrqh-fomvyfnmxq-bonfggbrvq
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DeriveGeneric DerivingStrategies
+        DerivingVia EmptyDataDecls FlexibleContexts FlexibleInstances
+        FunctionalDependencies GADTs GeneralizedNewtypeDeriving
+        InstanceSigs LambdaCase MultiParamTypeClasses NamedFieldPuns
+        NoImplicitPrelude NoMonomorphismRestriction OverloadedStrings
+        PartialTypeSignatures QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeFamilyDependencies
+        TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        aeson-better-errors -any,
+        amazonka-s3 -any,
+        zvxosjlaim-rilcnymlpm-zokgocnrdo -any,
+        base -any,
+        bytestring -any,
+        vghsvugwnc-sobhsxydmt-hbfuxwixxn -any,
+        case-insensitive -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        svjggidczx-klsmyehdey-hhszutopxk -any,
+        idgzpedoaf-dbfjwldocy-karcmrrnvw -any,
+        mdoykpipvg-mkkzuyqaxq-vjaxuxjyad -any,
+        uslahbwpjb-vdtqwxhxnj-hiqltqwrnx -any,
+        fjiwadmxge-aqjkxoqtiw-xcrotcqoci -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        myyiorzlaw-ytvxbbmdpx-febkukndni -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        lens -any,
+        mmorph -any,
+        mtl -any,
+        network-uri -any,
+        ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
+        postgresql-simple -any,
+        ysovwneqof-htzfreipkt-avvjcvvcdp -any,
+        ldzbulfkvt-hofnssjwwf-zfzbqyxteu -any,
+        uhdauwmvxd-nvcxoslsto-wmmmgnesij -any,
+        rnxlejaloz-yuvvexhhzr-ivfpeumqge -any,
+        lnbsavfifx-jvkkyhijuo-mwztyrysqo -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        jrqqfpuace-ckjryxrdrw-trllbleiex -any,
+        rontohsvqd-kzkpimemzd-odglltphce -any,
+        civunfdiag-tziozhaunn-zdkpvlcwwa -any,
+        kvnpbwtwcj-dwnjcoxcjx-rsrcmzkshx -any,
+        servant -any,
+        servant-client -any,
+        servant-client-core -any,
+        servant-flatten -any,
+        servant-rawm -any,
+        servant-rawm-client -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        servant-websockets -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        qvrbmctarr-jdixlpvffc-xosbzozjui -any,
+        bulvlkdfna-dejoouyizu-hyaxeldtbf -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        streamly -any,
+        tagged -any,
+        text -any,
+        text-show -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        uuid -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any

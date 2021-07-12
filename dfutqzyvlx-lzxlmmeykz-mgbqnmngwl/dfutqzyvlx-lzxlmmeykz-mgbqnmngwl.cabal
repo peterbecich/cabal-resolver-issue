@@ -1,0 +1,240 @@
+cabal-version: 1.12
+name:          dfutqzyvlx-lzxlmmeykz-mgbqnmngwl
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DefaultSignatures DeriveDataTypeable
+        DeriveGeneric DerivingStrategies DerivingVia EmptyDataDecls
+        FlexibleContexts FlexibleInstances GADTs GeneralizedNewtypeDeriving
+        LambdaCase MultiParamTypeClasses MultiWayIf NamedFieldPuns
+        NoImplicitPrelude NoMonomorphismRestriction OverloadedStrings
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -fwarn-redundant-constraints
+        -Wincomplete-uni-patterns -eventlog -O0
+
+    build-depends:
+        aeson -any,
+        aeson-better-errors -any,
+        amqp -any,
+        base -any,
+        bson -any,
+        bytestring -any,
+        classy-prelude -any,
+        afterjznqu-mkszchedmv-cemvtpwxvm -any,
+        conduit -any,
+        containers -any,
+        data-default -any,
+        disk-free-space -any,
+        either -any,
+        fast-logger -any,
+        file-embed -any,
+        file-path-th -any,
+        filepath -any,
+        gitrev -any,
+        http-conduit -any,
+        http-types -any,
+        lens -any,
+        monad-logger -any,
+        mongoDB -any,
+        mtl -any,
+        network -any,
+        persistent ==2.12.*,
+        persistent-mongoDB -any,
+        persistent-template -any,
+        protocol-buffers -any,
+        random -any,
+        resourcet -any,
+        servant -any,
+        servant-conduit -any,
+        servant-multipart -any,
+        servant-server -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        stm -any,
+        syb -any,
+        template-haskell -any,
+        text -any,
+        time -any,
+        transformers -any,
+        dyzkvuhlvz-hifjbbfevp-qcdwcazncr -any,
+        sboerrxqie-qaooqvidfh-rdjdiropml -any,
+        unbounded-delays -any,
+        unliftio -any,
+        unliftio-core -any,
+        unliftio-pool -any,
+        uuid -any,
+        wai -any,
+        wai-app-static -any,
+        wai-extra -any,
+        warp -any,
+        websockets -any,
+        yaml -any,
+        yesod -any,
+        yesod-core -any,
+        zlib -any
+
+executable usyfeqxkju-mruodokjze-ckvuduwiwl
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DefaultSignatures DeriveDataTypeable
+        DeriveGeneric DerivingStrategies DerivingVia EmptyDataDecls
+        FlexibleContexts FlexibleInstances GADTs GeneralizedNewtypeDeriving
+        LambdaCase MultiParamTypeClasses MultiWayIf NamedFieldPuns
+        NoImplicitPrelude NoMonomorphismRestriction OverloadedStrings
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -fwarn-redundant-constraints
+        -Wincomplete-uni-patterns -eventlog -O0
+
+    build-depends:
+        aeson -any,
+        aeson-better-errors -any,
+        amqp -any,
+        base -any,
+        bson -any,
+        bytestring -any,
+        classy-prelude -any,
+        afterjznqu-mkszchedmv-cemvtpwxvm -any,
+        conduit -any,
+        containers -any,
+        data-default -any,
+        disk-free-space -any,
+        either -any,
+        fast-logger -any,
+        file-embed -any,
+        file-path-th -any,
+        filepath -any,
+        gitrev -any,
+        http-conduit -any,
+        http-types -any,
+        lens -any,
+        monad-logger -any,
+        mongoDB -any,
+        mtl -any,
+        network -any,
+        persistent ==2.12.*,
+        persistent-mongoDB -any,
+        persistent-template -any,
+        protocol-buffers -any,
+        random -any,
+        resourcet -any,
+        servant -any,
+        servant-conduit -any,
+        servant-multipart -any,
+        servant-server -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        stm -any,
+        syb -any,
+        template-haskell -any,
+        text -any,
+        time -any,
+        transformers -any,
+        dyzkvuhlvz-hifjbbfevp-qcdwcazncr -any,
+        sboerrxqie-qaooqvidfh-rdjdiropml -any,
+        dfutqzyvlx-lzxlmmeykz-mgbqnmngwl -any,
+        unbounded-delays -any,
+        unliftio -any,
+        unliftio-core -any,
+        unliftio-pool -any,
+        uuid -any,
+        wai -any,
+        wai-app-static -any,
+        wai-extra -any,
+        warp -any,
+        websockets -any,
+        yaml -any,
+        yesod -any,
+        yesod-core -any,
+        zlib -any
+
+test-suite bjmropvgqn-dywlcwgkcx-ycjyyhcrif
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DefaultSignatures DeriveDataTypeable
+        DeriveGeneric DerivingStrategies DerivingVia EmptyDataDecls
+        FlexibleContexts FlexibleInstances GADTs GeneralizedNewtypeDeriving
+        LambdaCase MultiParamTypeClasses MultiWayIf NamedFieldPuns
+        NoImplicitPrelude NoMonomorphismRestriction OverloadedStrings
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -fwarn-redundant-constraints
+        -Wincomplete-uni-patterns -eventlog -O0
+
+    build-depends:
+        QuickCheck -any,
+        aeson -any,
+        aeson-better-errors -any,
+        amqp -any,
+        base -any,
+        bson -any,
+        bytestring -any,
+        classy-prelude -any,
+        afterjznqu-mkszchedmv-cemvtpwxvm -any,
+        conduit -any,
+        containers -any,
+        data-default -any,
+        disk-free-space -any,
+        either -any,
+        fast-logger -any,
+        file-embed -any,
+        file-path-th -any,
+        filepath -any,
+        gitrev -any,
+        hspec -any,
+        http-conduit -any,
+        http-types -any,
+        lens -any,
+        monad-logger -any,
+        mongoDB -any,
+        mtl -any,
+        network -any,
+        persistent ==2.12.*,
+        persistent-mongoDB -any,
+        persistent-template -any,
+        protocol-buffers -any,
+        random -any,
+        resourcet -any,
+        servant -any,
+        servant-conduit -any,
+        servant-multipart -any,
+        servant-server -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        stm -any,
+        syb -any,
+        template-haskell -any,
+        text -any,
+        time -any,
+        transformers -any,
+        dyzkvuhlvz-hifjbbfevp-qcdwcazncr -any,
+        sboerrxqie-qaooqvidfh-rdjdiropml -any,
+        dfutqzyvlx-lzxlmmeykz-mgbqnmngwl -any,
+        unbounded-delays -any,
+        unliftio -any,
+        unliftio-core -any,
+        unliftio-pool -any,
+        uuid -any,
+        wai -any,
+        wai-app-static -any,
+        wai-extra -any,
+        warp -any,
+        websockets -any,
+        yaml -any,
+        yesod -any,
+        yesod-core -any,
+        zlib -any

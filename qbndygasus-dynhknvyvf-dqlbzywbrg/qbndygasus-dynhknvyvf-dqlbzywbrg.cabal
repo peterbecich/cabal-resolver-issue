@@ -1,0 +1,32 @@
+cabal-version: 3.0
+name:          qbndygasus-dynhknvyvf-dqlbzywbrg
+version:       0.0.0.0
+build-type:    Custom
+
+custom-setup
+    setup-depends:
+        base -any,
+        Cabal -any,
+        cabal-auto-expose -any
+
+executable xorxhrwypw-xapopqadig-melotleutl
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        NoMonomorphismRestriction DataKinds DeriveDataTypeable
+        DeriveGeneric EmptyDataDecls FlexibleContexts FlexibleInstances
+        GADTs GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        NamedFieldPuns OverloadedStrings QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        base -any,
+        bytestring -any,
+        fpydkaffkt-vgotjnxvoi-cthwyleiuo -any,
+        squeal-postgresql -any

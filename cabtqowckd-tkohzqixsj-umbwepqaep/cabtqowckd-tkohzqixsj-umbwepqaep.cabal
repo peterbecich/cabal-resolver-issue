@@ -1,0 +1,105 @@
+cabal-version: 1.12
+name:          cabtqowckd-tkohzqixsj-umbwepqaep
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments DeriveAnyClass DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia FlexibleContexts FlexibleInstances
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        NamedFieldPuns NoImplicitPrelude OverloadedStrings QuasiQuotes
+        RankNTypes RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TypeApplications TypeFamilies TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        rytzenhuwi-ifmlrhcceo-gawhrxxqam -any,
+        base -any,
+        bytestring -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        uslahbwpjb-vdtqwxhxnj-hiqltqwrnx -any,
+        http-client -any,
+        http-media -any,
+        jrqqfpuace-ckjryxrdrw-trllbleiex -any,
+        servant -any,
+        servant-client -any,
+        servant-client-core -any,
+        jzkwdkcfrm-edzuwumizr-rgnvciqrvk -any,
+        servant-multipart -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        text -any,
+        vulsdpompx-fiahihpbmu-tkeebysusq -any
+
+test-suite efqbscwryt-xitmexgfkj-rgulkfikbn
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments DeriveAnyClass DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia FlexibleContexts FlexibleInstances
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        NamedFieldPuns NoImplicitPrelude OverloadedStrings QuasiQuotes
+        RankNTypes RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TypeApplications TypeFamilies TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        rytzenhuwi-ifmlrhcceo-gawhrxxqam -any,
+        base -any,
+        bytestring -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        jcfinelkzr-qctedwphye-ssbamdyxuz -any,
+        uslahbwpjb-vdtqwxhxnj-hiqltqwrnx -any,
+        fast-logger -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        http-client -any,
+        http-media -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        wrsxalzuux-fkrmnzenbw-mlawexhwxe -any,
+        network-uri -any,
+        opentracing -any,
+        postgresql-config -any,
+        postgresql-tx -any,
+        postgresql-tx-query -any,
+        cabtqowckd-tkohzqixsj-umbwepqaep -any,
+        jrqqfpuace-ckjryxrdrw-trllbleiex -any,
+        wjcvquzmqj-ngmhegkhun-ozevzugvrv -any,
+        groebrasbp-dyjnbimgiu-skwbmqsqgr -any,
+        resource-pool -any,
+        civunfdiag-tziozhaunn-zdkpvlcwwa -any,
+        zqlzfxaouu-ixmlfpdwfx-bvffwsusxw -any,
+        servant -any,
+        servant-client -any,
+        servant-client-core -any,
+        jzkwdkcfrm-edzuwumizr-rgnvciqrvk -any,
+        servant-multipart -any,
+        servant-server -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        yhhtezsiap-fnkgdalzje-tdxkgqtftp -any,
+        llmifepzfk-hsrksvrsdv-fgfwzuxjmz -any,
+        xghlolyoos-nlcnkznbnm-zjsjlqbprk -any,
+        stm -any,
+        text -any,
+        vulsdpompx-fiahihpbmu-tkeebysusq -any,
+        uuid -any,
+        wai -any,
+        ojfbtzpcfi-apxmpdnheh-xufedojzlq -any,
+        warp -any

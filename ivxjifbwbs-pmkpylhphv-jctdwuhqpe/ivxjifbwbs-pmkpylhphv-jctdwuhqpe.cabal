@@ -1,0 +1,36 @@
+cabal-version: 1.12
+name:          ivxjifbwbs-pmkpylhphv-jctdwuhqpe
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+executable zgngfblbjs-crbgnjyibc-cgrzteekna
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        CPP DataKinds DeriveDataTypeable DeriveGeneric EmptyDataDecls
+        FlexibleContexts FlexibleInstances GADTs GeneralizedNewtypeDeriving
+        LambdaCase MultiParamTypeClasses NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        ViewPatterns MultiWayIf
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        directory -any,
+        file-path-th -any,
+        hpack -any,
+        lens -any,
+        lens-aeson -any,
+        ormolu -any,
+        process -any,
+        squealgen -any,
+        text -any,
+        utf8-string -any

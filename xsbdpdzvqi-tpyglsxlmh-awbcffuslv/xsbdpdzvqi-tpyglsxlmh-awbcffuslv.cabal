@@ -1,0 +1,50 @@
+cabal-version: 1.12
+name:          xsbdpdzvqi-tpyglsxlmh-awbcffuslv
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        DataKinds DeriveGeneric DerivingStrategies NoImplicitPrelude
+        TypeApplications TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        base -any,
+        containers -any,
+        servant -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        zpphqaohhd-blpklbpmiq-pgdhgxbdlu -any
+
+test-suite vcksktxyyo-wlnmgczryn-aidtshgazs
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        DataKinds DeriveGeneric DerivingStrategies NoImplicitPrelude
+        TypeApplications TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        base -any,
+        containers -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        kvnpbwtwcj-dwnjcoxcjx-rsrcmzkshx -any,
+        servant -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        gcencghsrd-meylbcllzm-pxzhgfnhah -any,
+        cimzacikqn-syzmmnqrci-udyctttsxo -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        xsbdpdzvqi-tpyglsxlmh-awbcffuslv -any,
+        zpphqaohhd-blpklbpmiq-pgdhgxbdlu -any

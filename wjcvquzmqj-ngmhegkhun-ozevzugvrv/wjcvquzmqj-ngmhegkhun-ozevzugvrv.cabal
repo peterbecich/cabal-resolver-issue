@@ -1,0 +1,208 @@
+cabal-version: 1.12
+name:          wjcvquzmqj-ngmhegkhun-ozevzugvrv
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments ConstraintKinds DataKinds DeriveAnyClass
+        DeriveGeneric DerivingStrategies DerivingVia DuplicateRecordFields
+        FlexibleContexts FlexibleInstances GeneralizedNewtypeDeriving
+        InstanceSigs KindSignatures LambdaCase MultiParamTypeClasses
+        NamedFieldPuns NoImplicitPrelude OverloadedStrings PolyKinds
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        aeson-better-errors -any,
+        zvxosjlaim-rilcnymlpm-zokgocnrdo -any,
+        aiboxtftww-twgwqzwbgz-dczjcqumyf -any,
+        base -any,
+        bytestring -any,
+        vghsvugwnc-sobhsxydmt-hbfuxwixxn -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        composition -any,
+        containers -any,
+        data-default -any,
+        data-interval -any,
+        uslahbwpjb-vdtqwxhxnj-hiqltqwrnx -any,
+        bitzgjembd-vaymfjlvqk-iuthenagvi -any,
+        exceptions -any,
+        fast-logger -any,
+        filepath -any,
+        generic-lens -any,
+        http-client -any,
+        http-types -any,
+        zrowwqecdq-lueaquxzxq-nokjybdgyp -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        lens -any,
+        ctinvzdtjm-hfchrxvxxm-gpgeiyxotj -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        mtl -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        ibcsaqswoj-kghjffqrcb-fifltunohv -any,
+        wnnqxxyjlv-fofbbgzfpm-cdfgfjnzud -any,
+        network-uri -any,
+        nonempty-containers -any,
+        gselmrlvgc-jtynxiqcar-ahgrxgmatz -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        postgresql-query -any,
+        atgnezedgv-lbskucbixg-bdkbwtkusi -any,
+        postgresql-simple -any,
+        postgresql-tx -any,
+        postgresql-tx-monad-logger -any,
+        postgresql-tx-query -any,
+        postgresql-tx-squeal -any,
+        ysovwneqof-htzfreipkt-avvjcvvcdp -any,
+        gtcvzcyrqh-fomvyfnmxq-bonfggbrvq -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        jrqqfpuace-ckjryxrdrw-trllbleiex -any,
+        rontohsvqd-kzkpimemzd-odglltphce -any,
+        mxfcdkidxh-wfmvomxunv-volvdjmfuo -any,
+        fpydkaffkt-vgotjnxvoi-cthwyleiuo -any,
+        resource-pool -any,
+        civunfdiag-tziozhaunn-zdkpvlcwwa -any,
+        servant-client -any,
+        servant-client-core -any,
+        servant-server -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        flhpkvdlib-mhpddozgax-oijajyqblg -any,
+        stm -any,
+        text -any,
+        text-show -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        transformers -any,
+        vulsdpompx-fiahihpbmu-tkeebysusq -any,
+        uuid -any,
+        validation -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any
+
+test-suite eaaayqbjzn-vxdfbstoho-wnmmahzdue
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments ConstraintKinds DataKinds DeriveAnyClass
+        DeriveGeneric DerivingStrategies DerivingVia DuplicateRecordFields
+        FlexibleContexts FlexibleInstances GeneralizedNewtypeDeriving
+        InstanceSigs KindSignatures LambdaCase MultiParamTypeClasses
+        NamedFieldPuns NoImplicitPrelude OverloadedStrings PolyKinds
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        aeson-better-errors -any,
+        rytzenhuwi-ifmlrhcceo-gawhrxxqam -any,
+        zvxosjlaim-rilcnymlpm-zokgocnrdo -any,
+        aiboxtftww-twgwqzwbgz-dczjcqumyf -any,
+        base -any,
+        bytestring -any,
+        vghsvugwnc-sobhsxydmt-hbfuxwixxn -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        composition -any,
+        connection -any,
+        containers -any,
+        data-default -any,
+        data-interval -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        uslahbwpjb-vdtqwxhxnj-hiqltqwrnx -any,
+        bitzgjembd-vaymfjlvqk-iuthenagvi -any,
+        traedgtejy-dxdtlzbjko-kicveovpzi -any,
+        exceptions -any,
+        fast-logger -any,
+        file-embed -any,
+        file-path-th -any,
+        filepath -any,
+        generic-lens -any,
+        hedgehog -any,
+        ylxoyzxian-hniypedaoa-dgahfygwnk -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        http-client -any,
+        http-conduit -any,
+        http-media -any,
+        http-types -any,
+        zrowwqecdq-lueaquxzxq-nokjybdgyp -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        wrsxalzuux-fkrmnzenbw-mlawexhwxe -any,
+        lens -any,
+        ctinvzdtjm-hfchrxvxxm-gpgeiyxotj -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        mtl -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        ibcsaqswoj-kghjffqrcb-fifltunohv -any,
+        wnnqxxyjlv-fofbbgzfpm-cdfgfjnzud -any,
+        network-uri -any,
+        nonempty-containers -any,
+        gselmrlvgc-jtynxiqcar-ahgrxgmatz -any,
+        odd-jobs -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        postgresql-query -any,
+        atgnezedgv-lbskucbixg-bdkbwtkusi -any,
+        postgresql-simple -any,
+        postgresql-tx -any,
+        postgresql-tx-monad-logger -any,
+        postgresql-tx-query -any,
+        postgresql-tx-squeal -any,
+        postgresql-tx-squeal-compat-simple -any,
+        ysovwneqof-htzfreipkt-avvjcvvcdp -any,
+        gtcvzcyrqh-fomvyfnmxq-bonfggbrvq -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        refined -any,
+        jrqqfpuace-ckjryxrdrw-trllbleiex -any,
+        wjcvquzmqj-ngmhegkhun-ozevzugvrv -any,
+        bqgqgjwckd-ehngmouflf-rxjnhvlppm -any,
+        rontohsvqd-kzkpimemzd-odglltphce -any,
+        mxfcdkidxh-wfmvomxunv-volvdjmfuo -any,
+        fpydkaffkt-vgotjnxvoi-cthwyleiuo -any,
+        resource-pool -any,
+        civunfdiag-tziozhaunn-zdkpvlcwwa -any,
+        zqlzfxaouu-ixmlfpdwfx-bvffwsusxw -any,
+        servant -any,
+        servant-client -any,
+        servant-client-core -any,
+        servant-server -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        flhpkvdlib-mhpddozgax-oijajyqblg -any,
+        stm -any,
+        text -any,
+        text-show -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        transformers -any,
+        vulsdpompx-fiahihpbmu-tkeebysusq -any,
+        uuid -any,
+        validation -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        ojfbtzpcfi-apxmpdnheh-xufedojzlq -any,
+        yaml -any

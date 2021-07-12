@@ -1,0 +1,43 @@
+cabal-version: 3.0
+name:          mbtlirdcly-fwzdqeawms-zqmcmpuoeu
+version:       0.0.0.0
+build-type:    Custom
+
+custom-setup
+    setup-depends:
+        base -any,
+        Cabal -any,
+        cabal-auto-expose -any
+
+executable wrppbteoxa-ieutuhxwmp-tvjhlckxpe
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        NoImplicitPrelude NoMonomorphismRestriction ConstraintKinds
+        DataKinds DefaultSignatures DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns OverloadedStrings
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -fwarn-redundant-constraints
+        -Wincomplete-uni-patterns -eventlog -O0
+
+    build-depends:
+        aeson -any,
+        base -any,
+        classy-prelude -any,
+        conduit -any,
+        csv-conduit -any,
+        lens -any,
+        lens-aeson -any,
+        mtl -any,
+        optparse-applicative -any,
+        text -any,
+        turtle -any,
+        dyzkvuhlvz-hifjbbfevp-qcdwcazncr -any,
+        sboerrxqie-qaooqvidfh-rdjdiropml -any,
+        yaml -any

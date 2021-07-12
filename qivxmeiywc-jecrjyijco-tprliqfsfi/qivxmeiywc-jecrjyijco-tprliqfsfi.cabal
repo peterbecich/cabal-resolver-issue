@@ -1,0 +1,117 @@
+cabal-version: 1.12
+name:          qivxmeiywc-jecrjyijco-tprliqfsfi
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DeriveGeneric DataKinds DerivingStrategies
+        DerivingVia EmptyDataDecls FlexibleContexts FlexibleInstances
+        FunctionalDependencies GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns
+        NoMonomorphismRestriction OverloadedStrings PartialTypeSignatures
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeFamilyDependencies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        aeson-better-errors -any,
+        amazonka -any,
+        amazonka-s3 -any,
+        base -any,
+        bytestring -any,
+        case-insensitive -any,
+        containers -any,
+        generic-override -any,
+        http-api-data -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        mtl -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        network-uri -any,
+        qq-literals -any,
+        civunfdiag-tziozhaunn-zdkpvlcwwa -any,
+        servant -any,
+        servant-flatten -any,
+        servant-multipart -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        bmnsexcmla-uhiigkzpho-fecljrnpui -any,
+        othbhqjnul-tazoftxenx-flrjltywxr -any,
+        pxmakzoxwb-fijzzixsga-gjuqhknsmw -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        template-haskell -any,
+        text -any,
+        text-show -any,
+        time -any,
+        unix-compat -any,
+        unordered-containers -any,
+        uri-templater -any,
+        uuid -any,
+        writer-cps-mtl -any
+
+test-suite jivgirrcrc-tjjzqdsewv-hcjshrkwwl
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DeriveGeneric DataKinds DerivingStrategies
+        DerivingVia EmptyDataDecls FlexibleContexts FlexibleInstances
+        FunctionalDependencies GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns
+        NoMonomorphismRestriction OverloadedStrings PartialTypeSignatures
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeFamilyDependencies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        QuickCheck -any,
+        aeson -any,
+        aeson-better-errors -any,
+        amazonka -any,
+        amazonka-s3 -any,
+        base -any,
+        bytestring -any,
+        case-insensitive -any,
+        containers -any,
+        qivxmeiywc-jecrjyijco-tprliqfsfi -any,
+        generic-override -any,
+        hspec -any,
+        http-api-data -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        mtl -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        network-uri -any,
+        qq-literals -any,
+        civunfdiag-tziozhaunn-zdkpvlcwwa -any,
+        servant -any,
+        servant-flatten -any,
+        servant-multipart -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        bmnsexcmla-uhiigkzpho-fecljrnpui -any,
+        othbhqjnul-tazoftxenx-flrjltywxr -any,
+        pxmakzoxwb-fijzzixsga-gjuqhknsmw -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        template-haskell -any,
+        text -any,
+        text-show -any,
+        time -any,
+        unix-compat -any,
+        unordered-containers -any,
+        uri-templater -any,
+        uuid -any,
+        writer-cps-mtl -any

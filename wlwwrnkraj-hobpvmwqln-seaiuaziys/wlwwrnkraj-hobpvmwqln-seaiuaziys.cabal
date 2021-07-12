@@ -1,0 +1,78 @@
+cabal-version: 1.12
+name:          wlwwrnkraj-hobpvmwqln-seaiuaziys
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments ConstraintKinds DataKinds DeriveAnyClass
+        DeriveDataTypeable DeriveGeneric DerivingStrategies DerivingVia
+        DuplicateRecordFields EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction NumericUnderscores OverloadedLabels
+        OverloadedStrings PackageImports QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TupleSections TypeApplications TypeFamilies TypeOperators
+        ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        Only -any,
+        amazonka -any,
+        amazonka-s3 -any,
+        base -any,
+        lens -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        bmnsexcmla-uhiigkzpho-fecljrnpui -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        unordered-containers -any,
+        uuid -any
+
+test-suite mrmbrwtqbw-qhnfwpextp-riturivuld
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments ConstraintKinds DataKinds DeriveAnyClass
+        DeriveDataTypeable DeriveGeneric DerivingStrategies DerivingVia
+        DuplicateRecordFields EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction NumericUnderscores OverloadedLabels
+        OverloadedStrings PackageImports QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TupleSections TypeApplications TypeFamilies TypeOperators
+        ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        Only -any,
+        amazonka -any,
+        amazonka-s3 -any,
+        base -any,
+        hspec -any,
+        lens -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        bmnsexcmla-uhiigkzpho-fecljrnpui -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        ambqfekzlo-giypknqooz-ybdhisbtgi -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        wlwwrnkraj-hobpvmwqln-seaiuaziys -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        unordered-containers -any,
+        uuid -any,
+        ojfbtzpcfi-apxmpdnheh-xufedojzlq -any

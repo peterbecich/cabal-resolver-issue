@@ -1,0 +1,46 @@
+cabal-version: 1.12
+name:          mqwtlpwidx-jmlbdwcrwk-cfkbdgeavf
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments DataKinds FlexibleContexts FlexibleInstances
+        NamedFieldPuns OverloadedStrings RecordWildCards
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        base -any,
+        xbzyruovta-rnmmmtmvhp-fwuvrkmhuu -any,
+        ufcseumbsb-onvrgktxnv-rttptmphfp -any,
+        servant -any,
+        servant-docs -any
+
+test-suite koxipywact-qhdbexnxpr-zgrwduaxjm
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments DataKinds FlexibleContexts FlexibleInstances
+        NamedFieldPuns OverloadedStrings RecordWildCards
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        base -any,
+        file-path-th -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        xbzyruovta-rnmmmtmvhp-fwuvrkmhuu -any,
+        ufcseumbsb-onvrgktxnv-rttptmphfp -any,
+        mqwtlpwidx-jmlbdwcrwk-cfkbdgeavf -any,
+        servant -any,
+        servant-docs -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any

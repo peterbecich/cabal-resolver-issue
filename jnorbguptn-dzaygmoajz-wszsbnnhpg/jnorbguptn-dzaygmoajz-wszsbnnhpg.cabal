@@ -1,0 +1,74 @@
+cabal-version: 1.12
+name:          jnorbguptn-dzaygmoajz-wszsbnnhpg
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base -any,
+        bytestring -any,
+        file-embed -any,
+        http-client -any,
+        xwcfdydvlh-vojeneytpf-dmrwfoeouv -any,
+        aicczlxqqo-zpjknbeumz-abqtjkcjjx -any,
+        monad-logger -any,
+        ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
+        yaml -any
+
+executable mojgqmygey-oqcydiumtx-mmkvjixrok
+    main-is:          main.hs
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        base -any,
+        bytestring -any,
+        connection -any,
+        file-embed -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        http-client -any,
+        http-client-tls -any,
+        xwcfdydvlh-vojeneytpf-dmrwfoeouv -any,
+        aicczlxqqo-zpjknbeumz-abqtjkcjjx -any,
+        jnorbguptn-dzaygmoajz-wszsbnnhpg -any,
+        cohucyawlw-ayzclskait-eovrurpbdf -any,
+        monad-logger -any,
+        ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        text -any,
+        yaml -any
+
+test-suite dwwvnxhrvj-zqhvlcngek-dzulbhqpjd
+    type:             exitcode-stdio-1.0
+    main-is:          main.hs
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        base -any,
+        bytestring -any,
+        file-embed -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        http-client -any,
+        xwcfdydvlh-vojeneytpf-dmrwfoeouv -any,
+        aicczlxqqo-zpjknbeumz-abqtjkcjjx -any,
+        jnorbguptn-dzaygmoajz-wszsbnnhpg -any,
+        monad-logger -any,
+        ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        yaml -any

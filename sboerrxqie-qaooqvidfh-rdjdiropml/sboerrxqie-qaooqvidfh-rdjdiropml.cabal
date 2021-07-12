@@ -1,0 +1,33 @@
+cabal-version: 3.0
+name:          sboerrxqie-qaooqvidfh-rdjdiropml
+version:       0.0.0.0
+build-type:    Custom
+
+custom-setup
+    setup-depends:
+        base -any,
+        Cabal -any,
+        cabal-auto-expose -any
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        NoImplicitPrelude NoMonomorphismRestriction ConstraintKinds
+        DataKinds DefaultSignatures DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns OverloadedStrings
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -fwarn-redundant-constraints
+        -Wincomplete-uni-patterns -eventlog -O0
+
+    build-depends:
+        base -any,
+        hprotoc -any,
+        lens -any,
+        protocol-buffers -any,
+        protocol-buffers-descriptor -any

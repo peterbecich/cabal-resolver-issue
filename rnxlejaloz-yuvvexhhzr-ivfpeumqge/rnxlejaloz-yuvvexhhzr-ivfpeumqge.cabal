@@ -1,0 +1,91 @@
+cabal-version: 1.12
+name:          rnxlejaloz-yuvvexhhzr-ivfpeumqge
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        CPP ConstraintKinds DataKinds DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings PackageImports
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base >=4.7 && <5,
+        containers -any,
+        data-default -any,
+        data-fix -any,
+        dlist -any,
+        free -any,
+        generic-lens -any,
+        hashable -any,
+        lens -any,
+        lens-aeson -any,
+        postgresql-query -any,
+        postgresql-simple -any,
+        recursion-schemes -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        text -any,
+        unordered-containers -any,
+        validation -any,
+        vector -any
+
+test-suite qetbhgmmcs-kmrkrnbqsp-xoczkbsoka
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        CPP ConstraintKinds DataKinds DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings PackageImports
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        aeson-qq -any,
+        base >=4.7 && <5,
+        containers -any,
+        data-default -any,
+        data-fix -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        dlist -any,
+        free -any,
+        generic-lens -any,
+        hashable -any,
+        lens -any,
+        lens-aeson -any,
+        postgresql-query -any,
+        postgresql-simple -any,
+        rnxlejaloz-yuvvexhhzr-ivfpeumqge -any,
+        recursion-schemes -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        tasty -any,
+        tasty-hspec -any,
+        tasty-hunit -any,
+        tasty-quickcheck -any,
+        text -any,
+        unordered-containers -any,
+        validation -any,
+        vector -any

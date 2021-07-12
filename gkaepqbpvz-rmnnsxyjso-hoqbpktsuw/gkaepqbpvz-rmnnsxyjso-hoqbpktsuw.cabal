@@ -1,0 +1,72 @@
+cabal-version: 1.12
+name:          gkaepqbpvz-rmnnsxyjso-hoqbpktsuw
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        AllowAmbiguousTypes CPP ConstraintKinds DataKinds DefaultSignatures
+        DeriveDataTypeable DeriveGeneric DerivingStrategies DerivingVia
+        EmptyDataDecls FlexibleContexts FlexibleInstances
+        FunctionalDependencies GADTs GeneralizedNewtypeDeriving
+        InstanceSigs LambdaCase MultiParamTypeClasses MultiWayIf
+        NamedFieldPuns NoImplicitPrelude NoMonomorphismRestriction
+        OverloadedStrings PackageImports QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        aeson-pretty -any,
+        base -any,
+        classy-prelude -any,
+        containers -any,
+        generic-override -any,
+        text -any,
+        time -any
+
+test-suite dyoddaowxb-qlmiqyblnt-rgzslozcop
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        AllowAmbiguousTypes CPP ConstraintKinds DataKinds DefaultSignatures
+        DeriveDataTypeable DeriveGeneric DerivingStrategies DerivingVia
+        EmptyDataDecls FlexibleContexts FlexibleInstances
+        FunctionalDependencies GADTs GeneralizedNewtypeDeriving
+        InstanceSigs LambdaCase MultiParamTypeClasses MultiWayIf
+        NamedFieldPuns NoImplicitPrelude NoMonomorphismRestriction
+        OverloadedStrings PackageImports QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        QuickCheck -any,
+        aeson -any,
+        aeson-pretty -any,
+        aeson-qq -any,
+        base -any,
+        bytestring -any,
+        classy-prelude -any,
+        containers -any,
+        generic-override -any,
+        hspec-expectations-pretty-diff -any,
+        rawstring-qm -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        tasty -any,
+        tasty-hspec -any,
+        text -any,
+        time -any
