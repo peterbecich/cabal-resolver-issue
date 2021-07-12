@@ -1,0 +1,97 @@
+cabal-version: 1.12
+name:          ishxcxpwla-nbvxtcpwlt-kkxmcztnyu
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        AllowAmbiguousTypes BlockArguments DataKinds FlexibleContexts
+        LambdaCase NamedFieldPuns NoImplicitPrelude OverloadedStrings
+        RankNTypes RecordWildCards ScopedTypeVariables TypeApplications
+        TypeFamilies
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        base -any,
+        bytestring -any,
+        context -any,
+        context-resource -any,
+        http-api-data -any,
+        http-types -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        mtl -any,
+        gselmrlvgc-jtynxiqcar-ahgrxgmatz -any,
+        postgresql-tx -any,
+        postgresql-tx-query -any,
+        postgresql-tx-squeal-compat-simple -any,
+        jzkwdkcfrm-edzuwumizr-rgnvciqrvk -any,
+        servant-server -any,
+        qzacujuixq-fcgnmtcbmf-pnwvpkfkpq -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        othbhqjnul-tazoftxenx-flrjltywxr -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        xsbdpdzvqi-tpyglsxlmh-awbcffuslv -any,
+        zpphqaohhd-blpklbpmiq-pgdhgxbdlu -any,
+        filfoyrzts-ivuunoesjn-jdndugpdku -any
+
+test-suite jeoendnaqi-vgpusfagnb-sweyzyctkg
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        AllowAmbiguousTypes BlockArguments DataKinds FlexibleContexts
+        LambdaCase NamedFieldPuns NoImplicitPrelude OverloadedStrings
+        RankNTypes RecordWildCards ScopedTypeVariables TypeApplications
+        TypeFamilies
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        async -any,
+        base -any,
+        bytestring -any,
+        context -any,
+        context-resource -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        http-api-data -any,
+        http-client -any,
+        http-client-tls -any,
+        http-types -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        sjywzbvzez-scteewdihq-qamzizyjfw -any,
+        wrsxalzuux-fkrmnzenbw-mlawexhwxe -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        mtl -any,
+        gselmrlvgc-jtynxiqcar-ahgrxgmatz -any,
+        postgresql-simple -any,
+        postgresql-tx -any,
+        postgresql-tx-query -any,
+        postgresql-tx-squeal-compat-simple -any,
+        resource-pool -any,
+        resourcet -any,
+        rosebud -any,
+        jzkwdkcfrm-edzuwumizr-rgnvciqrvk -any,
+        servant-server -any,
+        qzacujuixq-fcgnmtcbmf-pnwvpkfkpq -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        othbhqjnul-tazoftxenx-flrjltywxr -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        xsbdpdzvqi-tpyglsxlmh-awbcffuslv -any,
+        zpphqaohhd-blpklbpmiq-pgdhgxbdlu -any,
+        filfoyrzts-ivuunoesjn-jdndugpdku -any,
+        ishxcxpwla-nbvxtcpwlt-kkxmcztnyu -any,
+        text -any,
+        uuid -any,
+        ojfbtzpcfi-apxmpdnheh-xufedojzlq -any,
+        warp -any

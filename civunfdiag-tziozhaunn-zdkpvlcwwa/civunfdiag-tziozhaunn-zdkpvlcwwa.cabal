@@ -1,0 +1,66 @@
+cabal-version: 1.12
+name:          civunfdiag-tziozhaunn-zdkpvlcwwa
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        CPP ConstraintKinds DataKinds DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings PackageImports
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        QuickCheck -any,
+        aeson -any,
+        aeson-better-errors -any,
+        amazonka -any,
+        amazonka-core -any,
+        amazonka-s3 -any,
+        base -any,
+        base16-bytestring -any,
+        base64-bytestring -any,
+        bytestring -any,
+        case-insensitive -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        conduit -any,
+        conduit-extra -any,
+        cryptonite -any,
+        exceptions -any,
+        http-api-data -any,
+        http-client -any,
+        http-types -any,
+        lens -any,
+        lifted-async -any,
+        memory -any,
+        mmorph -any,
+        monad-logger -any,
+        mtl -any,
+        network-uri -any,
+        postgresql-simple -any,
+        resourcet -any,
+        servant -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        split -any,
+        temporary -any,
+        text -any,
+        text-show -any,
+        time -any,
+        unix -any,
+        unliftio-core -any,
+        unordered-containers -any,
+        uri-encode -any,
+        uuid -any

@@ -1,0 +1,87 @@
+cabal-version: 1.12
+name:          pwhdsdnpky-ahahgsbqkk-slvncrvngc
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DefaultSignatures DeriveDataTypeable
+        DeriveGeneric DerivingStrategies DerivingVia EmptyDataDecls
+        FlexibleContexts FlexibleInstances GADTs GeneralizedNewtypeDeriving
+        LambdaCase MultiParamTypeClasses MultiWayIf NamedFieldPuns
+        NoImplicitPrelude NoMonomorphismRestriction OverloadedStrings
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -fwarn-redundant-constraints
+        -Wincomplete-uni-patterns -eventlog -O0
+
+    build-depends:
+        aeson -any,
+        base -any,
+        classy-prelude -any,
+        containers -any,
+        jyikfaivsc-mhchvgdmxv-qdqsrsnxmt -any,
+        file-embed -any,
+        file-path-th -any,
+        lens -any,
+        openapi3 -any,
+        servant -any,
+        servant-docs -any,
+        servant-multipart -any,
+        servant-openapi3 -any,
+        servant-websockets -any,
+        servant-websockets-docs -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        time -any,
+        dyzkvuhlvz-hifjbbfevp-qcdwcazncr -any,
+        sboerrxqie-qaooqvidfh-rdjdiropml -any,
+        uuid -any
+
+test-suite qbbksgehrc-vmxzhpfwzi-eoisatebtr
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DefaultSignatures DeriveDataTypeable
+        DeriveGeneric DerivingStrategies DerivingVia EmptyDataDecls
+        FlexibleContexts FlexibleInstances GADTs GeneralizedNewtypeDeriving
+        LambdaCase MultiParamTypeClasses MultiWayIf NamedFieldPuns
+        NoImplicitPrelude NoMonomorphismRestriction OverloadedStrings
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -fwarn-redundant-constraints
+        -Wincomplete-uni-patterns -eventlog -O0 -threaded -rtsopts
+        "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        base -any,
+        classy-prelude -any,
+        containers -any,
+        jyikfaivsc-mhchvgdmxv-qdqsrsnxmt -any,
+        file-embed -any,
+        file-path-th -any,
+        lens -any,
+        openapi3 -any,
+        servant -any,
+        servant-docs -any,
+        servant-multipart -any,
+        servant-openapi3 -any,
+        servant-websockets -any,
+        servant-websockets-docs -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        time -any,
+        dyzkvuhlvz-hifjbbfevp-qcdwcazncr -any,
+        pwhdsdnpky-ahahgsbqkk-slvncrvngc -any,
+        sboerrxqie-qaooqvidfh-rdjdiropml -any,
+        uuid -any

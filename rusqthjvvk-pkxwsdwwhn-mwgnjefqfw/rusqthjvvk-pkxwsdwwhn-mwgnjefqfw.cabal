@@ -1,0 +1,110 @@
+cabal-version: 1.12
+name:          rusqthjvvk-pkxwsdwwhn-mwgnjefqfw
+version:       0.0.0.0
+license:       AllRightsReserved
+license-file:  LICENSE
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments DeriveAnyClass DeriveGeneric DerivingStrategies
+        FlexibleContexts FlexibleInstances ConstraintKinds LambdaCase
+        MultiWayIf OverloadedLabels OverloadedStrings RankNTypes
+        RecordWildCards ScopedTypeVariables TypeApplications ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        QuickCheck -any,
+        aeson -any,
+        aziqfcqzmy-iqnacgdwjr-mcroybnavg -any,
+        base >=4.7 && <5,
+        interpolate -any,
+        lens -any,
+        lens-aeson -any,
+        monad-logger -any,
+        optparse-applicative -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        text -any,
+        transformers -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        ojfbtzpcfi-apxmpdnheh-xufedojzlq -any,
+        yaml -any
+
+executable vkguhhuads-facbxovzxv-grkxldtcko
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments DeriveAnyClass DeriveGeneric DerivingStrategies
+        FlexibleContexts FlexibleInstances ConstraintKinds LambdaCase
+        MultiWayIf OverloadedLabels OverloadedStrings RankNTypes
+        RecordWildCards ScopedTypeVariables TypeApplications ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts -with-rtsopts=-N
+
+    build-depends:
+        QuickCheck -any,
+        aeson -any,
+        aziqfcqzmy-iqnacgdwjr-mcroybnavg -any,
+        base >=4.7 && <5,
+        rusqthjvvk-pkxwsdwwhn-mwgnjefqfw -any,
+        interpolate -any,
+        lens -any,
+        lens-aeson -any,
+        monad-logger -any,
+        optparse-applicative -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        text -any,
+        transformers -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        ojfbtzpcfi-apxmpdnheh-xufedojzlq -any,
+        yaml -any
+
+test-suite uxecvgoihz-txcmpbwrmh-dcjytorvqp
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments DeriveAnyClass DeriveGeneric DerivingStrategies
+        FlexibleContexts FlexibleInstances ConstraintKinds LambdaCase
+        MultiWayIf OverloadedLabels OverloadedStrings RankNTypes
+        RecordWildCards ScopedTypeVariables TypeApplications ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts -with-rtsopts=-N
+
+    build-depends:
+        QuickCheck -any,
+        aeson -any,
+        aziqfcqzmy-iqnacgdwjr-mcroybnavg -any,
+        base >=4.7 && <5,
+        rusqthjvvk-pkxwsdwwhn-mwgnjefqfw -any,
+        interpolate -any,
+        lens -any,
+        lens-aeson -any,
+        monad-logger -any,
+        optparse-applicative -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        text -any,
+        transformers -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        ojfbtzpcfi-apxmpdnheh-xufedojzlq -any,
+        yaml -any

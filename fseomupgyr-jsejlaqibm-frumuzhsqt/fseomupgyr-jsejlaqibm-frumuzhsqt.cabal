@@ -1,0 +1,43 @@
+cabal-version: 3.0
+name:          fseomupgyr-jsejlaqibm-frumuzhsqt
+version:       0.0.0.0
+build-type:    Custom
+
+custom-setup
+    setup-depends:
+        base -any,
+        Cabal -any,
+        cabal-auto-expose -any
+
+executable okkyhvqplc-ueswusawug-hkmgxxnqvt
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        NoImplicitPrelude BlockArguments DeriveAnyClass DerivingStrategies
+        DerivingVia LambdaCase OverloadedStrings QuasiQuotes RankNTypes
+        ScopedTypeVariables StandaloneDeriving TupleSections
+        TypeApplications
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        amazonka -any,
+        amazonka-core -any,
+        amazonka-s3 -any,
+        base -any,
+        base64-bytestring -any,
+        bytestring -any,
+        cryptonite -any,
+        lens -any,
+        memory -any,
+        postgresql-simple -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        text -any,
+        transformers -any,
+        unix -any,
+        unordered-containers -any,
+        uuid -any

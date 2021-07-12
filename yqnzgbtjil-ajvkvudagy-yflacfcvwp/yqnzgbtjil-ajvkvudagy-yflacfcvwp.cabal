@@ -1,0 +1,90 @@
+cabal-version: 1.12
+name:          yqnzgbtjil-ajvkvudagy-yflacfcvwp
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        CPP DataKinds DeriveDataTypeable DeriveGeneric EmptyDataDecls
+        FlexibleContexts FlexibleInstances GADTs GeneralizedNewtypeDeriving
+        LambdaCase MultiParamTypeClasses NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        ViewPatterns MultiWayIf BlockArguments DerivingStrategies
+        DerivingVia
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        base -any,
+        classy-prelude -any,
+        mmorph -any,
+        monad-control -any,
+        monad-logger -any,
+        mtl -any,
+        opentracing -any,
+        persistent -any,
+        persistent-postgresql -any,
+        postgresql-config -any,
+        postgresql-query -any,
+        postgresql-simple -any,
+        resourcet -any,
+        retry -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        etnxirubqy-dvsnrbmtbe-wwlkbvjnsk -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        streamly -any,
+        unliftio-core -any,
+        unordered-containers -any
+
+test-suite wolnuwwfcp-rgbhdyzzdn-lcqghmnogl
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        CPP DataKinds DeriveDataTypeable DeriveGeneric EmptyDataDecls
+        FlexibleContexts FlexibleInstances GADTs GeneralizedNewtypeDeriving
+        LambdaCase MultiParamTypeClasses NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        ViewPatterns MultiWayIf BlockArguments DerivingStrategies
+        DerivingVia
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        base -any,
+        classy-prelude -any,
+        hspec -any,
+        mmorph -any,
+        monad-control -any,
+        monad-logger -any,
+        mtl -any,
+        opentracing -any,
+        persistent -any,
+        persistent-postgresql -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        postgresql-config -any,
+        postgresql-query -any,
+        postgresql-simple -any,
+        resourcet -any,
+        retry -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        etnxirubqy-dvsnrbmtbe-wwlkbvjnsk -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        streamly -any,
+        temporary -any,
+        tmp-postgres -any,
+        unliftio-core -any,
+        unordered-containers -any

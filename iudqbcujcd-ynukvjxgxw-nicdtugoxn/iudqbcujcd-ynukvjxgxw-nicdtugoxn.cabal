@@ -1,0 +1,151 @@
+cabal-version: 1.12
+name:          iudqbcujcd-ynukvjxgxw-nicdtugoxn
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DeriveGeneric DerivingStrategies
+        EmptyDataDecls FlexibleContexts FlexibleInstances GADTs
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        NamedFieldPuns NoMonomorphismRestriction NoImplicitPrelude
+        OverloadedStrings QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeOperators
+        ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        aeson-casing -any,
+        base -any,
+        case-insensitive -any,
+        casing -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        qivxmeiywc-jecrjyijco-tprliqfsfi -any,
+        exceptions -any,
+        http-client -any,
+        nbpvxcqiih-kifutcfxel-yxbuxwaxvc -any,
+        http-types -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        mmorph -any,
+        monad-control -any,
+        monad-logger -any,
+        mtl -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        network-uri -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        resourcet -any,
+        servant -any,
+        servant-client -any,
+        servant-client-core -any,
+        jzkwdkcfrm-edzuwumizr-rgnvciqrvk -any,
+        bmnsexcmla-uhiigkzpho-fecljrnpui -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        text -any,
+        transformers-base -any,
+        unliftio-core -any,
+        vulsdpompx-fiahihpbmu-tkeebysusq -any,
+        uuid -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        warp -any
+
+test-suite jbfuakufbc-venkxobeqn-zbacfgypvt
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DeriveGeneric DerivingStrategies
+        EmptyDataDecls FlexibleContexts FlexibleInstances GADTs
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        NamedFieldPuns NoMonomorphismRestriction NoImplicitPrelude
+        OverloadedStrings QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeOperators
+        ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        aeson-casing -any,
+        base -any,
+        bytestring -any,
+        case-insensitive -any,
+        casing -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        qivxmeiywc-jecrjyijco-tprliqfsfi -any,
+        iudqbcujcd-ynukvjxgxw-nicdtugoxn -any,
+        shaqzilprc-cnvkkznmqt-osbygjlcfq -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        exceptions -any,
+        file-embed -any,
+        file-path-th -any,
+        filepath -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        http-client -any,
+        nbpvxcqiih-kifutcfxel-yxbuxwaxvc -any,
+        http-types -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        wrsxalzuux-fkrmnzenbw-mlawexhwxe -any,
+        mmorph -any,
+        monad-control -any,
+        monad-logger -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        mtl -any,
+        xtwihehity-ujcjqxvexa-mtrhiynzie -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        wnnqxxyjlv-fofbbgzfpm-cdfgfjnzud -any,
+        boardlbhyl-fwkrjpkdjj-uanqxbjouz -any,
+        network -any,
+        network-uri -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        postgresql-query -any,
+        postgresql-simple -any,
+        process -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        resourcet -any,
+        servant -any,
+        servant-client -any,
+        servant-client-core -any,
+        jzkwdkcfrm-edzuwumizr-rgnvciqrvk -any,
+        servant-multipart -any,
+        bmnsexcmla-uhiigkzpho-fecljrnpui -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        temporary -any,
+        text -any,
+        transformers -any,
+        transformers-base -any,
+        unix-compat -any,
+        unliftio-core -any,
+        vulsdpompx-fiahihpbmu-tkeebysusq -any,
+        uuid -any,
+        wai -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        ojfbtzpcfi-apxmpdnheh-xufedojzlq -any,
+        warp -any,
+        yaml -any

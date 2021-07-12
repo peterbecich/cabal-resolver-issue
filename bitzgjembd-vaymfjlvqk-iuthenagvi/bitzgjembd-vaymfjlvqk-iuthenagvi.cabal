@@ -1,0 +1,106 @@
+cabal-version: 1.12
+name:          bitzgjembd-vaymfjlvqk-iuthenagvi
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments ConstraintKinds DataKinds DeriveAnyClass
+        DeriveGeneric DerivingStrategies DerivingVia DuplicateRecordFields
+        FlexibleContexts FlexibleInstances GeneralizedNewtypeDeriving
+        KindSignatures LambdaCase MultiParamTypeClasses NamedFieldPuns
+        NoImplicitPrelude OverloadedStrings QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base -any,
+        bytestring -any,
+        case-insensitive -any,
+        containers -any,
+        uslahbwpjb-vdtqwxhxnj-hiqltqwrnx -any,
+        http-media -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        ibcsaqswoj-kghjffqrcb-fifltunohv -any,
+        network-uri -any,
+        nonempty-containers -any,
+        postgresql-query -any,
+        atgnezedgv-lbskucbixg-bdkbwtkusi -any,
+        postgresql-simple -any,
+        postgresql-tx -any,
+        postgresql-tx-monad-logger -any,
+        postgresql-tx-query -any,
+        civunfdiag-tziozhaunn-zdkpvlcwwa -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        text -any,
+        time -any,
+        unix-compat -any,
+        uuid -any
+
+test-suite jcqdnycjbu-zekfqryyrl-cuarbsbijq
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments ConstraintKinds DataKinds DeriveAnyClass
+        DeriveGeneric DerivingStrategies DerivingVia DuplicateRecordFields
+        FlexibleContexts FlexibleInstances GeneralizedNewtypeDeriving
+        KindSignatures LambdaCase MultiParamTypeClasses NamedFieldPuns
+        NoImplicitPrelude OverloadedStrings QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        base -any,
+        bytestring -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        uslahbwpjb-vdtqwxhxnj-hiqltqwrnx -any,
+        bitzgjembd-vaymfjlvqk-iuthenagvi -any,
+        traedgtejy-dxdtlzbjko-kicveovpzi -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        http-media -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        wrsxalzuux-fkrmnzenbw-mlawexhwxe -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        ibcsaqswoj-kghjffqrcb-fifltunohv -any,
+        wnnqxxyjlv-fofbbgzfpm-cdfgfjnzud -any,
+        network-uri -any,
+        nonempty-containers -any,
+        postgresql-query -any,
+        atgnezedgv-lbskucbixg-bdkbwtkusi -any,
+        postgresql-simple -any,
+        postgresql-tx -any,
+        postgresql-tx-monad-logger -any,
+        postgresql-tx-query -any,
+        civunfdiag-tziozhaunn-zdkpvlcwwa -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        text -any,
+        time -any,
+        unix-compat -any,
+        uuid -any,
+        ojfbtzpcfi-apxmpdnheh-xufedojzlq -any

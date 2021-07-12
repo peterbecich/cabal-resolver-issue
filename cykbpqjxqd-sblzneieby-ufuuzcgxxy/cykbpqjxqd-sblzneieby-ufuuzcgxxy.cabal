@@ -1,0 +1,43 @@
+cabal-version: 1.12
+name:          cykbpqjxqd-sblzneieby-ufuuzcgxxy
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        AllowAmbiguousTypes ConstraintKinds DataKinds DeriveAnyClass
+        DeriveFunctor DeriveGeneric DerivingStrategies DerivingVia
+        DuplicateRecordFields FlexibleContexts FlexibleInstances GADTs
+        GeneralizedNewtypeDeriving KindSignatures LambdaCase
+        MultiParamTypeClasses NamedFieldPuns NoImplicitPrelude
+        OverloadedStrings RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TypeApplications TypeFamilies
+        TypeOperators UndecidableInstances
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        composition -any,
+        containers -any,
+        exceptions -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        mtl -any,
+        nonempty-containers -any,
+        servant -any,
+        servant-flatten -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        text -any,
+        unordered-containers -any,
+        uuid -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any

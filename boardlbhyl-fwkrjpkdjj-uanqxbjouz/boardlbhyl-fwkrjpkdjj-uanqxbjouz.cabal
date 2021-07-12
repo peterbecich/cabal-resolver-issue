@@ -1,0 +1,83 @@
+cabal-version: 1.12
+name:          boardlbhyl-fwkrjpkdjj-uanqxbjouz
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments FlexibleContexts FlexibleInstances
+        FunctionalDependencies LambdaCase MultiParamTypeClasses
+        NamedFieldPuns NoImplicitPrelude OverloadedStrings RecordWildCards
+        ScopedTypeVariables TemplateHaskell TypeApplications
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        QuickCheck -any,
+        QuickCheck-GenT -any,
+        base -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        file-path-th -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        wrsxalzuux-fkrmnzenbw-mlawexhwxe -any,
+        mtl -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        nonempty-containers -any,
+        postgresql-query -any,
+        rosebud -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        text -any,
+        transformers -any,
+        uuid -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        ojfbtzpcfi-apxmpdnheh-xufedojzlq -any
+
+test-suite pedknxvuki-svwaivltfl-aalvrdcccj
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments FlexibleContexts FlexibleInstances
+        FunctionalDependencies LambdaCase MultiParamTypeClasses
+        NamedFieldPuns NoImplicitPrelude OverloadedStrings RecordWildCards
+        ScopedTypeVariables TemplateHaskell TypeApplications
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        QuickCheck -any,
+        QuickCheck-GenT -any,
+        aeson -any,
+        base -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        file-path-th -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        wrsxalzuux-fkrmnzenbw-mlawexhwxe -any,
+        mtl -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        boardlbhyl-fwkrjpkdjj-uanqxbjouz -any,
+        nonempty-containers -any,
+        postgresql-query -any,
+        rosebud -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        text -any,
+        transformers -any,
+        unordered-containers -any,
+        uuid -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        ojfbtzpcfi-apxmpdnheh-xufedojzlq -any

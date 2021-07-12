@@ -1,0 +1,508 @@
+cabal-version: 1.12
+name:          svjggidczx-klsmyehdey-hhszutopxk
+version:       0.0.0.0
+license:       AllRightsReserved
+license-file:  LICENSE
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DeriveGeneric DeriveTraversable
+        DerivingStrategies EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction NumericUnderscores OverloadedStrings
+        PolyKinds QuasiQuotes RankNTypes RecordWildCards RecursiveDo
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeOperators
+        UndecidableInstances ViewPatterns TypeApplications
+        PartialTypeSignatures DeriveAnyClass
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        MonadRandom -any,
+        QuickCheck -any,
+        aeson -any,
+        aeson-qq -any,
+        amqp -any,
+        async -any,
+        base -any,
+        bytestring -any,
+        case-insensitive -any,
+        casing -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        conduit -any,
+        conduit-extra -any,
+        connection -any,
+        containers -any,
+        data-default -any,
+        directory -any,
+        ekg-core -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        executable-path -any,
+        filepath -any,
+        generic-deriving -any,
+        gitrev -any,
+        http-client -any,
+        http-client-tls -any,
+        http-conduit -any,
+        http-types -any,
+        immortal -any,
+        vssceiekkq-wmakioxqzz-whljvapvpg -any,
+        lens -any,
+        lens-aeson -any,
+        monad-logger -any,
+        mtl -any,
+        network -any,
+        network-info -any,
+        openapi3 -any,
+        optparse-applicative -any,
+        optparse-generic -any,
+        process -any,
+        protocol-buffers -any,
+        quickcheck-instances -any,
+        random -any,
+        rawstring-qm -any,
+        rqrhrfngcb-lhrmfapvdl-uebrqoygak -any,
+        resourcet -any,
+        scientific -any,
+        servant -any,
+        servant-client -any,
+        servant-server -any,
+        servant-yaml -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        qvasxrulmh-hkqryfmwwu-wbiunuatjc -any,
+        split -any,
+        stm -any,
+        streamly -any,
+        system-filepath -any,
+        tar -any,
+        text -any,
+        threads-extras -any,
+        time -any,
+        turtle -any,
+        sboerrxqie-qaooqvidfh-rdjdiropml -any,
+        unix -any,
+        uuid -any,
+        vinyl -any,
+        wai -any,
+        wai-logger -any,
+        wai-websockets -any,
+        warp -any,
+        websockets -any,
+        yaml -any,
+        zip -any,
+        zlib -any
+
+executable mgimsgtswl-tuascytdmg-nswearfwoh
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DeriveGeneric DeriveTraversable
+        DerivingStrategies EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction NumericUnderscores OverloadedStrings
+        PolyKinds QuasiQuotes RankNTypes RecordWildCards RecursiveDo
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeOperators
+        UndecidableInstances ViewPatterns TypeApplications
+        PartialTypeSignatures DeriveAnyClass
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        MonadRandom -any,
+        QuickCheck -any,
+        aeson -any,
+        aeson-qq -any,
+        amqp -any,
+        async -any,
+        base -any,
+        bytestring -any,
+        case-insensitive -any,
+        casing -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        conduit -any,
+        conduit-extra -any,
+        connection -any,
+        containers -any,
+        svjggidczx-klsmyehdey-hhszutopxk -any,
+        data-default -any,
+        directory -any,
+        ekg-core -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        executable-path -any,
+        filepath -any,
+        generic-deriving -any,
+        gitrev -any,
+        http-client -any,
+        http-client-tls -any,
+        http-conduit -any,
+        http-types -any,
+        immortal -any,
+        vssceiekkq-wmakioxqzz-whljvapvpg -any,
+        lens -any,
+        lens-aeson -any,
+        monad-logger -any,
+        mtl -any,
+        network -any,
+        network-info -any,
+        openapi3 -any,
+        optparse-applicative -any,
+        optparse-generic -any,
+        process -any,
+        protocol-buffers -any,
+        quickcheck-instances -any,
+        random -any,
+        rawstring-qm -any,
+        rqrhrfngcb-lhrmfapvdl-uebrqoygak -any,
+        resourcet -any,
+        scientific -any,
+        servant -any,
+        servant-client -any,
+        servant-server -any,
+        servant-yaml -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        qvasxrulmh-hkqryfmwwu-wbiunuatjc -any,
+        split -any,
+        stm -any,
+        streamly -any,
+        system-filepath -any,
+        tar -any,
+        text -any,
+        threads-extras -any,
+        time -any,
+        turtle -any,
+        sboerrxqie-qaooqvidfh-rdjdiropml -any,
+        unix -any,
+        uuid -any,
+        vinyl -any,
+        wai -any,
+        wai-logger -any,
+        wai-websockets -any,
+        warp -any,
+        websockets -any,
+        yaml -any,
+        zip -any,
+        zlib -any
+
+executable psxliznaup-cwnicaullh-jbwjnhdfgo
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DeriveGeneric DeriveTraversable
+        DerivingStrategies EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction NumericUnderscores OverloadedStrings
+        PolyKinds QuasiQuotes RankNTypes RecordWildCards RecursiveDo
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeOperators
+        UndecidableInstances ViewPatterns TypeApplications
+        PartialTypeSignatures DeriveAnyClass
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        MonadRandom -any,
+        QuickCheck -any,
+        aeson -any,
+        aeson-qq -any,
+        amqp -any,
+        async -any,
+        base -any,
+        bytestring -any,
+        case-insensitive -any,
+        casing -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        conduit -any,
+        conduit-extra -any,
+        connection -any,
+        containers -any,
+        svjggidczx-klsmyehdey-hhszutopxk -any,
+        data-default -any,
+        directory -any,
+        ekg-core -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        executable-path -any,
+        filepath -any,
+        generic-deriving -any,
+        gitrev -any,
+        hspec -any,
+        http-client -any,
+        http-client-tls -any,
+        http-conduit -any,
+        http-types -any,
+        immortal -any,
+        vssceiekkq-wmakioxqzz-whljvapvpg -any,
+        lens -any,
+        lens-aeson -any,
+        monad-logger -any,
+        mtl -any,
+        network -any,
+        network-info -any,
+        openapi3 -any,
+        optparse-applicative -any,
+        optparse-generic -any,
+        port-utils -any,
+        process -any,
+        protocol-buffers -any,
+        quickcheck-instances -any,
+        random -any,
+        rawstring-qm -any,
+        rqrhrfngcb-lhrmfapvdl-uebrqoygak -any,
+        resourcet -any,
+        scientific -any,
+        servant -any,
+        servant-client -any,
+        servant-server -any,
+        servant-yaml -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        qvasxrulmh-hkqryfmwwu-wbiunuatjc -any,
+        split -any,
+        stm -any,
+        streamly -any,
+        system-filepath -any,
+        tar -any,
+        text -any,
+        threads-extras -any,
+        time -any,
+        turtle -any,
+        sboerrxqie-qaooqvidfh-rdjdiropml -any,
+        unix -any,
+        uuid -any,
+        vinyl -any,
+        wai -any,
+        wai-logger -any,
+        wai-websockets -any,
+        warp -any,
+        websockets -any,
+        wreq -any,
+        yaml -any,
+        zip -any,
+        zlib -any
+
+executable nejiwjatoa-kugrmfpvyg-jdziadfkjd
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DeriveGeneric DeriveTraversable
+        DerivingStrategies EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction NumericUnderscores OverloadedStrings
+        PolyKinds QuasiQuotes RankNTypes RecordWildCards RecursiveDo
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeOperators
+        UndecidableInstances ViewPatterns TypeApplications
+        PartialTypeSignatures DeriveAnyClass
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        MonadRandom -any,
+        QuickCheck -any,
+        aeson -any,
+        aeson-qq -any,
+        amqp -any,
+        async -any,
+        base -any,
+        bytestring -any,
+        case-insensitive -any,
+        casing -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        conduit -any,
+        conduit-extra -any,
+        connection -any,
+        containers -any,
+        svjggidczx-klsmyehdey-hhszutopxk -any,
+        data-default -any,
+        directory -any,
+        ekg-core -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        executable-path -any,
+        filepath -any,
+        generic-deriving -any,
+        gitrev -any,
+        http-client -any,
+        http-client-tls -any,
+        http-conduit -any,
+        http-types -any,
+        immortal -any,
+        vssceiekkq-wmakioxqzz-whljvapvpg -any,
+        lens -any,
+        lens-aeson -any,
+        monad-logger -any,
+        mtl -any,
+        network -any,
+        network-info -any,
+        openapi3 -any,
+        optparse-applicative -any,
+        optparse-generic -any,
+        process -any,
+        protocol-buffers -any,
+        quickcheck-instances -any,
+        random -any,
+        rawstring-qm -any,
+        rqrhrfngcb-lhrmfapvdl-uebrqoygak -any,
+        resourcet -any,
+        scientific -any,
+        servant -any,
+        servant-client -any,
+        servant-server -any,
+        servant-yaml -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        qvasxrulmh-hkqryfmwwu-wbiunuatjc -any,
+        split -any,
+        stm -any,
+        streamly -any,
+        system-filepath -any,
+        tar -any,
+        text -any,
+        threads-extras -any,
+        time -any,
+        turtle -any,
+        sboerrxqie-qaooqvidfh-rdjdiropml -any,
+        unix -any,
+        uuid -any,
+        vinyl -any,
+        wai -any,
+        wai-logger -any,
+        wai-websockets -any,
+        warp -any,
+        websockets -any,
+        yaml -any,
+        zip -any,
+        zlib -any
+
+test-suite pelpueyhda-zupmvkjwbr-csleyrnyfc
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DataKinds DeriveGeneric DeriveTraversable
+        DerivingStrategies EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction NumericUnderscores OverloadedStrings
+        PolyKinds QuasiQuotes RankNTypes RecordWildCards RecursiveDo
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeOperators
+        UndecidableInstances ViewPatterns TypeApplications
+        PartialTypeSignatures DeriveAnyClass
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        MonadRandom -any,
+        QuickCheck -any,
+        aeson -any,
+        aeson-qq -any,
+        amqp -any,
+        async -any,
+        base -any,
+        bytestring -any,
+        case-insensitive -any,
+        casing -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        conduit -any,
+        conduit-extra -any,
+        connection -any,
+        containers -any,
+        svjggidczx-klsmyehdey-hhszutopxk -any,
+        data-default -any,
+        directory -any,
+        ekg-core -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        executable-path -any,
+        filepath -any,
+        generic-deriving -any,
+        gitrev -any,
+        hspec -any,
+        http-client -any,
+        http-client-tls -any,
+        http-conduit -any,
+        http-types -any,
+        immortal -any,
+        vssceiekkq-wmakioxqzz-whljvapvpg -any,
+        lens -any,
+        lens-aeson -any,
+        monad-logger -any,
+        mtl -any,
+        network -any,
+        network-info -any,
+        openapi3 -any,
+        optparse-applicative -any,
+        optparse-generic -any,
+        port-utils -any,
+        process -any,
+        protocol-buffers -any,
+        quickcheck-instances -any,
+        random -any,
+        rawstring-qm -any,
+        rqrhrfngcb-lhrmfapvdl-uebrqoygak -any,
+        resourcet -any,
+        scientific -any,
+        servant -any,
+        servant-client -any,
+        servant-server -any,
+        servant-yaml -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        qvasxrulmh-hkqryfmwwu-wbiunuatjc -any,
+        split -any,
+        stm -any,
+        streamly -any,
+        system-filepath -any,
+        tar -any,
+        text -any,
+        threads-extras -any,
+        time -any,
+        turtle -any,
+        sboerrxqie-qaooqvidfh-rdjdiropml -any,
+        unix -any,
+        uuid -any,
+        vinyl -any,
+        wai -any,
+        wai-logger -any,
+        wai-websockets -any,
+        warp -any,
+        websockets -any,
+        wreq -any,
+        yaml -any,
+        zip -any,
+        zlib -any

@@ -1,0 +1,50 @@
+cabal-version: 1.12
+name:          dubevazgvk-nclmplqrpa-vdmucofxpc
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        DeriveAnyClass DataKinds DeriveGeneric DerivingStrategies
+        FlexibleContexts FlexibleInstances LambdaCase NoImplicitPrelude
+        OverloadedStrings QuasiQuotes RecordWildCards ScopedTypeVariables
+        TemplateHaskell TypeApplications TypeOperators TypeSynonymInstances
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base -any,
+        bytestring -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        jose-jwt -any,
+        lens -any,
+        monad-control -any,
+        monad-logger -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        postgresql-config -any,
+        postgresql-simple -any,
+        postgresql-tx-query -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        safe-exceptions -any,
+        servant -any,
+        servant-docs -any,
+        servant-server -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        text -any,
+        text-show -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        uuxigdmzun-amwuhmpemv-ztieeybvdh -any,
+        vfenmvaqbs-ctmfgtfvto-pgyqosqxmc -any,
+        wai -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any

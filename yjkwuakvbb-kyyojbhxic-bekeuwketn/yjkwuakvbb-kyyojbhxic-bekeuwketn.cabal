@@ -1,0 +1,69 @@
+cabal-version: 1.12
+name:          yjkwuakvbb-kyyojbhxic-bekeuwketn
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        CPP DataKinds DeriveDataTypeable DeriveGeneric DerivingStrategies
+        EmptyDataDecls FlexibleContexts FlexibleInstances GADTs
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TypeApplications TemplateHaskell TupleSections TypeFamilies
+        ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -freduction-depth=500
+
+    build-depends:
+        Diff -any,
+        QuickCheck -any,
+        aeson -any,
+        aeson-better-errors -any,
+        aeson-diff -any,
+        aeson-pretty -any,
+        ansi-terminal -any,
+        base -any,
+        bytestring -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        toqjmgsrfv-nouqirkvuc-ubtevxrbsz -any,
+        fast-logger -any,
+        hscolour -any,
+        lens -any,
+        monad-logger -any,
+        mtl -any,
+        nicify-lib -any,
+        persistent -any,
+        persistent-qq -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        postgresql-config -any,
+        postgresql-simple -any,
+        pretty-simple -any,
+        process -any,
+        ysovwneqof-htzfreipkt-avvjcvvcdp -any,
+        luljacqjym-uleizmtdpg-voznuwnupa -any,
+        trkplfabrj-vqbcqmmylp-dalptunfba -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        mgocxjmugg-szydfszzpd-rcfzbgiwzv -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        etnxirubqy-dvsnrbmtbe-wwlkbvjnsk -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        squeal-postgresql -any,
+        tasty -any,
+        tasty-hunit -any,
+        tasty-quickcheck -any,
+        text -any,
+        uuid -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        yesod -any,
+        yesod-core -any

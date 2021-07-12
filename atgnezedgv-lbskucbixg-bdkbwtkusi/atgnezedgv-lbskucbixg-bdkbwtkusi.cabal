@@ -1,0 +1,36 @@
+cabal-version: 1.12
+name:          atgnezedgv-lbskucbixg-bdkbwtkusi
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        AllowAmbiguousTypes BlockArguments ConstraintKinds DataKinds
+        DeriveAnyClass DeriveDataTypeable DeriveGeneric DerivingStrategies
+        DerivingVia EmptyDataDecls FlexibleContexts FlexibleInstances
+        FunctionalDependencies GADTs GeneralizedNewtypeDeriving
+        InstanceSigs LambdaCase MultiParamTypeClasses MultiWayIf
+        NamedFieldPuns NoImplicitPrelude NoMonomorphismRestriction
+        OverloadedStrings PackageImports QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TupleSections TypeApplications TypeFamilies TypeOperators
+        UndecidableInstances ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson-better-errors -any,
+        base -any,
+        bytestring -any,
+        monad-logger -any,
+        postgresql-query -any,
+        postgresql-simple -any,
+        postgresql-tx -any,
+        postgresql-tx-query -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        text -any,
+        transformers-base -any

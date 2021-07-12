@@ -1,0 +1,159 @@
+cabal-version: 3.0
+name:          mnjpisgook-hwiqblnzwl-ehpynslgbd
+version:       0.0.0.0
+build-type:    Custom
+
+custom-setup
+    setup-depends:
+        base -any,
+        Cabal -any,
+        cabal-auto-expose -any
+
+library
+    default-language:   Haskell2010
+    default-extensions: NoImplicitPrelude OverloadedLabels OverloadedStrings
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        zvxosjlaim-rilcnymlpm-zokgocnrdo -any,
+        aiboxtftww-twgwqzwbgz-dczjcqumyf -any,
+        base >=4.7 && <5,
+        bits -any,
+        bytestring -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        uslahbwpjb-vdtqwxhxnj-hiqltqwrnx -any,
+        bitzgjembd-vaymfjlvqk-iuthenagvi -any,
+        fjiwadmxge-aqjkxoqtiw-xcrotcqoci -any,
+        exceptions -any,
+        generic-lens -any,
+        lens -any,
+        monad-logger -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        nonempty-containers -any,
+        optparse-applicative -any,
+        postgresql-simple -any,
+        postgresql-tx -any,
+        postgresql-tx-query -any,
+        postgresql-tx-squeal -any,
+        postgresql-tx-squeal-compat-simple -any,
+        random -any,
+        jrqqfpuace-ckjryxrdrw-trllbleiex -any,
+        wjcvquzmqj-ngmhegkhun-ozevzugvrv -any,
+        resource-pool -any,
+        servant -any,
+        servant-server -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        bulvlkdfna-dejoouyizu-hyaxeldtbf -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        snowflake -any,
+        squeal-postgresql -any,
+        text -any,
+        uuid -any,
+        vector -any
+
+executable ptwpnnetgf-dnqbtbjtcp-ueewtamgkg
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions: NoImplicitPrelude OverloadedLabels OverloadedStrings
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        zvxosjlaim-rilcnymlpm-zokgocnrdo -any,
+        aiboxtftww-twgwqzwbgz-dczjcqumyf -any,
+        base >=4.7 && <5,
+        bits -any,
+        bytestring -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        uslahbwpjb-vdtqwxhxnj-hiqltqwrnx -any,
+        bitzgjembd-vaymfjlvqk-iuthenagvi -any,
+        fjiwadmxge-aqjkxoqtiw-xcrotcqoci -any,
+        exceptions -any,
+        generic-lens -any,
+        lens -any,
+        monad-logger -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        nonempty-containers -any,
+        optparse-applicative -any,
+        postgresql-simple -any,
+        postgresql-tx -any,
+        postgresql-tx-query -any,
+        postgresql-tx-squeal -any,
+        postgresql-tx-squeal-compat-simple -any,
+        random -any,
+        jrqqfpuace-ckjryxrdrw-trllbleiex -any,
+        wjcvquzmqj-ngmhegkhun-ozevzugvrv -any,
+        resource-pool -any,
+        servant -any,
+        servant-server -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        bulvlkdfna-dejoouyizu-hyaxeldtbf -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        snowflake -any,
+        squeal-postgresql -any,
+        text -any,
+        uuid -any,
+        vector -any,
+        mnjpisgook-hwiqblnzwl-ehpynslgbd -any
+
+test-suite ynnftwxben-afdfyjdwaj-symjkeoccm
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions: NoImplicitPrelude OverloadedLabels OverloadedStrings
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        zvxosjlaim-rilcnymlpm-zokgocnrdo -any,
+        aiboxtftww-twgwqzwbgz-dczjcqumyf -any,
+        base >=4.7 && <5,
+        bits -any,
+        bytestring -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        containers -any,
+        uslahbwpjb-vdtqwxhxnj-hiqltqwrnx -any,
+        bitzgjembd-vaymfjlvqk-iuthenagvi -any,
+        fjiwadmxge-aqjkxoqtiw-xcrotcqoci -any,
+        exceptions -any,
+        generic-lens -any,
+        lens -any,
+        monad-logger -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        nonempty-containers -any,
+        optparse-applicative -any,
+        postgresql-simple -any,
+        postgresql-tx -any,
+        postgresql-tx-query -any,
+        postgresql-tx-squeal -any,
+        postgresql-tx-squeal-compat-simple -any,
+        random -any,
+        jrqqfpuace-ckjryxrdrw-trllbleiex -any,
+        wjcvquzmqj-ngmhegkhun-ozevzugvrv -any,
+        resource-pool -any,
+        servant -any,
+        servant-server -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        bulvlkdfna-dejoouyizu-hyaxeldtbf -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        snowflake -any,
+        squeal-postgresql -any,
+        text -any,
+        uuid -any,
+        vector -any,
+        mnjpisgook-hwiqblnzwl-ehpynslgbd -any

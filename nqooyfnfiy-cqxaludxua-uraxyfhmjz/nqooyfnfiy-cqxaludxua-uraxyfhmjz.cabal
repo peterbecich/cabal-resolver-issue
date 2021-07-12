@@ -1,0 +1,48 @@
+cabal-version: 1.12
+name:          nqooyfnfiy-cqxaludxua-uraxyfhmjz
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        postgresql-simple -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        stm -any,
+        apgymziwpt-hfuoxfazde-mduxjobqdb -any,
+        axwjpkrvbz-tjiqqivkjb-vdcyriwmgb -any,
+        text -any
+
+test-suite lyynjuijkr-ksqymbqjpi-zxghuypuat
+    type:             exitcode-stdio-1.0
+    main-is:          main.hs
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        base -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        postgresql-simple -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        stm -any,
+        apgymziwpt-hfuoxfazde-mduxjobqdb -any,
+        nqooyfnfiy-cqxaludxua-uraxyfhmjz -any,
+        axwjpkrvbz-tjiqqivkjb-vdcyriwmgb -any,
+        text -any

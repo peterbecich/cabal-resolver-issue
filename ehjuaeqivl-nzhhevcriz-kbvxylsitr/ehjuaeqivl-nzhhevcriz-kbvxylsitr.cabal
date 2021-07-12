@@ -1,0 +1,191 @@
+cabal-version: 1.12
+name:          ehjuaeqivl-nzhhevcriz-kbvxylsitr
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        AllowAmbiguousTypes ConstraintKinds DefaultSignatures
+        DeriveAnyClass DeriveFunctor DeriveGeneric DerivingStrategies
+        DerivingVia DataKinds EmptyDataDecls FlexibleContexts
+        FlexibleInstances GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications
+        TypeFamilyDependencies TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -fwarn-redundant-constraints
+
+    build-depends:
+        MonadRandom -any,
+        SafeSemaphore -any,
+        aeson -any,
+        aeson-better-errors -any,
+        kxjfyqvjgh-gktxcmwtsj-nwnbfmdmgy -any,
+        aeson-qq -any,
+        rytzenhuwi-ifmlrhcceo-gawhrxxqam -any,
+        amazonka -any,
+        amazonka-s3 -any,
+        array -any,
+        base -any,
+        bitwise -any,
+        bytestring -any,
+        case-insensitive -any,
+        cereal -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        conduit -any,
+        containers -any,
+        deepseq -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        exceptions -any,
+        extra -any,
+        fake -any,
+        generic-lens -any,
+        http-api-data -any,
+        interpolatedstring-perl6 -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        keys -any,
+        lens -any,
+        lens-aeson -any,
+        lifted-async -any,
+        megaparsec -any,
+        mmorph -any,
+        monad-control -any,
+        monad-logger -any,
+        mtl -any,
+        xtwihehity-ujcjqxvexa-mtrhiynzie -any,
+        network-uri -any,
+        persistent -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        persistent-template -any,
+        postgresql-simple -any,
+        prettyprinter -any,
+        random -any,
+        random-shuffle -any,
+        refined -any,
+        resourcet -any,
+        civunfdiag-tziozhaunn-zdkpvlcwwa -any,
+        scientific -any,
+        semialign -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        stm -any,
+        stm-conduit -any,
+        template-haskell -any,
+        text -any,
+        text-show -any,
+        these -any,
+        time -any,
+        unliftio-core -any,
+        hyvhvjnisq-lvthavwoui-ptfwyvqrwk -any,
+        vector -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        writer-cps-mtl -any,
+        yaml -any,
+        yesod-core -any
+
+test-suite khfckhxqew-qmrefqmfwy-fnhdtvavtj
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        AllowAmbiguousTypes ConstraintKinds DefaultSignatures
+        DeriveAnyClass DeriveFunctor DeriveGeneric DerivingStrategies
+        DerivingVia DataKinds EmptyDataDecls FlexibleContexts
+        FlexibleInstances GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications
+        TypeFamilyDependencies TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -fwarn-redundant-constraints -threaded -rtsopts
+        "-with-rtsopts=-N -T"
+
+    build-depends:
+        MonadRandom -any,
+        QuickCheck -any,
+        SafeSemaphore -any,
+        aeson -any,
+        aeson-better-errors -any,
+        kxjfyqvjgh-gktxcmwtsj-nwnbfmdmgy -any,
+        aeson-qq -any,
+        rytzenhuwi-ifmlrhcceo-gawhrxxqam -any,
+        amazonka -any,
+        amazonka-s3 -any,
+        array -any,
+        base -any,
+        bitwise -any,
+        bytestring -any,
+        case-insensitive -any,
+        cereal -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        conduit -any,
+        containers -any,
+        deepseq -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        exceptions -any,
+        extra -any,
+        fake -any,
+        generic-lens -any,
+        http-api-data -any,
+        interpolatedstring-perl6 -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        keys -any,
+        lens -any,
+        lens-aeson -any,
+        lifted-async -any,
+        megaparsec -any,
+        mmorph -any,
+        monad-control -any,
+        monad-logger -any,
+        mtl -any,
+        xtwihehity-ujcjqxvexa-mtrhiynzie -any,
+        network-uri -any,
+        persistent -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        persistent-template -any,
+        postgresql-simple -any,
+        prettyprinter -any,
+        random -any,
+        random-shuffle -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        raw-strings-qq -any,
+        refined -any,
+        resourcet -any,
+        civunfdiag-tziozhaunn-zdkpvlcwwa -any,
+        scientific -any,
+        semialign -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        stm -any,
+        stm-conduit -any,
+        tasty -any,
+        tasty-hunit -any,
+        tasty-quickcheck -any,
+        template-haskell -any,
+        text -any,
+        text-show -any,
+        these -any,
+        time -any,
+        unliftio-core -any,
+        hyvhvjnisq-lvthavwoui-ptfwyvqrwk -any,
+        vector -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        writer-cps-mtl -any,
+        yaml -any,
+        yesod-core -any

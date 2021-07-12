@@ -1,0 +1,33 @@
+cabal-version: 1.12
+name:          rpafndpsic-myjzrytxbk-itdubcwmii
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        base -any,
+        ayqaodtiqr-lyoodcipiw-hvmfzfurzz -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        rqfouaqhgm-nxvkrcadip-armiklgokp -any
+
+executable jgfithhgzg-xgrgjyrqgt-lfgpxkxjqd
+    main-is:          main.hs
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        base -any,
+        ayqaodtiqr-lyoodcipiw-hvmfzfurzz -any,
+        rpafndpsic-myjzrytxbk-itdubcwmii -any,
+        irnnsxssyn-smvaxwghzf-nispjafufa -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        rqfouaqhgm-nxvkrcadip-armiklgokp -any

@@ -1,50 +1,49 @@
-
 Attempt to replicate issue https://github.com/haskell/cabal/issues/7466.
 
-This is a Cabal project with 400 packages. Each package has 40 random dependencies drawn from `dependencies.txt`, plus `base`. The items in `dependencies.txt` are taken from https://hackage.haskell.org/packages/browse.
+This is a Cabal project with an intricate dependency tree, but no source code. It was obfuscated using `obfuscate.hs`.
 
-Run `cabal configure`. For me, `cabal configure` runs noticeably faster on the second run:
+Run `cabal clean` followed by `cabal build all --dry-run`. The latter takes about 40 seconds locally to run, but is
+faster on subsequent runs. Switching between `--enable-tests` and `--disable-test` incurs this 40-second cost again.
 
-```
-% cabal clean 
-
-% time cabal configure   
-Resolving dependencies...
-Build profile: -w ghc-8.10.4 -O1
-...
-cabal configure  12.40s user 0.46s system 99% cpu 12.889 total
-
-% time cabal configure 
-'cabal.project.local' already exists, backing it up to 'cabal.project.local~'.
-Build profile: -w ghc-8.10.4 -O1
-...
-cabal configure  4.70s user 0.38s system 98% cpu 5.135 total
-```
-
-Run `cabal build all --dry-run`:
+## `cabal configure`
 
 ```
 % cabal clean
-% time cabal build all --dry-run 
+% cabal update
+% time cabal configure
 Resolving dependencies...
 Build profile: -w ghc-8.10.4 -O1
 ...
-cabal build all --dry-run  12.52s user 0.32s system 99% cpu 12.857 total
-
-% time cabal build all --dry-run 
+cabal configure  43.40s user 9.81s system 52% cpu 1:42.08 total
+% time cabal configure
+'cabal.project.local' already exists, backing it up to 'cabal.project.local~'.
 Build profile: -w ghc-8.10.4 -O1
 ...
-cabal build all --dry-run  0.89s user 0.10s system 99% cpu 0.995 total
+cabal configure  7.67s user 2.02s system 54% cpu 17.941 total
 ```
 
-Also, I suggest deleting `cabal.project.freeze` and comparing with that.
+## `cabal build all --dry-run`
 
-To generate new packages:
-- inspect `generate.sh`
-- `rm -rf package*`
-- `./generate.sh`
+```
+% cabal clean
+% cabal update
+% time cabal build all --dry-run
+Resolving dependencies...
+Build profile: -w ghc-8.10.4 -O1
+...
+cabal build all --dry-run  44.71s user 9.52s system 45% cpu 1:59.77 total
+% time cabal build all --dry-run
+Build profile: -w ghc-8.10.4 -O1
+...
+cabal build all --dry-run  8.51s user 2.14s system 56% cpu 18.757 total
+```
 
-I'm using:
-- Debian 10.10
+## Other considerations
+
+- Deleting `cabal.project.freeze` and compare with that
+- Use the `master` branch of the Cabal project
+
+## Package versions
+
 - Cabal 3.4.0.0 (via ghcup)
 - GHC 8.10.4 (via ghcup)

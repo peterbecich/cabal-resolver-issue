@@ -1,0 +1,69 @@
+cabal-version: 1.12
+name:          vfenmvaqbs-ctmfgtfvto-pgyqosqxmc
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        DeriveAnyClass DeriveGeneric DerivingStrategies FlexibleInstances
+        NoImplicitPrelude OverloadedStrings QuasiQuotes RecordWildCards
+        ScopedTypeVariables TemplateHaskell TypeApplications
+        TypeSynonymInstances
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        lens -any,
+        postgresql-simple -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        text -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any
+
+test-suite cpevvndmxh-wepoqxryma-dgudqowmsh
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        DeriveAnyClass DeriveGeneric DerivingStrategies FlexibleInstances
+        NoImplicitPrelude OverloadedStrings QuasiQuotes RecordWildCards
+        ScopedTypeVariables TemplateHaskell TypeApplications
+        TypeSynonymInstances
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        hedgehog -any,
+        hedgehog-quickcheck -any,
+        ylxoyzxian-hniypedaoa-dgahfygwnk -any,
+        hspec -any,
+        lens -any,
+        lens-aeson -any,
+        monad-logger -any,
+        postgresql-simple -any,
+        postgresql-tx-query -any,
+        mgocxjmugg-szydfszzpd-rcfzbgiwzv -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        ambqfekzlo-giypknqooz-ybdhisbtgi -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        text -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        unordered-containers -any,
+        vfenmvaqbs-ctmfgtfvto-pgyqosqxmc -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        ojfbtzpcfi-apxmpdnheh-xufedojzlq -any

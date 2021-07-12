@@ -1,0 +1,65 @@
+cabal-version: 1.12
+name:          zpphqaohhd-blpklbpmiq-pgdhgxbdlu
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments DataKinds DeriveAnyClass DeriveGeneric
+        DerivingStrategies DerivingVia FlexibleInstances
+        GeneralizedNewtypeDeriving LambdaCase NamedFieldPuns
+        NoImplicitPrelude OverloadedStrings StandaloneDeriving
+        TypeApplications UndecidableInstances
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        aeson-better-errors -any,
+        base -any,
+        containers -any,
+        http-api-data -any,
+        rosebud -any,
+        kvnpbwtwcj-dwnjcoxcjx-rsrcmzkshx -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        text -any,
+        time -any
+
+test-suite uaeqdlgghf-ozotjqavzr-rebtpgwhok
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments DataKinds DeriveAnyClass DeriveGeneric
+        DerivingStrategies DerivingVia FlexibleInstances
+        GeneralizedNewtypeDeriving LambdaCase NamedFieldPuns
+        NoImplicitPrelude OverloadedStrings StandaloneDeriving
+        TypeApplications UndecidableInstances
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        aeson-better-errors -any,
+        base -any,
+        containers -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        http-api-data -any,
+        rosebud -any,
+        kvnpbwtwcj-dwnjcoxcjx-rsrcmzkshx -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        zpphqaohhd-blpklbpmiq-pgdhgxbdlu -any,
+        text -any,
+        time -any,
+        transformers -any,
+        uuid -any

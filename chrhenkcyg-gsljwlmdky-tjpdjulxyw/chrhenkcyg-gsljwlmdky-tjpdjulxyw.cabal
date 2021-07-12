@@ -1,0 +1,61 @@
+cabal-version: 1.12
+name:          chrhenkcyg-gsljwlmdky-tjpdjulxyw
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        CPP ConstraintKinds DataKinds DeriveDataTypeable DeriveGeneric
+        DerivingStrategies EmptyDataDecls FlexibleContexts
+        FlexibleInstances GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TypeApplications TemplateHaskell TupleSections TypeFamilies
+        ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -freduction-depth=500
+
+    build-depends:      base -any
+
+benchmark ezrgioecgu-jptsdvfola-utkcbmmtes
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        CPP ConstraintKinds DataKinds DeriveDataTypeable DeriveGeneric
+        DerivingStrategies EmptyDataDecls FlexibleContexts
+        FlexibleInstances GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings QuasiQuotes RankNTypes
+        RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TypeApplications TemplateHaskell TupleSections TypeFamilies
+        ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -freduction-depth=500 -threaded -rtsopts
+        "-with-rtsopts=-N -T" -freduction-depth=500
+
+    build-depends:
+        QuickCheck -any,
+        base -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        criterion -any,
+        monad-logger -any,
+        mtl -any,
+        persistent -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        postgresql-simple -any,
+        ysovwneqof-htzfreipkt-avvjcvvcdp -any,
+        yjkwuakvbb-kyyojbhxic-bekeuwketn -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        mgocxjmugg-szydfszzpd-rcfzbgiwzv -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        squeal-postgresql -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any

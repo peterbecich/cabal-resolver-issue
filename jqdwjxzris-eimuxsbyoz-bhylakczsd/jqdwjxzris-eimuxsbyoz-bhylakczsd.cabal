@@ -1,0 +1,66 @@
+cabal-version: 3.0
+name:          jqdwjxzris-eimuxsbyoz-bhylakczsd
+version:       0.0.0.0
+homepage:      https://github.com/Simspace/simlint#readme
+bug-reports:   https://github.com/Simspace/simlint/issues
+build-type:    Custom
+
+custom-setup
+    setup-depends:
+        base -any,
+        Cabal -any,
+        cabal-auto-expose -any
+
+library
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        base -any,
+        containers -any,
+        directory -any,
+        filepath -any,
+        megaparsec -any,
+        optparse-applicative -any,
+        process -any,
+        yaml -any
+
+executable qluohbifai-efgjxryewt-ccypecuujr
+    main-is:          main.hs
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        base -any,
+        containers -any,
+        directory -any,
+        filepath -any,
+        megaparsec -any,
+        optparse-applicative -any,
+        process -any,
+        yaml -any,
+        jqdwjxzris-eimuxsbyoz-bhylakczsd -any
+
+test-suite xqontofwgy-ajbaiqaisz-alzmrzzosg
+    type:             exitcode-stdio-1.0
+    main-is:          main.hs
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        base -any,
+        containers -any,
+        directory -any,
+        filepath -any,
+        megaparsec -any,
+        optparse-applicative -any,
+        process -any,
+        yaml -any,
+        hedgehog -any,
+        jqdwjxzris-eimuxsbyoz-bhylakczsd -any

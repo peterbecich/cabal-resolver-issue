@@ -1,0 +1,332 @@
+cabal-version: 1.12
+name:          kdmjlflvld-otcdbxojlx-vvoxlaenkf
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        CPP ConstraintKinds DataKinds DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings PackageImports
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns AllowAmbiguousTypes
+        DefaultSignatures DeriveAnyClass DerivingVia DeriveFunctor
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -fwarn-redundant-constraints
+
+    build-depends:
+        HaskellNet -any,
+        HaskellNet-SSL -any,
+        MonadRandom -any,
+        aeson -any,
+        aeson-better-errors -any,
+        aeson-diff -any,
+        asn1-types -any,
+        attoparsec -any,
+        base -any,
+        base64-bytestring -any,
+        binary -any,
+        bson -any,
+        bytestring -any,
+        case-insensitive -any,
+        casing -any,
+        cereal -any,
+        classy-prelude -any,
+        conduit -any,
+        containers -any,
+        cryptonite -any,
+        data-default -any,
+        data-dword -any,
+        directory -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        file-embed -any,
+        file-path-th -any,
+        generics-eot -any,
+        http-api-data -any,
+        lens -any,
+        lens-aeson -any,
+        mime-mail -any,
+        mmorph -any,
+        monad-logger -any,
+        mtl -any,
+        mustache -any,
+        network -any,
+        network-ip -any,
+        network-uri -any,
+        path-pieces -any,
+        persistent -any,
+        postgresql-simple -any,
+        prettyprinter -any,
+        refined -any,
+        servant-docs -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        squeal-postgresql -any,
+        template-haskell -any,
+        text -any,
+        text-manipulate -any,
+        text-show -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        uuid -any,
+        vector -any,
+        writer-cps-mtl -any,
+        x509 -any,
+        yaml -any
+
+executable nxtypzszbd-eccoohotml-ilsrdgwjss
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        CPP ConstraintKinds DataKinds DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings PackageImports
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        HaskellNet -any,
+        HaskellNet-SSL -any,
+        MonadRandom -any,
+        aeson -any,
+        aeson-better-errors -any,
+        aeson-diff -any,
+        asn1-types -any,
+        attoparsec -any,
+        base -any,
+        base64-bytestring -any,
+        binary -any,
+        bson -any,
+        bytestring -any,
+        case-insensitive -any,
+        casing -any,
+        cereal -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        conduit -any,
+        containers -any,
+        cryptonite -any,
+        data-default -any,
+        data-dword -any,
+        directory -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        fast-logger -any,
+        file-embed -any,
+        file-path-th -any,
+        generics-eot -any,
+        http-api-data -any,
+        lens -any,
+        lens-aeson -any,
+        mime-mail -any,
+        mmorph -any,
+        monad-logger -any,
+        mtl -any,
+        mustache -any,
+        network -any,
+        network-ip -any,
+        network-uri -any,
+        path-pieces -any,
+        persistent -any,
+        postgresql-simple -any,
+        prettyprinter -any,
+        refined -any,
+        servant-docs -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        squeal-postgresql -any,
+        tasty -any,
+        tasty-hunit -any,
+        template-haskell -any,
+        text -any,
+        text-manipulate -any,
+        text-show -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        uuid -any,
+        vector -any,
+        writer-cps-mtl -any,
+        x509 -any,
+        yaml -any
+
+test-suite yogvgghlgd-ufrulbzyej-qerzbialxo
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        CPP ConstraintKinds DataKinds DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings PackageImports
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        HaskellNet -any,
+        HaskellNet-SSL -any,
+        MonadRandom -any,
+        aeson -any,
+        aeson-better-errors -any,
+        aeson-diff -any,
+        asn1-types -any,
+        attoparsec -any,
+        base -any,
+        base64-bytestring -any,
+        binary -any,
+        bson -any,
+        bytestring -any,
+        case-insensitive -any,
+        casing -any,
+        cereal -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        conduit -any,
+        containers -any,
+        cryptonite -any,
+        data-default -any,
+        data-dword -any,
+        directory -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        fast-logger -any,
+        file-embed -any,
+        file-path-th -any,
+        generics-eot -any,
+        http-api-data -any,
+        lens -any,
+        lens-aeson -any,
+        mime-mail -any,
+        mmorph -any,
+        monad-logger -any,
+        mtl -any,
+        mustache -any,
+        network -any,
+        network-ip -any,
+        network-simple -any,
+        network-uri -any,
+        path-pieces -any,
+        persistent -any,
+        postgresql-simple -any,
+        prettyprinter -any,
+        rawstring-qm -any,
+        refined -any,
+        servant-docs -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        smallcheck -any,
+        smallcheck-series -any,
+        squeal-postgresql -any,
+        tasty -any,
+        tasty-hunit -any,
+        tasty-quickcheck -any,
+        tasty-smallcheck -any,
+        template-haskell -any,
+        text -any,
+        text-manipulate -any,
+        text-show -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        uuid -any,
+        vector -any,
+        writer-cps-mtl -any,
+        x509 -any,
+        yaml -any
+
+benchmark gcvxofgtry-qfcozapzvj-tutdjzyxsj
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        CPP ConstraintKinds DataKinds DeriveDataTypeable DeriveGeneric
+        DerivingStrategies DerivingVia EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedStrings PackageImports
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T" -O2
+
+    build-depends:
+        HaskellNet -any,
+        HaskellNet-SSL -any,
+        MonadRandom -any,
+        aeson -any,
+        aeson-better-errors -any,
+        aeson-diff -any,
+        asn1-types -any,
+        attoparsec -any,
+        base -any,
+        base64-bytestring -any,
+        binary -any,
+        bson -any,
+        bytestring -any,
+        case-insensitive -any,
+        casing -any,
+        cereal -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        conduit -any,
+        containers -any,
+        criterion -any,
+        cryptonite -any,
+        data-default -any,
+        data-dword -any,
+        directory -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        file-embed -any,
+        file-path-th -any,
+        generics-eot -any,
+        http-api-data -any,
+        lens -any,
+        lens-aeson -any,
+        mime-mail -any,
+        mmorph -any,
+        monad-logger -any,
+        mtl -any,
+        mustache -any,
+        network -any,
+        network-ip -any,
+        network-uri -any,
+        path-pieces -any,
+        persistent -any,
+        postgresql-simple -any,
+        prettyprinter -any,
+        refined -any,
+        servant-docs -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        squeal-postgresql -any,
+        template-haskell -any,
+        text -any,
+        text-manipulate -any,
+        text-show -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        uuid -any,
+        vector -any,
+        writer-cps-mtl -any,
+        x509 -any,
+        yaml -any

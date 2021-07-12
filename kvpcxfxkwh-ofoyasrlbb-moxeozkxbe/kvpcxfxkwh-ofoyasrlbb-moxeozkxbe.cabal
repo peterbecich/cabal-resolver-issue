@@ -1,0 +1,140 @@
+cabal-version: 1.12
+name:          kvpcxfxkwh-ofoyasrlbb-moxeozkxbe
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments ConstraintKinds DeriveGeneric DerivingStrategies
+        DerivingVia DataKinds EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        NamedFieldPuns NoImplicitPrelude NoMonomorphismRestriction
+        OverloadedLabels OverloadedStrings PartialTypeSignatures
+        PatternSynonyms QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeFamilyDependencies
+        TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -fwarn-redundant-constraints
+
+    build-depends:
+        aeson -any,
+        zvxosjlaim-rilcnymlpm-zokgocnrdo -any,
+        base -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        composition -any,
+        containers -any,
+        jcfinelkzr-qctedwphye-ssbamdyxuz -any,
+        fjiwadmxge-aqjkxoqtiw-xcrotcqoci -any,
+        exceptions -any,
+        generic-lens -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        dxzlydcoqy-hozbpoykds-zpmnquaytb -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        lens -any,
+        mmorph -any,
+        monad-control -any,
+        monad-logger -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        postgresql-simple -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        jrqqfpuace-ckjryxrdrw-trllbleiex -any,
+        plzkrostns-lqhtumrcwh-urckjilnbs -any,
+        kvnpbwtwcj-dwnjcoxcjx-rsrcmzkshx -any,
+        servant -any,
+        servant-server -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        bulvlkdfna-dejoouyizu-hyaxeldtbf -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        stm -any,
+        streamly -any,
+        text -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        transformers-base -any,
+        uuid -any,
+        vector -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any
+
+test-suite tsisvjmjjf-cggeyrxctz-yhsykznlmz
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments ConstraintKinds DeriveGeneric DerivingStrategies
+        DerivingVia DataKinds EmptyDataDecls FlexibleContexts
+        FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses
+        NamedFieldPuns NoImplicitPrelude NoMonomorphismRestriction
+        OverloadedLabels OverloadedStrings PartialTypeSignatures
+        PatternSynonyms QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeFamilyDependencies
+        TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts -with-rtsopts=-N
+
+    build-depends:
+        QuickCheck -any,
+        aeson -any,
+        zvxosjlaim-rilcnymlpm-zokgocnrdo -any,
+        base -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        composition -any,
+        containers -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        jcfinelkzr-qctedwphye-ssbamdyxuz -any,
+        fjiwadmxge-aqjkxoqtiw-xcrotcqoci -any,
+        exceptions -any,
+        extra -any,
+        fast-logger -any,
+        file-path-th -any,
+        generic-lens -any,
+        hspec -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        dxzlydcoqy-hozbpoykds-zpmnquaytb -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        lens -any,
+        mmorph -any,
+        monad-control -any,
+        monad-logger -any,
+        yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
+        postgresql-simple -any,
+        quickcheck-instances -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        jrqqfpuace-ckjryxrdrw-trllbleiex -any,
+        plzkrostns-lqhtumrcwh-urckjilnbs -any,
+        resourcet -any,
+        kvnpbwtwcj-dwnjcoxcjx-rsrcmzkshx -any,
+        kvpcxfxkwh-ofoyasrlbb-moxeozkxbe -any,
+        servant -any,
+        servant-server -any,
+        vhpkbpdaab-qgchccpiko-nbaihjjvlj -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        ambqfekzlo-giypknqooz-ybdhisbtgi -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        bulvlkdfna-dejoouyizu-hyaxeldtbf -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        stm -any,
+        streamly -any,
+        text -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        transformers-base -any,
+        uuid -any,
+        vector -any,
+        gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any

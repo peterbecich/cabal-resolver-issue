@@ -1,0 +1,66 @@
+cabal-version: 1.12
+name:          vghsvugwnc-sobhsxydmt-hbfuxwixxn
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        DeriveAnyClass DeriveGeneric DerivingStrategies DerivingVia
+        LambdaCase NoImplicitPrelude OverloadedStrings QuasiQuotes
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base -any,
+        bytestring -any,
+        jcfinelkzr-qctedwphye-ssbamdyxuz -any,
+        bitzgjembd-vaymfjlvqk-iuthenagvi -any,
+        postgresql-simple -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        text -any,
+        text-show -any,
+        time -any
+
+test-suite cicyzacpdu-jiaedfymnw-frgdsixngq
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        DeriveAnyClass DeriveGeneric DerivingStrategies DerivingVia
+        LambdaCase NoImplicitPrelude OverloadedStrings QuasiQuotes
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base -any,
+        bytestring -any,
+        vghsvugwnc-sobhsxydmt-hbfuxwixxn -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        jcfinelkzr-qctedwphye-ssbamdyxuz -any,
+        bitzgjembd-vaymfjlvqk-iuthenagvi -any,
+        fast-logger -any,
+        file-path-th -any,
+        hspec -any,
+        postgresql-simple -any,
+        resourcet -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        ambqfekzlo-giypknqooz-ybdhisbtgi -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        text -any,
+        text-show -any,
+        time -any,
+        uuid -any

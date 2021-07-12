@@ -1,0 +1,87 @@
+cabal-version: 3.0
+name:          qobthhtcsd-gkgnekbvsk-bkydljydgw
+version:       0.0.0.0
+build-type:    Custom
+
+custom-setup
+    setup-depends:
+        base -any,
+        Cabal -any,
+        cabal-auto-expose -any
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        NoImplicitPrelude NoMonomorphismRestriction ConstraintKinds
+        DataKinds DeriveGeneric DerivingStrategies EmptyDataDecls
+        FlexibleContexts FlexibleInstances GADTs GeneralizedNewtypeDeriving
+        LambdaCase MultiParamTypeClasses NamedFieldPuns OverloadedStrings
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        file-embed -any,
+        file-path-th -any,
+        http-client -any,
+        nbpvxcqiih-kifutcfxel-yxbuxwaxvc -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        uzcastvvkm-ahrxsdiznz-bhdnnootlp -any,
+        bptlgjyyrq-zfresiwsaf-noihykajkm -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        servant-client -any,
+        vulsdpompx-fiahihpbmu-tkeebysusq -any,
+        uuid -any,
+        gqneousnmf-mnqkugguei-kcgvtbvdhv -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        yaml -any
+
+executable qcaybvvyaf-azxuklceoj-lxzpyurxlh
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        NoImplicitPrelude NoMonomorphismRestriction ConstraintKinds
+        DataKinds DeriveGeneric DerivingStrategies EmptyDataDecls
+        FlexibleContexts FlexibleInstances GADTs GeneralizedNewtypeDeriving
+        LambdaCase MultiParamTypeClasses NamedFieldPuns OverloadedStrings
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        base -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        xromcygenl-gojypjrqvs-nycfeqojfd -any,
+        file-embed -any,
+        file-path-th -any,
+        http-client -any,
+        nbpvxcqiih-kifutcfxel-yxbuxwaxvc -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        uzcastvvkm-ahrxsdiznz-bhdnnootlp -any,
+        bptlgjyyrq-zfresiwsaf-noihykajkm -any,
+        ehjuaeqivl-nzhhevcriz-kbvxylsitr -any,
+        servant-client -any,
+        vulsdpompx-fiahihpbmu-tkeebysusq -any,
+        uuid -any,
+        gqneousnmf-mnqkugguei-kcgvtbvdhv -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        yaml -any,
+        qobthhtcsd-gkgnekbvsk-bkydljydgw -any,
+        hspec -any,
+        managed -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any

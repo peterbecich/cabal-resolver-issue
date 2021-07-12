@@ -1,0 +1,78 @@
+cabal-version: 1.12
+name:          blldacdoaq-nwjshzvehs-pernmdonjn
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments ConstraintKinds DataKinds DefaultSignatures
+        DeriveAnyClass DeriveDataTypeable DeriveGeneric DerivingStrategies
+        DerivingVia EmptyDataDecls FlexibleContexts FlexibleInstances
+        FunctionalDependencies GADTs GeneralizedNewtypeDeriving
+        InstanceSigs LambdaCase MultiParamTypeClasses MultiWayIf
+        NamedFieldPuns NoImplicitPrelude NoMonomorphismRestriction
+        OverloadedStrings PackageImports RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TupleSections TypeFamilies
+        TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base -any,
+        bits -any,
+        containers -any,
+        exceptions -any,
+        monad-control -any,
+        monad-logger -any,
+        postgres-options -any,
+        postgresql-config -any,
+        postgresql-simple -any,
+        resource-pool -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        text -any,
+        time -any,
+        unliftio -any,
+        utf8-string -any
+
+test-suite laqjrkmyua-oezqwimwup-rpvlpxgkxf
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments ConstraintKinds DataKinds DefaultSignatures
+        DeriveAnyClass DeriveDataTypeable DeriveGeneric DerivingStrategies
+        DerivingVia EmptyDataDecls FlexibleContexts FlexibleInstances
+        FunctionalDependencies GADTs GeneralizedNewtypeDeriving
+        InstanceSigs LambdaCase MultiParamTypeClasses MultiWayIf
+        NamedFieldPuns NoImplicitPrelude NoMonomorphismRestriction
+        OverloadedStrings PackageImports RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TupleSections TypeFamilies
+        TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base -any,
+        bits -any,
+        containers -any,
+        exceptions -any,
+        monad-control -any,
+        monad-logger -any,
+        postgres-options -any,
+        postgresql-config -any,
+        postgresql-simple -any,
+        resource-pool -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        text -any,
+        time -any,
+        unliftio -any,
+        utf8-string -any

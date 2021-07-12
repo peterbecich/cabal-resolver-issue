@@ -1,0 +1,276 @@
+cabal-version: 3.0
+name:          cvlrjouiri-wbgjtuteng-igggcgpiff
+version:       0.0.0.0
+build-type:    Custom
+
+custom-setup
+    setup-depends:
+        base -any,
+        Cabal -any,
+        cabal-auto-expose -any
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        NoImplicitPrelude BlockArguments DataKinds DeriveAnyClass
+        DeriveGeneric DerivingStrategies DerivingVia FlexibleContexts
+        FlexibleInstances GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses NamedFieldPuns OverloadedStrings QuasiQuotes
+        RankNTypes RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        rytzenhuwi-ifmlrhcceo-gawhrxxqam -any,
+        amqp -any,
+        base -any,
+        bytestring -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        connection -any,
+        containers -any,
+        data-default -any,
+        ekg -any,
+        exceptions -any,
+        fast-logger -any,
+        file-embed -any,
+        hashable -any,
+        hashtables -any,
+        immortal -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        sjywzbvzez-scteewdihq-qamzizyjfw -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        mtl -any,
+        network -any,
+        nonempty-containers -any,
+        ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
+        postgresql-query -any,
+        postgresql-simple -any,
+        retry -any,
+        jzkwdkcfrm-edzuwumizr-rgnvciqrvk -any,
+        servant-server -any,
+        servant-websockets-server -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        bulvlkdfna-dejoouyizu-hyaxeldtbf -any,
+        stm -any,
+        text -any,
+        time -any,
+        uuid -any,
+        vector -any,
+        wai -any,
+        wai-extra -any,
+        wai-middleware-metrics -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        warp -any,
+        websockets -any,
+        yaml -any
+
+executable gshbfksjwr-tgfaflwvow-qztygluuri
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        NoImplicitPrelude BlockArguments DataKinds DeriveAnyClass
+        DeriveGeneric DerivingStrategies DerivingVia FlexibleContexts
+        FlexibleInstances GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses NamedFieldPuns OverloadedStrings QuasiQuotes
+        RankNTypes RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        rytzenhuwi-ifmlrhcceo-gawhrxxqam -any,
+        amqp -any,
+        base -any,
+        bytestring -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        connection -any,
+        containers -any,
+        data-default -any,
+        ekg -any,
+        exceptions -any,
+        fast-logger -any,
+        file-embed -any,
+        hashable -any,
+        hashtables -any,
+        immortal -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        sjywzbvzez-scteewdihq-qamzizyjfw -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        mtl -any,
+        network -any,
+        nonempty-containers -any,
+        ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
+        postgresql-query -any,
+        postgresql-simple -any,
+        retry -any,
+        jzkwdkcfrm-edzuwumizr-rgnvciqrvk -any,
+        servant-server -any,
+        servant-websockets-server -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        bulvlkdfna-dejoouyizu-hyaxeldtbf -any,
+        stm -any,
+        text -any,
+        time -any,
+        uuid -any,
+        vector -any,
+        wai -any,
+        wai-extra -any,
+        wai-middleware-metrics -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        warp -any,
+        websockets -any,
+        yaml -any,
+        cvlrjouiri-wbgjtuteng-igggcgpiff -any
+
+executable hxinfzciwv-tizhkganjm-cesxbfpeiw
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        NoImplicitPrelude BlockArguments DataKinds DeriveAnyClass
+        DeriveGeneric DerivingStrategies DerivingVia FlexibleContexts
+        FlexibleInstances GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses NamedFieldPuns OverloadedStrings QuasiQuotes
+        RankNTypes RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        rytzenhuwi-ifmlrhcceo-gawhrxxqam -any,
+        amqp -any,
+        base -any,
+        bytestring -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        connection -any,
+        containers -any,
+        data-default -any,
+        ekg -any,
+        exceptions -any,
+        fast-logger -any,
+        file-embed -any,
+        hashable -any,
+        hashtables -any,
+        immortal -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        sjywzbvzez-scteewdihq-qamzizyjfw -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        mtl -any,
+        network -any,
+        nonempty-containers -any,
+        ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
+        postgresql-query -any,
+        postgresql-simple -any,
+        retry -any,
+        jzkwdkcfrm-edzuwumizr-rgnvciqrvk -any,
+        servant-server -any,
+        servant-websockets-server -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        bulvlkdfna-dejoouyizu-hyaxeldtbf -any,
+        stm -any,
+        text -any,
+        time -any,
+        uuid -any,
+        vector -any,
+        wai -any,
+        wai-extra -any,
+        wai-middleware-metrics -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        warp -any,
+        websockets -any,
+        yaml -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        cvlrjouiri-wbgjtuteng-igggcgpiff -any,
+        process -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        temporary -any
+
+test-suite wjujcradul-jmyzoqdxfy-jvhiiliidp
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        NoImplicitPrelude BlockArguments DataKinds DeriveAnyClass
+        DeriveGeneric DerivingStrategies DerivingVia FlexibleContexts
+        FlexibleInstances GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses NamedFieldPuns OverloadedStrings QuasiQuotes
+        RankNTypes RecordWildCards ScopedTypeVariables StandaloneDeriving
+        TemplateHaskell TupleSections TypeApplications TypeFamilies
+        TypeOperators
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        aeson -any,
+        rytzenhuwi-ifmlrhcceo-gawhrxxqam -any,
+        amqp -any,
+        base -any,
+        bytestring -any,
+        case-insensitive -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        connection -any,
+        containers -any,
+        data-default -any,
+        ekg -any,
+        exceptions -any,
+        fast-logger -any,
+        file-embed -any,
+        hashable -any,
+        hashtables -any,
+        immortal -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        sjywzbvzez-scteewdihq-qamzizyjfw -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        mtl -any,
+        network -any,
+        nonempty-containers -any,
+        ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
+        postgresql-query -any,
+        postgresql-simple -any,
+        retry -any,
+        jzkwdkcfrm-edzuwumizr-rgnvciqrvk -any,
+        servant-server -any,
+        servant-websockets-server -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        bulvlkdfna-dejoouyizu-hyaxeldtbf -any,
+        stm -any,
+        text -any,
+        time -any,
+        uuid -any,
+        vector -any,
+        wai -any,
+        wai-extra -any,
+        wai-middleware-metrics -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
+        warp -any,
+        websockets -any,
+        yaml -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        hspec -any,
+        mbpugskatb-tiyjwpvxro-njveyigxha -any,
+        wrsxalzuux-fkrmnzenbw-mlawexhwxe -any,
+        cvlrjouiri-wbgjtuteng-igggcgpiff -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        ojfbtzpcfi-apxmpdnheh-xufedojzlq -any

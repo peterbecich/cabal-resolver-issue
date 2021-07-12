@@ -1,0 +1,27 @@
+cabal-version: 1.12
+name:          pvlpstgwdv-ssyeecmdfo-dyxijkjfba
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DeriveGeneric DataKinds DerivingStrategies
+        DerivingVia EmptyDataDecls FlexibleContexts FlexibleInstances
+        FunctionalDependencies GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns
+        NoMonomorphismRestriction OverloadedStrings PartialTypeSignatures
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TemplateHaskell TupleSections TypeApplications
+        TypeFamilies TypeFamilyDependencies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        base -any,
+        containers -any,
+        generics-sop -any,
+        squeal-postgresql -any

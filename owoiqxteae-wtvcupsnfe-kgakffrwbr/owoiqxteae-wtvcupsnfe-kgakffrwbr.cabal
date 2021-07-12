@@ -1,0 +1,29 @@
+cabal-version: 1.12
+name:          owoiqxteae-wtvcupsnfe-kgakffrwbr
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+executable imogbmocgt-jrxgpdhsmp-eusjaccklf
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        AllowAmbiguousTypes BlockArguments ConstraintKinds DeriveAnyClass
+        DeriveDataTypeable DeriveFunctor DeriveGeneric DerivingStrategies
+        DerivingVia DataKinds DefaultSignatures DuplicateRecordFields
+        EmptyDataDecls FlexibleContexts FlexibleInstances
+        FunctionalDependencies GADTs GeneralizedNewtypeDeriving
+        InstanceSigs LambdaCase MultiParamTypeClasses NamedFieldPuns
+        NoImplicitPrelude NoMonomorphismRestriction NumericUnderscores
+        OverloadedLabels OverloadedStrings QuantifiedConstraints
+        QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables
+        StandaloneDeriving TupleSections TypeApplications TypeFamilies
+        TypeFamilyDependencies TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        base -any,
+        ayqaodtiqr-lyoodcipiw-hvmfzfurzz -any

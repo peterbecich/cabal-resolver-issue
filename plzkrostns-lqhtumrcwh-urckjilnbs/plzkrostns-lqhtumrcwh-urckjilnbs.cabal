@@ -1,0 +1,28 @@
+cabal-version: 1.12
+name:          plzkrostns-lqhtumrcwh-urckjilnbs
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language: Haskell2010
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        zvxosjlaim-rilcnymlpm-zokgocnrdo -any,
+        base -any,
+        uslahbwpjb-vdtqwxhxnj-hiqltqwrnx -any,
+        exceptions -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        cykbpqjxqd-sblzneieby-ufuuzcgxxy -any,
+        nonempty-containers -any,
+        postgresql-tx -any,
+        postgresql-tx-query -any,
+        jrqqfpuace-ckjryxrdrw-trllbleiex -any,
+        wjcvquzmqj-ngmhegkhun-ozevzugvrv -any,
+        rontohsvqd-kzkpimemzd-odglltphce -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        time -any

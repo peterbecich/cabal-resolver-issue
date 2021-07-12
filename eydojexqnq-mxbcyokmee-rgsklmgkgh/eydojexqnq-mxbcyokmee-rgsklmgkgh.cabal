@@ -1,0 +1,89 @@
+cabal-version: 1.12
+name:          eydojexqnq-mxbcyokmee-rgsklmgkgh
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions: NoImplicitPrelude
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -Wmissing-export-lists -Wmissing-import-lists
+
+    build-depends:
+        base -any,
+        toqjmgsrfv-nouqirkvuc-ubtevxrbsz -any,
+        exceptions -any,
+        generics-sop -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        monad-control -any,
+        monad-logger -any,
+        network -any,
+        postgresql-libpq -any,
+        postgresql-simple -any,
+        postgresql-tx -any,
+        postgresql-tx-query -any,
+        servant -any,
+        servant-server -any,
+        othbhqjnul-tazoftxenx-flrjltywxr -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        nklcuwcmcz-rrzkeehbms-fufisqpxdt -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        nayaepihad-ahzciepdny-xqpqcpnvbv -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        lceetnmgho-ryhynbzwbo-putrktyjrh -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        squeal-postgresql -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        unordered-containers -any,
+        uuid -any,
+        wai -any
+
+test-suite yzgyynwemi-wmwfjnzjyd-uelcatylic
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions: NoImplicitPrelude
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -Wmissing-export-lists -Wmissing-import-lists -threaded
+        -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        base -any,
+        toqjmgsrfv-nouqirkvuc-ubtevxrbsz -any,
+        exceptions -any,
+        generics-sop -any,
+        hspec -any,
+        kqavalspcl-mjxvabybcy-rqybkwxafh -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        monad-control -any,
+        monad-logger -any,
+        network -any,
+        postgresql-libpq -any,
+        postgresql-simple -any,
+        postgresql-tx -any,
+        postgresql-tx-query -any,
+        servant -any,
+        servant-server -any,
+        othbhqjnul-tazoftxenx-flrjltywxr -any,
+        blldacdoaq-nwjshzvehs-pernmdonjn -any,
+        lbyeagpzai-mqklrvnslg-vtmfoaplrj -any,
+        nklcuwcmcz-rrzkeehbms-fufisqpxdt -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        nayaepihad-ahzciepdny-xqpqcpnvbv -any,
+        ydtkotmgcp-azuxdknkyc-gvybvqjofg -any,
+        lceetnmgho-ryhynbzwbo-putrktyjrh -any,
+        eydojexqnq-mxbcyokmee-rgsklmgkgh -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        sdmemwqaef-zvyohazcxc-tfrypmqjyq -any,
+        squeal-postgresql -any,
+        time -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        unordered-containers -any,
+        uuid -any,
+        wai -any

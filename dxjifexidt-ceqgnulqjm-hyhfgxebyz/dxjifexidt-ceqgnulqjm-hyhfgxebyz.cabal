@@ -1,0 +1,49 @@
+cabal-version: 1.12
+name:          dxjifexidt-ceqgnulqjm-hyhfgxebyz
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        BlockArguments CPP ConstraintKinds DataKinds DeriveDataTypeable
+        DeriveGeneric DerivingStrategies DerivingVia EmptyDataDecls
+        FlexibleContexts FlexibleInstances FunctionalDependencies GADTs
+        GeneralizedNewtypeDeriving InstanceSigs LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction NumericUnderscores OverloadedStrings
+        PackageImports QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeOperators
+        ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        aeson -any,
+        base -any,
+        bytestring -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        connection -any,
+        containers -any,
+        data-default -any,
+        http-client -any,
+        http-client-tls -any,
+        http-types -any,
+        myyiorzlaw-ytvxbbmdpx-febkukndni -any,
+        rsncqgtwnb-gxwvbahrpd-quhadaaeis -any,
+        lens -any,
+        lens-aeson -any,
+        monad-logger -any,
+        mtl -any,
+        servant-client -any,
+        xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
+        stm-chans -any,
+        text -any,
+        time -any,
+        transformers -any,
+        unliftio -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any

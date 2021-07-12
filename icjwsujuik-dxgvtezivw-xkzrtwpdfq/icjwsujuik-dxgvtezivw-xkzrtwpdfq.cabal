@@ -1,0 +1,52 @@
+cabal-version: 1.12
+name:          icjwsujuik-dxgvtezivw-xkzrtwpdfq
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        DerivingStrategies GeneralizedNewtypeDeriving LambdaCase
+        NoImplicitPrelude OverloadedStrings ScopedTypeVariables
+        TemplateHaskell TypeApplications
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        attoparsec -any,
+        base -any,
+        containers -any,
+        postgresql-simple -any,
+        text -any,
+        uuid -any
+
+test-suite fgykumpton-rwntcodgue-whiugwehja
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        DerivingStrategies GeneralizedNewtypeDeriving LambdaCase
+        NoImplicitPrelude OverloadedStrings ScopedTypeVariables
+        TemplateHaskell TypeApplications
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        QuickCheck -any,
+        attoparsec -any,
+        base -any,
+        bytestring -any,
+        containers -any,
+        jyuidzkmwm-xyxsdmyakh-ahvfbxeaha -any,
+        hspec -any,
+        crgtvuiocv-axtjsngogp-nermqbnorb -any,
+        postgresql-simple -any,
+        icjwsujuik-dxgvtezivw-xkzrtwpdfq -any,
+        opmzrinbix-dwnjuztviv-lhnefavumr -any,
+        text -any,
+        uuid -any

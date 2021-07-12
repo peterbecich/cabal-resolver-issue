@@ -1,0 +1,86 @@
+cabal-version: 1.12
+name:          qlcdpjirst-utqhnvujil-xcrcnayaqt
+version:       0.0.0.0
+license:       AllRightsReserved
+build-type:    Simple
+
+library
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DeriveGeneric DataKinds DerivingStrategies
+        DerivingVia EmptyDataDecls FlexibleContexts FlexibleInstances
+        FunctionalDependencies GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedLabels OverloadedStrings
+        PartialTypeSignatures QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeFamilyDependencies
+        TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS
+
+    build-depends:
+        amazonka-s3 -any,
+        base -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        idgzpedoaf-dbfjwldocy-karcmrrnvw -any,
+        jyikfaivsc-mhchvgdmxv-qdqsrsnxmt -any,
+        uslahbwpjb-vdtqwxhxnj-hiqltqwrnx -any,
+        file-path-th -any,
+        network-uri -any,
+        gtcvzcyrqh-fomvyfnmxq-bonfggbrvq -any,
+        civunfdiag-tziozhaunn-zdkpvlcwwa -any,
+        servant -any,
+        servant-docs -any,
+        servant-websockets -any,
+        servant-websockets-docs -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        ixtkyqihkv-imljloiqex-augjcvzgch -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        uuid -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any
+
+test-suite rlrxdzztjk-kbejkatmic-hsttcppohb
+    type:               exitcode-stdio-1.0
+    main-is:            main.hs
+    default-language:   Haskell2010
+    default-extensions:
+        ConstraintKinds DeriveGeneric DataKinds DerivingStrategies
+        DerivingVia EmptyDataDecls FlexibleContexts FlexibleInstances
+        FunctionalDependencies GADTs GeneralizedNewtypeDeriving LambdaCase
+        MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude
+        NoMonomorphismRestriction OverloadedLabels OverloadedStrings
+        PartialTypeSignatures QuasiQuotes RankNTypes RecordWildCards
+        ScopedTypeVariables StandaloneDeriving TemplateHaskell
+        TupleSections TypeApplications TypeFamilies TypeFamilyDependencies
+        TypeOperators ViewPatterns
+
+    ghc-options:
+        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
+        -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
+
+    build-depends:
+        amazonka-s3 -any,
+        base -any,
+        classy-prelude -any,
+        kdmjlflvld-otcdbxojlx-vvoxlaenkf -any,
+        idgzpedoaf-dbfjwldocy-karcmrrnvw -any,
+        qlcdpjirst-utqhnvujil-xcrcnayaqt -any,
+        jyikfaivsc-mhchvgdmxv-qdqsrsnxmt -any,
+        uslahbwpjb-vdtqwxhxnj-hiqltqwrnx -any,
+        file-path-th -any,
+        network-uri -any,
+        gtcvzcyrqh-fomvyfnmxq-bonfggbrvq -any,
+        civunfdiag-tziozhaunn-zdkpvlcwwa -any,
+        servant -any,
+        servant-docs -any,
+        servant-websockets -any,
+        servant-websockets-docs -any,
+        tupxqmyoqe-eamyawauun-xoeizboyfy -any,
+        ixtkyqihkv-imljloiqex-augjcvzgch -any,
+        yeqzgwjcrl-ubgaozonrs-aabtyfwlqo -any,
+        uuid -any,
+        ihijfecmzj-ljxkhsaltz-tgoyvsagej -any
