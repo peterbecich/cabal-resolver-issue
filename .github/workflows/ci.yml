@@ -17,11 +17,7 @@ jobs:
       fail-fast: false
       matrix:
         versions:
-          - ghc: '8.6.5'
-            cabal: '3.4'
-          - ghc: '8.8.4'
-            cabal: '3.4'
-          - ghc: '8.10.5'
+          - ghc: '8.10.4'
             cabal: '3.4'
     steps:
     - uses: actions/checkout@v2
@@ -57,10 +53,10 @@ jobs:
     - name: Install dependencies
       run: |
           cabal update
-          cabal build --dependencies-only --enable-tests --disable-optimization
+          cabal build all --dependencies-only --enable-tests --disable-optimization
     - name: Build
       run: |
-          cabal build --enable-tests --disable-optimization 2>&1 | tee build.log
+          cabal build all --enable-tests --disable-optimization 2>&1 | tee build.log
     - name: Test
       run: |
-          cabal test --disable-optimization
+          cabal test all --disable-optimization
