@@ -57,6 +57,6 @@ jobs:
     - name: Build
       run: |
           cabal build all --enable-tests --disable-optimization 2>&1 | tee build.log
-    - name: Test
-      run: |
-          cabal test all --disable-optimization
+    # - name: Test
+    #   run: |
+    #       cabal test all --disable-optimization
