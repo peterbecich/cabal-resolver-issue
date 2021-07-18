@@ -30,7 +30,7 @@ source-repository-package
 
 source-repository-package
     type: git
-    location: git@github.com:Simspace/HaXml-simspace.git
+    location: https://github.com/Simspace/HaXml-simspace.git
     tag: 7ce39144651ff45289f32eb805171e1c5336c284
 
 source-repository-package
@@ -54,7 +54,7 @@ source-repository-package
 
 source-repository-package
     type: git
-    location: git@github.com:SimSpace/servant-pandoc
+    location: https://github.com/SimSpace/servant-pandoc
     tag: 9f814b20cef51549b56bfa57d3a287f653245096
 
 source-repository-package
@@ -128,17 +128,17 @@ source-repository-package
 
 source-repository-package
     type: git
-    location: git@github.com:Simspace/vmware-haskell-sdk.git
+    location: https://github.com/Simspace/vmware-haskell-sdk.git
     tag: e806b04fa2e882b0af58d2e7755932ca6ebb2f76
     subdir: sdk
 source-repository-package
     type: git
-    location: git@github.com:Simspace/vmware-haskell-sdk.git
+    location: https://github.com/Simspace/vmware-haskell-sdk.git
     tag: e806b04fa2e882b0af58d2e7755932ca6ebb2f76
     subdir: vmware-bindings
 source-repository-package
     type: git
-    location: git@github.com:Simspace/vmware-haskell-sdk.git
+    location: https://github.com/Simspace/vmware-haskell-sdk.git
     tag: e806b04fa2e882b0af58d2e7755932ca6ebb2f76
     subdir: nsx-client
 
