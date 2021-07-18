@@ -22,7 +22,6 @@ library
         -A32M -RTS -fwarn-redundant-constraints
 
     build-depends:
-        HaXml-simspace -any,
         aeson -any,
         aeson-better-errors -any,
         aeson-qq -any,
@@ -111,7 +110,6 @@ library
         nonempty-containers -any,
         phfepeqnuu-tzcfeylnrk-wxkjpqaipk -any,
         ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
-        nsx-client -any,
         on-error -any,
         parsec -any,
         path-pieces -any,
@@ -203,8 +201,6 @@ library
         vector -any,
         ebyfzvaadd-akxeqhfdsa-kjiwbyvtth -any,
         vinyl -any,
-        vmware-bindings -any,
-        vmware-sdk -any,
         wai -any,
         wai-websockets -any,
         gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
@@ -233,7 +229,6 @@ executable hfealyxwpu-ptmlecgakg-qhvicxmpfv
         -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
 
     build-depends:
-        HaXml-simspace -any,
         aeson -any,
         aeson-better-errors -any,
         aeson-qq -any,
@@ -323,7 +318,6 @@ executable hfealyxwpu-ptmlecgakg-qhvicxmpfv
         nonempty-containers -any,
         phfepeqnuu-tzcfeylnrk-wxkjpqaipk -any,
         ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
-        nsx-client -any,
         on-error -any,
         optparse-generic -any,
         parsec -any,
@@ -417,8 +411,6 @@ executable hfealyxwpu-ptmlecgakg-qhvicxmpfv
         vector -any,
         ebyfzvaadd-akxeqhfdsa-kjiwbyvtth -any,
         vinyl -any,
-        vmware-bindings -any,
-        vmware-sdk -any,
         wai -any,
         wai-websockets -any,
         gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
@@ -447,7 +439,6 @@ executable eqzrfhqrwe-xefmbcbscb-ingptmgmiw
         -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
 
     build-depends:
-        HaXml-simspace -any,
         aeson -any,
         aeson-better-errors -any,
         aeson-qq -any,
@@ -536,7 +527,6 @@ executable eqzrfhqrwe-xefmbcbscb-ingptmgmiw
         nonempty-containers -any,
         phfepeqnuu-tzcfeylnrk-wxkjpqaipk -any,
         ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
-        nsx-client -any,
         on-error -any,
         parsec -any,
         path-pieces -any,
@@ -629,8 +619,6 @@ executable eqzrfhqrwe-xefmbcbscb-ingptmgmiw
         vector -any,
         ebyfzvaadd-akxeqhfdsa-kjiwbyvtth -any,
         vinyl -any,
-        vmware-bindings -any,
-        vmware-sdk -any,
         wai -any,
         wai-websockets -any,
         gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
@@ -659,7 +647,6 @@ executable cfxymwnxzk-qnkggixqxj-yninikpwig
         -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
 
     build-depends:
-        HaXml-simspace -any,
         aeson -any,
         aeson-better-errors -any,
         aeson-qq -any,
@@ -748,7 +735,6 @@ executable cfxymwnxzk-qnkggixqxj-yninikpwig
         nonempty-containers -any,
         phfepeqnuu-tzcfeylnrk-wxkjpqaipk -any,
         ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
-        nsx-client -any,
         on-error -any,
         parsec -any,
         path-pieces -any,
@@ -841,8 +827,6 @@ executable cfxymwnxzk-qnkggixqxj-yninikpwig
         vector -any,
         ebyfzvaadd-akxeqhfdsa-kjiwbyvtth -any,
         vinyl -any,
-        vmware-bindings -any,
-        vmware-sdk -any,
         wai -any,
         wai-websockets -any,
         gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
@@ -872,7 +856,6 @@ test-suite gnlceahnxg-bclgquixrw-uuzcvfgkca
         -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
 
     build-depends:
-        HaXml-simspace -any,
         aeson -any,
         aeson-better-errors -any,
         aeson-qq -any,
@@ -962,7 +945,6 @@ test-suite gnlceahnxg-bclgquixrw-uuzcvfgkca
         nonempty-containers -any,
         phfepeqnuu-tzcfeylnrk-wxkjpqaipk -any,
         ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
-        nsx-client -any,
         on-error -any,
         parsec -any,
         path-pieces -any,
@@ -1057,8 +1039,6 @@ test-suite gnlceahnxg-bclgquixrw-uuzcvfgkca
         vector -any,
         ebyfzvaadd-akxeqhfdsa-kjiwbyvtth -any,
         vinyl -any,
-        vmware-bindings -any,
-        vmware-sdk -any,
         wai -any,
         wai-websockets -any,
         gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
@@ -1089,7 +1069,6 @@ test-suite sbjhjbjkxn-arowlyeuxs-gtcqjixwvu
 
     build-depends:
         HUnit -any,
-        HaXml-simspace -any,
         QuickCheck -any,
         aeson -any,
         aeson-better-errors -any,
@@ -1185,7 +1164,6 @@ test-suite sbjhjbjkxn-arowlyeuxs-gtcqjixwvu
         nonempty-containers -any,
         phfepeqnuu-tzcfeylnrk-wxkjpqaipk -any,
         ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
-        nsx-client -any,
         on-error -any,
         parsec -any,
         path-pieces -any,
@@ -1291,8 +1269,6 @@ test-suite sbjhjbjkxn-arowlyeuxs-gtcqjixwvu
         vector -any,
         ebyfzvaadd-akxeqhfdsa-kjiwbyvtth -any,
         vinyl -any,
-        vmware-bindings -any,
-        vmware-sdk -any,
         wai -any,
         wai-websockets -any,
         gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
@@ -1323,7 +1299,6 @@ benchmark wvnikdiidb-svzmcxdggh-alirxkeoeh
         -A32M -RTS -threaded -rtsopts "-with-rtsopts=-N -T"
 
     build-depends:
-        HaXml-simspace -any,
         aeson -any,
         aeson-better-errors -any,
         aeson-qq -any,
@@ -1414,7 +1389,6 @@ benchmark wvnikdiidb-svzmcxdggh-alirxkeoeh
         nonempty-containers -any,
         phfepeqnuu-tzcfeylnrk-wxkjpqaipk -any,
         ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
-        nsx-client -any,
         on-error -any,
         parsec -any,
         path-pieces -any,
@@ -1507,8 +1481,6 @@ benchmark wvnikdiidb-svzmcxdggh-alirxkeoeh
         vector -any,
         ebyfzvaadd-akxeqhfdsa-kjiwbyvtth -any,
         vinyl -any,
-        vmware-bindings -any,
-        vmware-sdk -any,
         wai -any,
         wai-websockets -any,
         gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,

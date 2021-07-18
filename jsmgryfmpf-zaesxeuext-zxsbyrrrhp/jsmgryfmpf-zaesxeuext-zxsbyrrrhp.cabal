@@ -12,7 +12,6 @@ library
         -A32M -RTS
 
     build-depends:
-        HaXml-simspace -any,
         aeson -any,
         aeson-pretty -any,
         base -any,
@@ -32,8 +31,6 @@ library
         xmwnpwaspa-ifrscictqx-naqfoptqaq -any,
         text -any,
         vinyl -any,
-        vmware-bindings -any,
-        vmware-sdk -any,
         writer-cps-mtl -any
 
 executable iokbifhmnc-neqonfsmql-longngisty

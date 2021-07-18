@@ -23,7 +23,6 @@ library
 
     build-depends:
         HaXml -any,
-        HaXml-simspace -any,
         aeson -any,
         async -any,
         base -any,
@@ -62,7 +61,6 @@ library
         nonempty-containers -any,
         phfepeqnuu-tzcfeylnrk-wxkjpqaipk -any,
         ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
-        nsx-client -any,
         path-pieces -any,
         persistent -any,
         yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
@@ -86,8 +84,6 @@ library
         unliftio-core -any,
         uuid -any,
         vinyl -any,
-        vmware-bindings -any,
-        vmware-sdk -any,
         gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
         ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
         writer-cps-mtl -any,
@@ -115,7 +111,6 @@ test-suite hgpkbhxkvp-bjrmcvxnzw-jwnwbukydg
 
     build-depends:
         HaXml -any,
-        HaXml-simspace -any,
         aeson -any,
         async -any,
         base -any,
@@ -158,7 +153,6 @@ test-suite hgpkbhxkvp-bjrmcvxnzw-jwnwbukydg
         nonempty-containers -any,
         phfepeqnuu-tzcfeylnrk-wxkjpqaipk -any,
         ndelfkyjip-gstihwuhfi-rjxxewsebt -any,
-        nsx-client -any,
         path-pieces -any,
         persistent -any,
         yqnzgbtjil-ajvkvudagy-yflacfcvwp -any,
@@ -184,8 +178,6 @@ test-suite hgpkbhxkvp-bjrmcvxnzw-jwnwbukydg
         unliftio-core -any,
         uuid -any,
         vinyl -any,
-        vmware-bindings -any,
-        vmware-sdk -any,
         gymqqiksln-ycqlesvmbu-mrzmpdrmlm -any,
         ihijfecmzj-ljxkhsaltz-tgoyvsagej -any,
         writer-cps-mtl -any,

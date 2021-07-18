@@ -61,8 +61,6 @@ library
         time-compat -any,
         unliftio -any,
         uuid -any,
-        vmware-bindings -any,
-        vmware-sdk -any,
         ihijfecmzj-ljxkhsaltz-tgoyvsagej -any
 
 executable kkeswxzdfn-lgecxjrrha-wvkpgldthj
@@ -126,8 +124,6 @@ executable kkeswxzdfn-lgecxjrrha-wvkpgldthj
         time-compat -any,
         unliftio -any,
         uuid -any,
-        vmware-bindings -any,
-        vmware-sdk -any,
         ihijfecmzj-ljxkhsaltz-tgoyvsagej -any
 
 test-suite srpgrtbpke-wcuwsagmaa-veyklppcha
@@ -194,6 +190,4 @@ test-suite srpgrtbpke-wcuwsagmaa-veyklppcha
         time-compat -any,
         unliftio -any,
         uuid -any,
-        vmware-bindings -any,
-        vmware-sdk -any,
         ihijfecmzj-ljxkhsaltz-tgoyvsagej -any
