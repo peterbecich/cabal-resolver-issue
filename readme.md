@@ -49,3 +49,29 @@ cabal build all --dry-run  8.51s user 2.14s system 56% cpu 18.757 total
 
 - Cabal 3.4.0.0 (via ghcup)
 - GHC 8.10.4 (via ghcup)
+
+## Workflow
+
+In https://github.com/haskell/cabal,
+
+```
+cabal install cabal-install --overwrite-policy=always
+```
+
+The bug is reproduced by switching between `enable-tests` and `disable-tests`.
+In this repo, try
+
+```
+time ~/.cabal/bin/cabal build all --disable-tests --dry-run --verbose > foo.log
+```
+and
+```
+time ~/.cabal/bin/cabal build all --enable-tests --dry-run --verbose > bar.log
+```
+, then `diff foo.log bar.log`.
+
+Print statements placed here
+https://github.com/haskell/cabal/blob/ec3cf26ae6021b7ca9f496a39efbcba50e459015/cabal-install/src/Distribution/Client/ProjectPlanning.hs#L413-L416
+indicate that the `improved-plan`
+https://github.com/haskell/cabal/blob/ec3cf26ae6021b7ca9f496a39efbcba50e459015/doc/nix-local-build.rst#caching
+changes, triggering the 30~40 second resolver.
