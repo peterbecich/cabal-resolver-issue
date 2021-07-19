@@ -3,7 +3,7 @@ name:          jqdwjxzris-eimuxsbyoz-bhylakczsd
 version:       0.0.0.0
 homepage:      https://github.com/Simspace/simlint#readme
 bug-reports:   https://github.com/Simspace/simlint/issues
-build-type:    Custom
+build-type:    Simple
 
 custom-setup
     setup-depends:

@@ -1,7 +1,7 @@
 cabal-version: 3.0
 name:          wnnqxxyjlv-fofbbgzfpm-cdfgfjnzud
 version:       0.0.0.0
-build-type:    Custom
+build-type:    Simple
 
 custom-setup
     setup-depends:

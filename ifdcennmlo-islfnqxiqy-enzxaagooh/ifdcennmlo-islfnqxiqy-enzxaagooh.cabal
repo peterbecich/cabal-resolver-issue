@@ -445,10 +445,6 @@ executable bhrqjrnfoz-xitngjjnqn-vhztiobror
         TypeApplications TemplateHaskell TupleSections TypeFamilies
         ViewPatterns
 
-    ghc-options:
-        -Wall -fwarn-tabs -Wincomplete-uni-patterns -eventlog -O0 +RTS
-        -A32M -RTS -main-is PortalSpec
-
     build-depends:
         SafeSemaphore -any,
         aeson -any,
