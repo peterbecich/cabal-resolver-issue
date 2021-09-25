@@ -14,5 +14,5 @@ library
         aeson -any,
         base -any,
         bytestring -any,
-        persistent ==2.12.*,
+        persistent,
         text -any
