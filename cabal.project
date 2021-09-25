@@ -24,12 +24,6 @@ source-repository-package
 
 source-repository-package
     type: git
-    location: https://github.com/Simspace/HaXml
-    tag: 8d0f5f4fc2a2d78ea7015b9331d7be350cd138f3
-    --sha256: 1xvn9cla9dryvwb423p7igy0y573gkxdwvdp8vn7wv70ibr4bdm2
-
-source-repository-package
-    type: git
     location: https://github.com/morphismtech/squeal
     tag: f25c3052bcecebe5e88ee95143c4ae446c24ca85
     --sha256: 1lc7la2v4dgzf62y5wvhvsgkfbavi7cdansmkvs8fjsyglyvgsqm
