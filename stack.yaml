@@ -274,6 +274,175 @@ packages:
   - ./zvxosjlaim-rilcnymlpm-zokgocnrdo
   - ./zyjfwoiclj-qxpuxvslbs-twihlsityy
 
-extra-deps: []
-
 allow-newer: true
+extra-deps:
+
+  - git: https://github.com/Simspace/laws
+    commit: 8d5340bbc96c90ffc7094ed9a5a1aaf59fbd911c
+
+  - git: https://github.com/Simspace/tasty-dumbcheck
+    commit: a02abdecd41e69caec85515045d976ffba3fc1b6
+
+  - git: https://github.com/Simspace/tasty-laws
+    commit: 70abf60f8559a53dea2289e7f3048117b91ef31b
+
+  - git: https://github.com/Simspace/on-error
+    commit: d9923c56ad16093a6bff844114d18a312ba833a5
+
+  - git: https://github.com/morphismtech/squeal
+    commit: f25c3052bcecebe5e88ee95143c4ae446c24ca85
+    subdirs:
+      - squeal-postgresql
+      - squeal-postgresql-ltree
+      - squeal-postgresql-uuid-ossp
+
+  - git: https://github.com/SimSpace/servant-pandoc
+    commit: 9f814b20cef51549b56bfa57d3a287f653245096
+
+  - git: https://github.com/Simspace/servant-ekg
+    commit: e05c471c62891156c5f1abbc6d739ec236562310
+
+  - git: https://github.com/Simspace/amazonka
+    commit: 1c55a67cd159da204403aab8c8364fc964333997
+    subdirs:
+      - amazonka
+      - amazonka-s3
+      - core
+
+  - git: https://github.com/Simspace/servant-websockets
+    commit: a7dd56ebd36133effb85f6b7eeaba2b8dedf0cf9
+    subdirs:
+      - core
+      - client
+      - docs
+      - server
+
+  - git: https://github.com/iand675/uri-templater
+    commit: ff5e62f40323c91108dd08b5426a7f093004fafa
+
+  - git: https://github.com/Simspace/avaleryar
+    commit: 7ef19ec508cb82a67b54fd3d12ba03ae8cfec3fc
+    subdirs:
+      - core
+      - repl
+
+  - git: https://github.com/mwotton/squealgen
+    commit: 72ebca82f75534e806851b8336fc3e2400f801f6
+
+  - git: https://github.com/mwotton/roboservant
+    commit: b5b9daf01f1c6645bcd2ee2f99f967a99b631062
+
+  - git: https://github.com/estatico/generic-override
+    commit: b887d0392ed5ca1de3c10407af9ab8c4f9a0dfee
+    subdirs:
+      - .
+      - aeson
+
+  - git: https://github.com/Simspace/tmp-postgres
+    commit: 11a8128012879e88cc2338a6c9e79f64991e1352
+
+  - git: https://github.com/Simspace/mono-traversable
+    commit: 93b3647d4ceddba06ef94c9c993ade32300af0d9
+    subdirs:
+      - classy-prelude
+
+  - git: https://github.com/tekul/broch
+    commit: 885ace4652cad4dcd806c8c31c1a59bf6a9a3337
+
+  - git: https://github.com/Simspace/odd-jobs
+    commit: 3e8f5ed9250d832e797aeaeb10b91dce592f3367
+
+  - git: https://github.com/Simspace/mongodb
+    commit: d18fb7c5dd2151048643aa86999df2060f37e0e1
+
+  - git: https://github.com/Simspace/servant-validate
+    commit: 77be7630cc80fca016f64158c9a7d4134fdca744
+
+  - git: https://github.com/Simspace/simformat
+    commit: 1e9c9c790a11231004ab895ec9dd7050d7dddde4
+
+  - git: https://github.com/Simspace/cabal-auto-expose
+    commit: 6f8d16957c4ed1d11f93c8ea7ab66eb72a93217c
+    subdirs:
+      - cabal-auto-expose
+
+  - git: https://github.com/simspace/semver
+    commit: 353f0e5de569bf707c19c6cc9e5d462530bca765
+
+  - Chart-diagrams-1.9.3@sha256:1535d5d0d3febca63138cecfde234315212611c21bb7f4358b2dae8c55c59003,1801
+  - HaskellNet-SSL-0.3.4.4@sha256:6a1a3c6d3804e857d183e702214476a383628eac83eb4bcbc7d5c4b8a2e05bf3,1704
+  - Interpolation-0.3.0@sha256:b0381214e6036ed2b6a0a04b7e4ec89736ca531ef03e315a3ec2c494059ff8fb,1319
+  - QuickCheck-GenT-0.2.2@sha256:a07dbc72e88bb27fcd0946cc51f5204d616114decfb3a67957bf4b56c7fea1fb,1435
+  - SVGFonts-1.7.0.1@sha256:1aac5ffd1a7c09317f92e9d31380d61eb96ce412b0dbd4e2d22c609c3d0be360,4039
+  - active-0.2.0.15@sha256:22e235aefdd47121db743e138d309d7529b0eea545f9add8c113ce8f15ccf83e,1767
+  - bitwise-1.0.0.1@sha256:2499779e8c9d59b3d8660e4994d357328750de8b4d1076c9924fb93404fa4c3a,3110
+  - composite-base-0.7.5.0@sha256:3c754bca3a1a673e1f0ba9fa88850dd8c650b5a7140dc5afca09bb86e4843c17,2955
+  - context-0.1.1.1@sha256:504682e0178b866620198bb83664cd8aee4eeea3805d74acd1729dcb696eea89,1928
+  - context-http-client-0.1.0.0@sha256:0d0f0138d66babe3b2477c6441ebdf3730437634a8362d915d6b8304df9f181d,1876
+  - context-resource-0.1.0.0@sha256:acd610d85de023b4c593af39e526cdf5c41ec233f073bb5f99807326954f9314,1754
+  - context-wai-middleware-0.1.0.0@sha256:09aac959be6d83335aa5089b3ce157aac9667b65575a3fc0d77f7aaf335c311e,1902
+  - csv-conduit-0.7.3.0@sha256:050e4c6848f5e840172d18174bc4ee7554d9f716ee3ae038e5a2f52d151e62e7,3481
+  - data-default-generics-0.3@sha256:f55db7e9dd6186606f6edb410437ed1311217cc8de17495e0b10564fc60708c2,1634
+  - direct-daemonize-3.1@sha256:f33505932b8613267cd8ad2d51470af2c5708d750ddf55a5dd38292f04962dcc,1630
+  - dual-tree-0.2.3.0@sha256:bba5476c1cefc3802708a72ab22b5eab9e182cc065507f4a1f673ebdfc694bad,2884
+  - fake-0.1.2@sha256:daaacb6c71e592c985ceb3321da5afc959a8c16d4560e3049cab833a4f230aa7,2196
+  - fastsum-0.1.1.1@sha256:ddb41e30396cc091845596130fb441150118086c6f227c0bd5ce30dadf9dad56,2398
+  - hipsql-api-0.0.0.0@sha256:6afcfc29a61c38e3ec94e3ade0d4fa01946aaa9b607060078d932fac271809a2,1096
+  - hipsql-monad-0.0.0.0@sha256:47907fb466841313b0757ec3c16818fc88b19e8788cb0a6d6bbdca51472544ef,996
+  - hipsql-server-0.0.0.0@sha256:4e736e4a4577f43a01844d091de51023d43f891f42ab82423c2974c385b47e71,1810
+  - hkd-0.1@sha256:6506bbfb963ed40a1ad65e9114930428d5d7c23c16dc2ed37525819fc402e0a7,2173
+  - hreader-1.1.0@sha256:8b6d5d671a1e574a72aea4d3d1b5aae994f598a4902be553168cd403d5f7e34f,1978
+  - hset-2.2.0@sha256:f4b860555c9824510d949e846dcbdcff637066a26d0318a138ce70cb1a338481,2381
+  - ldap-client-0.4.1@sha256:39655d36a87a638bab3de23b81b208322e4e63b539f966564fcb19d214853856,2225
+  - logging-effect-1.3.12@sha256:72d168dd09887649ba9501627219b6027cbec2d5541931555b7885b133785ce3,1679
+
+  - named-0.3.0.1@sha256:418543272f0c844a77639b05276ee3906d5f305cd4cab46fafcb4f15b7f1e60d,2312
+  - oidc-client-0.6.0.0@sha256:2079dc5c9dfb5b3e2fa93098254ca16787c01a0cd3634b1d84afe84c9a6c4825,3368
+  - one-time-password-2.0.0@sha256:9da17e88b6e57282cd436d2eb9a7683385dd4b594d45930d46f7215c2a964f39,1782
+  - opentracing-0.2.0@sha256:ec443222a46b0a2ad8c6eaa01b3be4ea9215c7d165475825a174cce0a73a7478,1811
+  - opentracing-zipkin-common-0.2.0@sha256:490ec3fea28fbab43ed5a083a136f7dbf734edc4a3b31e124a7ce72f85491ad8,1170
+  - opentracing-zipkin-v2-0.2.0@sha256:c4d38546615fb1de51f35f03f3f6adc69d995e430f039027fd9140cc215d3195,1289
+  - persistent-mongoDB-2.13.0.0@sha256:66b9fcd3d3084068653e3898db867e5f49c4ff3a6040d595d549c52877220db5,2744
+  - postgresql-config-0.1.0@sha256:5ce9d48cd0f422910a3786d17f5c75331da222bbf8ccba03ba116eded6185db1,1294
+  - postgresql-error-codes-1.0.1@sha256:34ce40401dc21762996dadd38336436f40a09da95ad3309ba6dc506d707cff11,1413
+  - postgresql-query-3.9.0@sha256:6a1eb58e97c9651eedae61b19957f0ca8267e6649ca1bc0f31f4fc64163896e0,4977
+  - postgresql-tx-0.3.0.0@sha256:18f478390fe0d043f0416fce05949c12cb5d57837598b051b9df3fd586a121f4,1325
+  - postgresql-tx-monad-logger-0.3.0.0@sha256:88cc8ec9c6efe39077b127bff8c41c05bcb4f971f9bcc24c622d79b1333f6bca,1303
+  - postgresql-tx-query-0.3.0.0@sha256:c41349ec6f4416e73011ef4afd7babc2227dfbe0162488731c5876c810bc0cb2,1689
+  - postgresql-tx-simple-0.3.0.0@sha256:b98b2e79bee88ae01862cfa7430b261af2975cf068d641172945190475bd1bc8,1367
+  - postgresql-tx-squeal-0.3.0.0@sha256:9a7d60e731689b2641b0414ecb400f734197348361b0fcbe50fbcbd337995e79,1533
+  - postgresql-tx-squeal-compat-simple-0.2.0.0@sha256:3e4a8d9b8526f10ec2c801071da36fd5d9a731a7d068833931fa135506cc6588,1327
+  - qq-literals-0.1.1.0@sha256:803b170639d450252310354f00e474fcb119afaba0a154f8bdaa3695b34c5568,1454
+  - reroute-0.6.0.0@sha256:43805b3fdc7ed1ba701cd10e249abc997b2291c8f374b8333bb2ea0e0d1dad0b,2382
+  - rosebud-0.2.0.0@sha256:b58ad5a74dfa4660aa0950e1f7c36e55c5e30ac2e568f9d4c2bada76fbaaabdc,1788
+  - servant-cassava-0.10.1@sha256:07e7b6ca67cf57dcb4a0041a399a25d058844505837c6479e01d62be59d01fdf,1665
+  - servant-flatten-0.2@sha256:276896f7c5cdec5b8f8493f6205fded0cc602d050b58fdb09a6d7c85c3bb0837,1234
+  - servant-lucid-0.9.0.2@sha256:693278d574dba7313e931200118424762c02682bbc654e8866be4e6d1c73d816,1803
+  - servant-rawm-client-1.0.0.2@sha256:d5c4dd23b8f670e90e8e05b65eab95347b8d78f3ac6654440e74f3e020df02ef,1679
+  - servant-rawm-server-1.0.0.1@sha256:bdbc14572a3ca58a8468b1ea1ccb160d77aa56702007c19b55e01e0a4a87ef11,1869
+  - servant-static-th-1.0.0.0@sha256:7dc46a426d8c78ee0386729159e8bbc18ff98e0dd700a2c723c87901b204fa6c,3883
+  - servant-websockets-2.0.0@sha256:6e9e3600bced90fd52ed3d1bf632205cb21479075b20d6637153cc4567000234,2253
+  - servant-yaml-0.1.0.1@sha256:c099afd6803c23f31e359ff65e757663d2513f2551d6418418235ce0f678324d,1526
+  - shower-0.2.0.2@sha256:2c2b1cd25e4330f03ba68631b37d4346bf42644bc8e9a7a819ce605acc72bb34,1473
+  - smallcheck-series-0.7.1.0@sha256:dc647718c93fcddf6d13ecfae812d8fd02aae4f451b2d54cfd21b7c49d89d21a,2507
+  - statestack-0.3@sha256:be43ce2cd790a4732b88cdc9480458503cb5e307b4f79a502d99d5b3d417730e,1135
+  - streamly-bytestring-0.1.3@sha256:a13ddf464ead0f4d66a8ca7f8cd60e3a8198067a2e7ff98d662023bc220ebdd2,2477
+  - svg-builder-0.1.1@sha256:22de54d326a6b6912e461e1302edb9108b02aac0b6a6368fcdc3c4a224d487fd,1440
+  - symbols-0.3.0.0@sha256:5d051bccbd4bcb33fa8ce076bd3cd2bacc90973682f7340976758947eaa128a9,964
+  - threads-extras-0.1.0.3@sha256:aec6074177a6b201821639f1ee6ac6176033418d821cc707ab05a9dcb2844ca3,1211
+  - time-qq-0.0.1.0@sha256:0eb66a848f6d0c37dd84cdbd7e8a108e6929c93f503bc397690eb525a277e7bc,1163
+  - timing-convenience-0.1@sha256:7ff807a9a9e5596f2b18d45c5a01aefb91d4a98f6a1008d183b5c550f68f7cb7,2092
+  - type-fun-0.1.3@sha256:336b851757792f201078043210aec180021ac052f0955c71fa330a5fe11b0604,1765
+  - uuid-quasi-0.1.0.1@sha256:232c7bcf08f2254da52ecb2edf069734d9da5a5240b746f0609fb49b502f3909,797
+  - variadic-0.0.0.0@sha256:3ce962ad65e6a5e97abfac5fe50aabe5317d1dd3742e9e5b4ac9990fe2f2c61b,2275
+  - wai-middleware-metrics-0.2.4@sha256:d6b6916acd41aaef4ca59a839d40a3a377f9df784ae49fd4c64926ae916b6ba2,2890
+
+  - monoid-extras-0.6@sha256:fabcab0a59ac48d8f271016cf8190b21969b202c760df2db85add2fef93d38b4,2197
+  - streamly-0.8.0@sha256:9784c80ee1ada51477520cabc4e92a0c76a6bb265f968a188f2fce818e7398e0,19654
+
+  - diagrams-core-1.5.0
+  - diagrams-lib-1.4.4@sha256:1129be254377b926ce2e932113e4bd06256de878d163fbcbacacf1be97bdf3b0,8220
+  - diagrams-postscript-1.5@sha256:ea9ef970f653072cfde9715fad92481eedcc72a94da543c52a68ca33100902ab,2369
+  - diagrams-svg-1.4.3@sha256:407ff78cb7bd1f44c68b0059036186f17a281a053901e29d0139ab151e703247,3159
+
+  - network-3.1.2.2
