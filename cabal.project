@@ -130,15 +130,15 @@ source-repository-package
 source-repository-package
     type: git
     location: https://github.com/estatico/generic-override
-    tag: b887d0392ed5ca1de3c10407af9ab8c4f9a0dfee
-    --sha256: 1k2d5npybdvxnzv63gbqzkmywlqyvjdn4k619p5zkmk1h4r25b11
-    subdir: .
+    tag: 74b8fa3ae2a369cbdb6521bd85ccb18985b2ab7c
+    --sha256: 0qbrk6kgld07jv2m1k9cx7rgqvgbcjb7w0kgfd467ai69zc4iksx
+    subdir: generic-override
 source-repository-package
     type: git
     location: https://github.com/estatico/generic-override
-    tag: b887d0392ed5ca1de3c10407af9ab8c4f9a0dfee
-    --sha256: 1k2d5npybdvxnzv63gbqzkmywlqyvjdn4k619p5zkmk1h4r25b11
-    subdir: aeson
+    tag: 74b8fa3ae2a369cbdb6521bd85ccb18985b2ab7c
+    --sha256: 0qbrk6kgld07jv2m1k9cx7rgqvgbcjb7w0kgfd467ai69zc4iksx
+    subdir: generic-override-aeson
 
 source-repository-package
     type: git
@@ -193,3 +193,27 @@ source-repository-package
     type: git
     location: https://github.com/simspace/semver
     tag: 353f0e5de569bf707c19c6cc9e5d462530bca765
+
+allow-newer:
+    postgresql-tx-query:postgresql-query,
+    optics-th:optics-core,
+    swagger2:optics-core,
+    cabal-auto-expose:Cabal,
+    ormolu:Cabal,
+    hpack:Cabal,
+    composite-base:profunctors,
+    pandoc:skylighting-core,
+    pandoc:skylighting,
+    laws:base,
+    Chart-diagrams:diagrams-core,
+    servant-pandoc:pandoc-types,
+    servant-yaml:base,
+    servant-yaml:servant,
+    tasty-dumbcheck:base,
+    tasty-laws:base,
+    hipsql-server:servant-server,
+    hipsql-api:aeson,
+    hipsql-api:servant,
+    *:Cabal,
+    *:cabal-doctest,
+    cabal-doctest:base
