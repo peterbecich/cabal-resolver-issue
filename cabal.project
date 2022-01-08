@@ -44,8 +44,8 @@ source-repository-package
 source-repository-package
     type: git
     location: https://github.com/SimSpace/servant-pandoc
-    tag: fe464b3676e0bfaae6a01b48448dd99f3e920471
-    --sha256: 05w60a99hhfwcy19rkahl73v1zxqyiqzscqgd72nn5kbxgn7jl5h
+    tag: 9f814b20cef51549b56bfa57d3a287f653245096
+    --sha256: 0r6vmrxzjv38j9ryq2adzcs9q29020bn41b47vy31958i0ndkd07
 
 source-repository-package
     type: git
@@ -181,8 +181,8 @@ source-repository-package
 source-repository-package
     type: git
     location: https://github.com/Simspace/simformat
-    tag: df64a45fceaa57edf6c2fb6d8567487da83c6a07
-    --sha256: 1l4igwwb8r8s0wir7j1ir39qdginh7d825p141hqgga41vhxfjqs
+    tag: aa4b26e31e11703eddd4aa57ac3790712e580dd5
+    --sha256: 14mmlmxjsc4fvfjz5mz5msy2k7a524bh2p6q1s0fqr43cxzb6bir
 
 source-repository-package
     type: git
@@ -194,8 +194,8 @@ source-repository-package
 source-repository-package
     type: git
     location: https://github.com/simspace/semver
-    tag: 78b04983f02a7b0d4ad76115c2c9a74bc38c2883
-    --sha256: 16y0d68gbjlql0c16kabc0ajjpblvkvv5mzjfdf1n9b8nm9i071g
+    tag: 353f0e5de569bf707c19c6cc9e5d462530bca765
+    --sha256: 1wnxsqinc5yjcav13bibmljhac64n8fbqlfnskqgm964a3qn7wxj
 
 allow-newer:
     postgresql-tx-query:postgresql-query,

@@ -1,30 +1,25 @@
-let
-  # Read in the Niv sources
-  sources = import ./nix/sources.nix {};
-  # If ./nix/sources.nix file is not found run:
-  #   niv init
-  #   niv add input-output-hk/haskell.nix -n haskellNix
+{ #compiler ? "ghc8107",
+  # ghcjsVersion ? "8.8.4",
+  #ghcVersion ? "8.10.7",
+  withCoverage ? false,
+  doCheck ? false,
+  doCoverage ? false,
+  doHaddock ? false,
+}:
+  let
+    sources = import ./nix/sources.nix {};
 
-  # Fetch the haskell.nix commit we have pinned with Niv
-  haskellNix = import sources.haskellNix {};
-  # If haskellNix is not found run:
-  #   niv add input-output-hk/haskell.nix -n haskellNix
+    haskellNix = import sources.haskellNix {};
+    pkgs = import
 
-  # Import nixpkgs and pass the haskell.nix provided nixpkgsArgs
-  pkgs = import
-    # haskell.nix provides access to the nixpkgs pins which are used by our CI,
-    # hence you will be more likely to get cache hits when using these.
-    # But you can also just use your own, e.g. '<nixpkgs>'.
-    haskellNix.sources.nixpkgs-2105
-    # These arguments passed to nixpkgs, include some patches and also
-    # the haskell.nix functionality itself as an overlay.
-    haskellNix.nixpkgsArgs;
-in pkgs.haskell-nix.project {
-  # 'cleanGit' cleans a source directory based on the files known by git
-  src = pkgs.haskell-nix.haskellLib.cleanGit {
-    name = "cabal-resolver-issue";
-    src = ./.;
-  };
-  # Specify the GHC version to use.
-  compiler-nix-name = "ghc8107"; # Not required for `stack.yaml` based projects.
-}
+      haskellNix.sources.nixpkgs-2105
+
+      haskellNix.nixpkgsArgs;
+  in pkgs.haskell-nix.project {
+    src = pkgs.haskell-nix.haskellLib.cleanGit {
+      name = "cabal-resolver-issue";
+      src = ./.;
+    };
+
+    compiler-nix-name = "ghc8107";
+  }

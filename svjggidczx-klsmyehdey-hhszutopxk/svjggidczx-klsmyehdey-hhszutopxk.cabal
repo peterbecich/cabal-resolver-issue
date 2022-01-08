@@ -2,7 +2,6 @@ cabal-version: 1.12
 name:          svjggidczx-klsmyehdey-hhszutopxk
 version:       0.0.0.0
 license:       AllRightsReserved
-license-file:  LICENSE
 build-type:    Simple
 
 library
