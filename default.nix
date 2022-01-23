@@ -12,7 +12,7 @@
     haskellNix = import sources.haskellNix {};
     pkgs = import
 
-      haskellNix.sources.nixpkgs-2105
+      haskellNix.sources.nixpkgs-2111
 
       haskellNix.nixpkgsArgs;
   in pkgs.haskell-nix.project {
