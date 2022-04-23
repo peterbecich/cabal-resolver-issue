@@ -1,5 +1,17 @@
 packages: */*.cabal
 
+-- tests: false
+-- coverage: true
+-- library-coverage: true
+
+package *
+  coverage: True
+  library-coverage: True
+
+package dns
+  coverage: False
+  library-coverage: False
+   
 source-repository-package
     type: git
     location: https://github.com/Simspace/laws
