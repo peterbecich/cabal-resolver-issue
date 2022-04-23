@@ -8,8 +8,7 @@ let
 
     haskellNix.nixpkgsArgs;
 in pkgs.haskell-nix.project {
-
-  projectFileName = "cabal.project";
+  projectFileName = "stack.yaml";
   src = pkgs.haskell-nix.haskellLib.cleanGit {
     name = "cabal-resolver-issue";
     src = ./.;
