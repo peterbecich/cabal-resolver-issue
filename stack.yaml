@@ -1,4 +1,4 @@
-resolver: lts-18.10
+resolver: lts-18.28
 
 
 packages:
@@ -352,8 +352,8 @@ extra-deps:
   - git: https://github.com/Simspace/odd-jobs
     commit: 3e8f5ed9250d832e797aeaeb10b91dce592f3367
 
-  - git: https://github.com/Simspace/mongodb
-    commit: d18fb7c5dd2151048643aa86999df2060f37e0e1
+  # - git: https://github.com/Simspace/mongodb
+  #   commit: d18fb7c5dd2151048643aa86999df2060f37e0e1
 
   - git: https://github.com/Simspace/servant-validate
     commit: 77be7630cc80fca016f64158c9a7d4134fdca744
@@ -445,4 +445,9 @@ extra-deps:
   - diagrams-postscript-1.5@sha256:ea9ef970f653072cfde9715fad92481eedcc72a94da543c52a68ca33100902ab,2369
   - diagrams-svg-1.4.3@sha256:407ff78cb7bd1f44c68b0059036186f17a281a053901e29d0139ab151e703247,3159
 
-  - network-3.1.2.2
+  # network-2.8.0.1
+  - network-3.1.2.7
+  - network-bsd-2.8.1.0
+
+  - git: https://github.com/peterbecich/mongodb
+    commit: be23606c27360e2ea77eff8dbe65beb0829c3620
