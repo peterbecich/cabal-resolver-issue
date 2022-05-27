@@ -10,6 +10,17 @@ let
 in pkgs.haskell-nix.project {
 
   projectFileName = "cabal.project";
+  modules = [
+    { doCheck = false;
+      doCoverage = false;
+      doHaddock = false;
+      reinstallableLibGhc = true;
+      doHoogle = false;
+      enableLibraryProfiling = false;
+    }
+
+  ];
+
   src = pkgs.haskell-nix.haskellLib.cleanGit {
     name = "cabal-resolver-issue";
     src = ./.;
