@@ -24,6 +24,7 @@ in pkgs.haskell-nix.project {
   src = pkgs.haskell-nix.haskellLib.cleanGit {
     name = "cabal-resolver-issue";
     src = ./.;
+    # __structuredAttrs = true;
   };
   compiler-nix-name = "ghc8107";
 }
