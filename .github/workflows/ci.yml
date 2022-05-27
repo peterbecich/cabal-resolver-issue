@@ -4,10 +4,8 @@ name: CI
 on:
   push:
     branches:
-    - '**'
-    paths-ignore: []
+    - master
   pull_request:
-    paths-ignore: []
 
 jobs:
   linux:
