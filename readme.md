@@ -2,6 +2,8 @@
 
 [![Build status](https://github.com/peterbecich/cabal-resolver-issue/actions/workflows/nix-cabal.yml/badge.svg)](https://github.com/peterbecich/cabal-resolver-issue/actions/workflows/nix-cabal.yml)
 
+[![Build status](https://github.com/peterbecich/cabal-resolver-issue/actions/workflows/nix-stack.yml/badge.svg)](https://github.com/peterbecich/cabal-resolver-issue/actions/workflows/nix-stack.yml)
+
 Attempt to replicate issue https://github.com/haskell/cabal/issues/7466.
 
 This is a Cabal project with an intricate dependency tree, but no source code. It was obfuscated using `obfuscate.hs`.

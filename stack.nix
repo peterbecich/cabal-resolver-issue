@@ -3,12 +3,21 @@ let
 
   haskellNix = import sources.haskellNix {};
   pkgs = import
-
-    haskellNix.sources.nixpkgs-2111
-
+    haskellNix.sources.nixpkgs-unstable
     haskellNix.nixpkgsArgs;
+
 in pkgs.haskell-nix.project {
   projectFileName = "stack.yaml";
+  modules = [
+    { doCheck = false;
+      doCoverage = false;
+      doHaddock = false;
+      reinstallableLibGhc = true;
+      doHoogle = false;
+      enableLibraryProfiling = false;
+    }
+
+  ];
   src = pkgs.haskell-nix.haskellLib.cleanGit {
     name = "cabal-resolver-issue";
     src = ./.;
