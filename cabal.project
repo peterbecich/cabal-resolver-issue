@@ -5,8 +5,8 @@ packages: */*.cabal
 -- library-coverage: true
 
 package *
-  coverage: True
-  library-coverage: True
+  coverage: False
+  library-coverage: False
 
 package dns
   coverage: False
