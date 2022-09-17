@@ -279,18 +279,23 @@ extra-deps:
 
   - git: https://github.com/Simspace/laws
     commit: 8d5340bbc96c90ffc7094ed9a5a1aaf59fbd911c
+    # nix-sha256: 020frqjx9q3105cz83is6dgxpfy4z47fsm320qym73iq2n5z64nh
 
   - git: https://github.com/Simspace/tasty-dumbcheck
     commit: a02abdecd41e69caec85515045d976ffba3fc1b6
+    # nix-sha256: 12b9pl6cvwg4dx1f2hrasb4b9s825w5x7pr4phdjc770sc8nj0km
 
   - git: https://github.com/Simspace/tasty-laws
     commit: 70abf60f8559a53dea2289e7f3048117b91ef31b
+    # nix-sha256: 1x2mkl8pmpick8z4nxsfvc92riw3vglfc7115j230b9vc8iicbjj
 
   - git: https://github.com/Simspace/on-error
     commit: d9923c56ad16093a6bff844114d18a312ba833a5
+    # nix-sha256: 0z1mh5da7l802flqn3kl4i6jvknywl74z2fvn374akmaf795af8g
 
   - git: https://github.com/morphismtech/squeal
     commit: f25c3052bcecebe5e88ee95143c4ae446c24ca85
+    # nix-sha256: 1lc7la2v4dgzf62y5wvhvsgkfbavi7cdansmkvs8fjsyglyvgsqm
     subdirs:
       - squeal-postgresql
       - squeal-postgresql-ltree
@@ -298,12 +303,15 @@ extra-deps:
 
   - git: https://github.com/SimSpace/servant-pandoc
     commit: 9f814b20cef51549b56bfa57d3a287f653245096
+    # nix-sha256: 0r6vmrxzjv38j9ryq2adzcs9q29020bn41b47vy31958i0ndkd07
 
   - git: https://github.com/Simspace/servant-ekg
     commit: e05c471c62891156c5f1abbc6d739ec236562310
+    # nix-sha256: 0xiwfiwl3jc5i0b7zvdk1bckc7ag930gbgihqwmcqx1fkib26581
 
   - git: https://github.com/Simspace/amazonka
     commit: 1c55a67cd159da204403aab8c8364fc964333997
+    # nix-sha256: 108903xx95jka54cj29yb8rmm3jw199xps6l3474fgdsbmz43cbx
     subdirs:
       - amazonka
       - amazonka-s3
@@ -311,6 +319,7 @@ extra-deps:
 
   - git: https://github.com/Simspace/servant-websockets
     commit: a7dd56ebd36133effb85f6b7eeaba2b8dedf0cf9
+    # nix-sha256: 1n3vrpqv7wlajdl60lnr0q7ldfh19skchj1r3d9y5k5x5vvbiqm5
     subdirs:
       - core
       - client
@@ -322,52 +331,64 @@ extra-deps:
 
   - git: https://github.com/Simspace/avaleryar
     commit: 7ef19ec508cb82a67b54fd3d12ba03ae8cfec3fc
+    # nix-sha256: 0rrj5q0riaxrwsqnjfkagml5dw456bby1mdcn0pr7agvm0rgg381
     subdirs:
       - core
       - repl
 
   - git: https://github.com/mwotton/squealgen
     commit: 72ebca82f75534e806851b8336fc3e2400f801f6
+    # nix-sha256: 1rj1az1xqdwi8yakwjxj4pv7bd3fzzjj4jgplrwp1q4gxbh81bq4
 
   - git: https://github.com/mwotton/roboservant
     commit: b5b9daf01f1c6645bcd2ee2f99f967a99b631062
+    # nix-sha256: 06liklp9hcznn30cj1smpa3dggx8a5g7hf3zris6b27r9vgpxj4c
 
   - git: https://github.com/estatico/generic-override
-    commit: b887d0392ed5ca1de3c10407af9ab8c4f9a0dfee
+    commit: 74b8fa3ae2a369cbdb6521bd85ccb18985b2ab7c
+    # nix-sha256: 0qbrk6kgld07jv2m1k9cx7rgqvgbcjb7w0kgfd467ai69zc4iksx
     subdirs:
-      - .
-      - aeson
+      - generic-override
+      - generic-override-aeson
 
   - git: https://github.com/Simspace/tmp-postgres
     commit: 11a8128012879e88cc2338a6c9e79f64991e1352
+    # nix-sha256: 13239kj8yaajaah2cqyqrxw0mrmcr93b7nlddc1xay8zqkhy52r6
 
   - git: https://github.com/Simspace/mono-traversable
     commit: 93b3647d4ceddba06ef94c9c993ade32300af0d9
+    # nix-sha256: 1xdxymgxiyhzg9kbbzgyrkxrh71c5jcyqqi9n559515klmn6qy55
     subdirs:
       - classy-prelude
 
   - git: https://github.com/tekul/broch
     commit: 885ace4652cad4dcd806c8c31c1a59bf6a9a3337
+    # nix-sha256: 0szjmapgv7n1xn5cdhqi67h8gyhvnjcfhlxbpw8xvgpqs7kdsd3p
 
   - git: https://github.com/Simspace/odd-jobs
     commit: 3e8f5ed9250d832e797aeaeb10b91dce592f3367
+    # nix-sha256: 0ssscg2n8763rs6m3wg0kcl5kdpkcpv8kjapym8g7a78zpsnq6gp
 
   # - git: https://github.com/Simspace/mongodb
   #   commit: d18fb7c5dd2151048643aa86999df2060f37e0e1
 
   - git: https://github.com/Simspace/servant-validate
     commit: 77be7630cc80fca016f64158c9a7d4134fdca744
+    # nix-sha256: 02bix3bgb74mkl1fv4z477pc6qv0cy4fzc46hp4fdvn7zb959ska
 
   - git: https://github.com/Simspace/simformat
-    commit: 1e9c9c790a11231004ab895ec9dd7050d7dddde4
+    commit: aa4b26e31e11703eddd4aa57ac3790712e580dd5
+    # nix-sha256: 14mmlmxjsc4fvfjz5mz5msy2k7a524bh2p6q1s0fqr43cxzb6bir
 
   - git: https://github.com/Simspace/cabal-auto-expose
     commit: 6f8d16957c4ed1d11f93c8ea7ab66eb72a93217c
+    # nix-sha256: 1kyy702pkwp56jr0vy5i3h6wcrz4vszxbdy7vlj18xgggwbczlv1
     subdirs:
       - cabal-auto-expose
 
   - git: https://github.com/simspace/semver
     commit: 353f0e5de569bf707c19c6cc9e5d462530bca765
+    # nix-sha256: 1wnxsqinc5yjcav13bibmljhac64n8fbqlfnskqgm964a3qn7wxj
 
   - Chart-diagrams-1.9.3@sha256:1535d5d0d3febca63138cecfde234315212611c21bb7f4358b2dae8c55c59003,1801
   - HaskellNet-SSL-0.3.4.4@sha256:6a1a3c6d3804e857d183e702214476a383628eac83eb4bcbc7d5c4b8a2e05bf3,1704
@@ -451,3 +472,4 @@ extra-deps:
 
   - git: https://github.com/peterbecich/mongodb
     commit: be23606c27360e2ea77eff8dbe65beb0829c3620
+    # nix-sha256: 03j238xazblhl3l81ilh006fwf36h5djj98927n3493khrya0gpk
